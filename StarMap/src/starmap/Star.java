@@ -1,36 +1,55 @@
 package starmap;
 
-import java.lang.String;
-import java.lang.Math;
-import java.util.Date;
-import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.Scanner;
+import javax.xml.bind.annotation.*;
 
 /**
- *
- * @author 7058191
+ * Data class describing a single star, with methods to draw on a panel.
+ * Contains methods by Dr. John Weiss provided for CSC421 GUI/OOP class.
+ * @author John Brink
  */
+@XmlRootElement (name = "star")
+@XmlType (propOrder = {"HRnumber", "name", "constellation", "ra", "dec", "vmag", "class", "common_name"})
 public class Star {
     // Identity
-    private int hrNumber;
-    private String name;
-    private String commonName;
+    @XmlElement (required = true, name = "HRnumber")
+    public int hrNumber;
+    
+    @XmlElement (required = true, name = "name")
+    public String name;
+    
+    @XmlElement (required = true, name = "commonName")
+    public String commonName;
+    
+    @XmlElement (required = true, name = "constellation")
+    public String constellation;
+    
+    @XmlElement (required = true, name = "class")
+    public String starClass;
     
     // Given data
-    private double radians;
-    private double declination;
-    private double magnitude;
+    @XmlElement (required = true, name = "ra")
+    public double radians;
+    
+    @XmlElement (required = true, name = "dec")
+    public double declination;
+    
+    @XmlElement (required = true, name = "vmag")
+    public double magnitude;
     
     // Computed data
     private double altitude;
     private double azimuth;
 
-    public Star(int hrNumber, String name, String commonName, double radians, double declination, double magnitude)
+    public Star(int hrNumber, String name, String constellation, double radians,
+            double declination, double magnitude, String starClass, String commonName)
     {
         this.hrNumber = hrNumber;
         this.name = name;
         this.commonName = commonName;
+        this.constellation = constellation;
+        this.starClass = starClass;
+        
         this.radians = radians;
         this.declination = declination;
         this.magnitude = magnitude;
@@ -40,7 +59,7 @@ public class Star {
     
     /**
      * Computes number of days elapsed since June 10, 2005 6:45:14 GMT
-     * Author: John M. Weiss, Ph.D.
+     * @author John M. Weiss, Ph.D.
      * @return 
      */
     private static double elapsed_days( )
@@ -60,10 +79,11 @@ public class Star {
 
     /**
      * Given observer position (lat,lon), convert star position in (ra,dec) to (azi, alt)
-     * Author: John M. Weiss, Ph.D.
-     * @return 
+     * @author John M. Weiss, Ph.D.
+     * @param lat The current viewing latitude
+     * @param lon The current viewing longitude
      */
-    public void computePosition( double lat, double lon )
+    public final void computePosition( double lat, double lon )
     {
         double t = elapsed_days();
         double tG = Math.IEEEremainder( 360.0 * 1.0027379093 * t, 360.0 );
