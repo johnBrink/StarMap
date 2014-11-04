@@ -110,4 +110,14 @@ public class Star {
         azimuth = Math.acos( Y / Math.sqrt( X * X + Y * Y ) );
         if ( X < 0.0 ) azimuth = 2.0 * Math.PI - azimuth;
     }
+    
+    public double getAltitude()
+    {
+        return altitude;
+    }
+    
+    public double getAzimuth()
+    {
+        return azimuth;
+    }
 }
