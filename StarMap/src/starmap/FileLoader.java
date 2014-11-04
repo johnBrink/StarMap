@@ -39,7 +39,7 @@ public class FileLoader {
         }
         catch(Exception e)
         {
-            System.out.printf("Error reading Stars XML file: %s\n", e.getMessage());
+            System.out.printf("%s error reading Stars XML file: %s\n", e.getClass().getName(), e.getMessage());
             return constellations;
         }
         
@@ -58,7 +58,7 @@ public class FileLoader {
         }
         catch(Exception e)
         {
-            System.out.printf("Error reading Constellations XML file: %s\n", e.getMessage());
+            System.out.printf("%s error reading Constellations XML file: %s\n", e.getClass().getName(), e.getMessage());
         }
         
         return constellations;
