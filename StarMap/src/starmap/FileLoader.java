@@ -5,30 +5,62 @@
  */
 package starmap;
 
-import java.beans.XMLDecoder;
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.File;
 import java.util.ArrayList;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.input.SAXBuilder;
 
 /**
- *
+ * A static class that reads a set of stars and constellations from a file
  * @author John Brink
  */
 public class FileLoader {
-    public static ArrayList<Star> getStars(String filename)
+    public static ArrayList<Constellation> getConstellations(String starsFile, String constellationsFile)
     {
-        ArrayList<Star> stars = new ArrayList<Star>();
+        ArrayList<Star> stars = new ArrayList<>();
+        ArrayList<Constellation> constellations = new ArrayList<>();
+        
+        // Find all the stars
         try
         {
-            XMLDecoder decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream(filename)));
+            SAXBuilder builder = new SAXBuilder();
+            File file = new File(starsFile);
+            Document doc = (Document)builder.build(file);
+            Element root = doc.getRootElement();
+            
+            for(Element node : root.getChildren())
+            {
+                stars.add(Star.deserialize(node));
+            }
+            
             // Root element is "xml"
             // Convert each child into Star object
         }
-        catch(FileNotFoundException e)
+        catch(Exception e)
         {
+            System.out.printf("Error reading Stars XML file: %s\n", e.getMessage());
+            return constellations;
         }
         
-        return stars;
+        // Build the constellations
+        try
+        {
+            SAXBuilder builder = new SAXBuilder();
+            File file = new File(constellationsFile);
+            Document doc = (Document)builder.build(file);
+            Element root = doc.getRootElement();
+            
+            for(Element node : root.getChildren())
+            {
+                constellations.add(Constellation.deserialize(node, stars));
+            }    
+        }
+        catch(Exception e)
+        {
+            System.out.printf("Error reading Constellations XML file: %s\n", e.getMessage());
+        }
+        
+        return constellations;
     }
 }
