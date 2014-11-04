@@ -4,14 +4,17 @@
  * and open the template in the editor.
  */
 package starmap;
-
-
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.border.*;
 /**
  *
  * @author 7101020
  */
 public class MainWindow2 extends javax.swing.JFrame {
 
+    
     /**
      * Creates new form MainWindow2
      */
@@ -19,7 +22,6 @@ public class MainWindow2 extends javax.swing.JFrame {
         initComponents();
         this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -34,6 +36,9 @@ public class MainWindow2 extends javax.swing.JFrame {
         QuitButton = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         ViewMenu = new javax.swing.JMenu();
+        HelpMenu = new javax.swing.JMenu();
+        Usage = new javax.swing.JMenuItem();
+        About = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +71,21 @@ public class MainWindow2 extends javax.swing.JFrame {
         ViewMenu.setText("View");
         jMenuBar1.add(ViewMenu);
 
+        HelpMenu.setText("Help");
+
+        Usage.setText("Usage");
+        Usage.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                UsageActionPerformed(evt);
+            }
+        });
+        HelpMenu.add(Usage);
+
+        About.setText("About");
+        HelpMenu.add(About);
+
+        jMenuBar1.add(HelpMenu);
+
         setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -85,6 +105,10 @@ public class MainWindow2 extends javax.swing.JFrame {
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
        System.exit(0);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void UsageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsageActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UsageActionPerformed
 
     /**
      * @param args the command line arguments
@@ -117,13 +141,17 @@ public class MainWindow2 extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainWindow2().setVisible(true);
+                
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem About;
     private javax.swing.JPanel Display;
+    private javax.swing.JMenu HelpMenu;
     private javax.swing.JMenu QuitButton;
+    private javax.swing.JMenuItem Usage;
     private javax.swing.JMenu ViewMenu;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
