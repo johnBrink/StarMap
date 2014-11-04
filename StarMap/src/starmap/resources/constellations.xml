@@ -1,0 +1,1322 @@
+<xml>
+
+    <constellation>
+        <name> Andromeda </name> 
+        <abbr> And </abbr> 
+        <line> 31Del to Alpheratz </line> 
+        <line> 30Eps to 31Del </line> 
+        <line> 34Zet to 30Eps </line> 
+        <line> 34Zet to 38Eta </line> 
+        <line> 31Del to 29Pi </line> 
+        <line> 29Pi to 25Sig </line> 
+        <line> 25Sig to 17Iot </line> 
+        <line> 17Iot to 19Kap </line> 
+        <line> 19Kap to 16Lam </line> 
+        <line> 17Iot to 1Omi </line> 
+        <line> Mirach to 31Del </line> 
+        <line> Mirach to 29Pi </line> 
+        <line> 50Ups to Mirach </line> 
+        <line> 57Gam1 to 50Ups </line> 
+        <line> Mirach to 37Mu </line> 
+        <line> 37Mu to 35Nu </line> 
+        <line> 35Nu to 42Phi </line> 
+        <line> 42Phi to 51 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Antlia </name> 
+        <abbr> Ant </abbr> 
+        <line> Iot to Alp </line> 
+        <line> Alp to The </line> 
+        <line> The to Eps </line> 
+    </constellation>
+
+    <constellation>
+        <name> Apus </name> 
+        <abbr> Aps </abbr> 
+        <line> Bet to Gam </line> 
+        <line> Bet to Del1 </line> 
+        <line> Gam to Del1 </line> 
+        <line> Del1 to Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Aquarius </name> 
+        <abbr> Aqr </abbr> 
+        <line> Sadalmelik to 52Pi </line> 
+        <line> 52Pi to 62Eta </line> 
+        <line> 62Eta to Sadachbia </line> 
+        <line> Sadachbia to Sadalmelik </line> 
+        <line> Sadalmelik to Sadalsud </line> 
+        <line> Sadalsud to 33Iot </line> 
+        <line> Sadalsud to 13Nu </line> 
+        <line> 13Nu to 6Mu </line> 
+        <line> 6Mu to 2Eps </line> 
+        <line> Sadalmelik to 43The </line> 
+        <line> 43The to 73Lam </line> 
+        <line> 73Lam to 90Phi </line> 
+        <line> 90Phi to 91Psi1 </line> 
+        <line> 91Psi1 to 73Lam </line> 
+        <line> 73Lam to 71Tau2 </line> 
+        <line> 71Tau2 to Skat </line> 
+        <line> Skat to 91Psi1 </line> 
+        <line> 101 to 99 </line> 
+        <line> 99 to 98 </line> 
+        <line> 98 to 91Psi1 </line> 
+        <line> 91Psi1 to 88 </line> 
+        <line> 88 to 89 </line> 
+        <line> 89 to 86 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Aquila </name> 
+        <abbr> Aql </abbr> 
+        <line> Altair to 60Bet </line> 
+        <line> Tarazed to Altair </line> 
+        <line> 38Mu to Tarazed </line> 
+        <line> 30Del to 38Mu </line> 
+        <line> 16Lam to 30Del </line> 
+        <line> 12 to 16Lam </line> 
+        <line> 65The to 55Eta </line> 
+        <line> 55Eta to 30Del </line> 
+        <line> 17Zet to 55Eta </line> 
+        <line> 13Eps to 17Zet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Ara </name> 
+        <abbr> Ara </abbr> 
+        <line> Del to Eta </line> 
+        <line> Zet to Eta </line> 
+        <line> Eps1 to Zet </line> 
+        <line> Alp to Eps1 </line> 
+        <line> The to Alp </line> 
+        <line> Del to The </line> 
+    </constellation>
+
+    <constellation>
+        <name> Aries </name> 
+        <abbr> Ari </abbr> 
+        <line> 57Del to 48Eps </line> 
+        <line> 48Eps to 41 </line> 
+        <line> 41 to 35 </line> 
+        <line> 35 to Hamal </line> 
+        <line> Hamal to 9Lam </line> 
+        <line> 9Lam to Sheratan </line> 
+        <line> Hamal to Sheratan </line> 
+        <line> Hamal to 17Eta </line> 
+        <line> 17Eta to 5Gam2 </line> 
+        <line> 17Eta to 48Eps </line> 
+        <line> 41 to 39 </line> 
+        <line> 39 to 35 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Auriga </name> 
+        <abbr> Aur </abbr> 
+        <line> 33Del to Menkalinan </line> 
+        <line> Menkalinan to 37The </line> 
+        <line> 37The to 3Iot </line> 
+        <line> 3Iot to 10Eta </line> 
+        <line> 10Eta to 8Zet </line> 
+        <line> 8Zet to 7Eps </line> 
+        <line> 7Eps to Capella </line> 
+        <line> 10Eta to Capella </line> 
+        <line> Capella to Menkalinan </line> 
+        <line> Capella to 33Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Bootes </name> 
+        <abbr> Boo </abbr> 
+        <line> Arcturus to 29Pi </line> 
+        <line> Pulcherrima to Arcturus </line> 
+        <line> Pulcherrima to 29Pi </line> 
+        <line> Muphrid to Arcturus </line> 
+        <line> Muphrid to 5Ups </line> 
+        <line> 5Ups to 4Tau </line> 
+        <line> Nekkar to 49Del </line> 
+        <line> 49Del to 51Mu1 </line> 
+        <line> 49Del to Pulcherrima </line> 
+        <line> Nekkar to 51Mu1 </line> 
+        <line> 27Gam to Nekkar </line> 
+        <line> Pulcherrima to 28Sig </line> 
+        <line> 28Sig to 25Rho </line> 
+        <line> 25Rho to 27Gam </line> 
+        <line> 23The to 17Kap2 </line> 
+        <line> 23The to 19Lam </line> 
+        <line> 17Kap2 to 19Lam </line> 
+        <line> 19Lam to 27Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Caelum </name> 
+        <abbr> Cae </abbr> 
+        <line> Alp to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Camelopardalis </name> 
+        <abbr> Cam </abbr> 
+        <line> 7 to 10Bet </line> 
+        <line> 10Bet to 9Alp </line> 
+        <line> 9Alp to Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Cancer </name> 
+        <abbr> Cnc </abbr> 
+        <line> 65Alp to 47Del </line> 
+        <line> 47Del to 43Gam </line> 
+        <line> 43Gam to 48Iot </line> 
+        <line> 47Del to 17Bet </line> 
+        <line> 17Bet to 16Zet1 </line> 
+        <line> 16Zet1 to 43Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Canes Venatici </name> 
+        <abbr> CVn </abbr> 
+        <line> 12Alp1 to 8Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Canis Major </name> 
+        <abbr> CMa </abbr> 
+        <line> 14The to 20Iot </line> 
+        <line> 14The to 23Gam </line> 
+        <line> 23Gam to 20Iot </line> 
+        <line> 20Iot to Sirius </line> 
+        <line> Sirius to 7Nu2 </line> 
+        <line> Sirius to 24Omi2 </line> 
+        <line> 24Omi2 to 25Del </line> 
+        <line> 25Del to 22Sig </line> 
+        <line> 22Sig to Adara </line> 
+        <line> Adara to 16Omi1 </line> 
+        <line> 16Omi1 to 7Nu2 </line> 
+        <line> 7Nu2 to Mirzam </line> 
+        <line> 7Nu2 to 4Xi1 </line> 
+        <line> Adara to 1Zet </line> 
+        <line> Adara to 13Kap </line> 
+        <line> 25Del to 28Ome </line> 
+        <line> 28Ome to 31Eta </line> 
+    </constellation>
+
+    <constellation>
+        <name> Canis Minor </name> 
+        <abbr> CMi </abbr> 
+        <line> Procyon to Gomeisa </line> 
+    </constellation>
+
+    <constellation>
+        <name> Capricornus </name> 
+        <abbr> Cap </abbr> 
+        <line> 23The to 34Zet </line> 
+        <line> 34Zet to 36 </line> 
+        <line> 36 to 32Iot </line> 
+        <line> 32Iot to 23The </line> 
+        <line> 32Iot to 40Gam </line> 
+        <line> 40Gam to Algiedi </line> 
+        <line> 5Alp1 to 9Bet </line> 
+        <line> 9Bet to 11Rho </line> 
+        <line> 11Rho to 12Omio </line> 
+        <line> 12Omio to 16Psi </line> 
+        <line> 16Psi to 18Ome </line> 
+        <line> 9Bet to 23The </line> 
+        <line> 23The to 22Eta </line> 
+        <line> 22Eta to 24 </line> 
+        <line> 22Eta to 11Rho </line> 
+    </constellation>
+
+    <constellation>
+        <name> Carina </name> 
+        <abbr> Car </abbr> 
+        <line> Canopus to Nu </line> 
+        <line> Canopus to Bet </line> 
+        <line> Ome to Bet </line> 
+        <line> The to Ome </line> 
+        <line> The to Iot </line> 
+        <line> Eps to Iot </line> 
+        <line> Chi to Eps </line> 
+        <line> Gam2 to Chi </line> 
+    </constellation>
+
+    <constellation>
+        <name> Cassiopeia </name> 
+        <abbr> Cas </abbr> 
+        <line> 50 to 45Eps </line> 
+        <line> 45Eps to 37Del </line> 
+        <line> 37Del to 27Gam </line> 
+        <line> 27Gam to Schedar </line> 
+        <line> Schedar to Caph </line> 
+    </constellation>
+
+    <constellation>
+        <name> Centaurus </name> 
+        <abbr> Cen </abbr> 
+        <line> Phi to Chi </line> 
+        <line> Chi to Psi </line> 
+        <line> Psi to 5The </line> 
+        <line> 5The to Nu </line> 
+        <line> Zet to Ups2 </line> 
+        <line> Ups2 to Ups1 </line> 
+        <line> Ups1 to Phi </line> 
+        <line> Phi to Nu </line> 
+        <line> Nu to Mu </line> 
+        <line> Mu to Zet </line> 
+        <line> Zet to Gam </line> 
+        <line> Zet to Eps </line> 
+        <line> Eps to Gam </line> 
+        <line> Gam to Sig </line> 
+        <line> Phi to Eta </line> 
+        <line> Eta to Kap </line> 
+        <line> Nu to Iot </line> 
+        <line> Iot to 1 </line> 
+        <line> 1 to 2 </line> 
+        <line> 1 to 3 </line> 
+        <line> 1 to 4 </line> 
+        <line> Rho to Lam </line> 
+        <line> Sig to Rho </line> 
+        <line> Del to Sig </line> 
+        <line> Pi to Del </line> 
+        <line> Tau to Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Cepheus </name> 
+        <abbr> Cep </abbr> 
+        <line> Alphirk to Alrai </line> 
+        <line> Alrai to 32Iot </line> 
+        <line> Alphirk to 32Iot </line> 
+        <line> Alderamin to Alphirk </line> 
+        <line> 3Eta to Alderamin </line> 
+        <line> 2The to 3Eta </line> 
+        <line> Alderamin to Mu </line> 
+        <line> Mu to 23Eps </line> 
+        <line> 21Zet to 23Eps </line> 
+        <line> 21Zet to 10Nu </line> 
+        <line> 21Zet to 27Del </line> 
+        <line> 27Del to 32Iot </line> 
+    </constellation>
+
+    <constellation>
+        <name> Cetus </name> 
+        <abbr> Cet </abbr> 
+        <line> 86Gam to Menkar </line> 
+        <line> Menkar to 91Lam </line> 
+        <line> 91Lam to 87Mu </line> 
+        <line> 87Mu to 73Xi2 </line> 
+        <line> 73Xi2 to 78Nu </line> 
+        <line> 78Nu to 86Gam </line> 
+        <line> 86Gam to 82Del </line> 
+        <line> 82Del to Mira </line> 
+        <line> Mira to Baten </line> 
+        <line> 45The to Baten </line> 
+        <line> 45The to 8Iot </line> 
+        <line> Deneb_Kaitos to 8Iot </line> 
+        <line> 52Tau to Deneb_Kaitos </line> 
+        <line> Deneb_Kaitos to 59Ups </line> 
+        <line> 59Ups to 82Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Chamaeleon </name> 
+        <abbr> Cha </abbr> 
+        <line> The to Gam </line> 
+        <line> Gam to Eps </line> 
+        <line> Eps to Bet </line> 
+        <line> Bet to Del1 </line> 
+        <line> Del1 to Gam </line> 
+        <line> Gam to Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Circinus </name> 
+        <abbr> Cir </abbr> 
+        <line> Gam to Alp </line> 
+        <line> Alp to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Columba </name> 
+        <abbr> Col </abbr> 
+        <line> Eps to Phakt </line> 
+        <line> Phakt to Bet </line> 
+        <line> Bet to Gam </line> 
+        <line> Gam to Kap </line> 
+        <line> Kap to Del </line> 
+        <line> Bet to Eta </line> 
+        <line> Gam to Eta </line> 
+        <line> Gam to Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Coma Berenices </name> 
+        <abbr> Com </abbr> 
+        <line> 42Alp to 43Bet </line> 
+        <line> 43Bet to 15Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Corona Australis </name> 
+        <abbr> CrA </abbr> 
+        <line> Eps to Gam </line> 
+        <line> Gam to Alkes </line> 
+        <line> Alkes to Bet </line> 
+        <line> Bet to Del </line> 
+        <line> Del to Zet </line> 
+        <line> Zet to Eta2 </line> 
+        <line> Eta2 to Eta1 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Corona Borealis </name> 
+        <abbr> CrB </abbr> 
+        <line> 4The to 3Bet </line> 
+        <line> 3Bet to Alphecca </line> 
+        <line> Alphecca to 8Gam </line> 
+        <line> 8Gam to 10Del </line> 
+        <line> 10Del to 13Eps </line> 
+        <line> 13Eps to 14Iot </line> 
+    </constellation>
+
+    <constellation>
+        <name> Corvus </name> 
+        <abbr> Crv </abbr> 
+        <line> 1Alp to 2Eps </line> 
+        <line> 2Eps to 4Gam </line> 
+        <line> 4Gam to 7Del </line> 
+        <line> 7Del to 8Eta </line> 
+        <line> 7Del to 9Bet </line> 
+        <line> 9Bet to 2Eps </line> 
+    </constellation>
+
+    <constellation>
+        <name> Crater </name> 
+        <abbr> Crt </abbr> 
+        <line> 21The to 30Eta </line> 
+        <line> 30Eta to 27Zet </line> 
+        <line> 27Zet to 13Lam </line> 
+        <line> 13Lam to 12Del </line> 
+        <line> 12Del to 16Kap </line> 
+        <line> 16Kap to 21The </line> 
+        <line> 13Lam to 11Bet </line> 
+        <line> 11Bet to 7Alp </line> 
+        <line> 7Alp to 12Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Crux </name> 
+        <abbr> Cru </abbr> 
+        <line> Acrux to Gam </line> 
+        <line> Mimosa to Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Cygnus </name> 
+        <abbr> Cyg </abbr> 
+        <line> Chi to Albireo </line> 
+        <line> 21Eta to Chi </line> 
+        <line> 37Gam to 21Eta </line> 
+        <line> Deneb to 37Gam </line> 
+        <line> 18Del to 37Gam </line> 
+        <line> 37Gam to 53Eps </line> 
+        <line> 18Del to 1Kap </line> 
+        <line> 1Kap to 10Iot2 </line> 
+        <line> 10Iot2 to 30 </line> 
+        <line> 30 to Deneb </line> 
+        <line> 53Eps to 64Zet </line> 
+        <line> 64Zet to 58Nu </line> 
+        <line> 58Nu to Deneb </line> 
+        <line> Deneb to 62Xi </line> 
+        <line> 58Nu to 67Sig </line> 
+        <line> 67Sig to 65Tau </line> 
+    </constellation>
+
+    <constellation>
+        <name> Delphinus </name> 
+        <abbr> Del </abbr> 
+        <line> 12Gam1 to Svalocin </line> 
+        <line> Svalocin to Rotanev </line> 
+        <line> Rotanev to 3Eta </line> 
+        <line> 3Eta to 2Eps </line> 
+        <line> 2Eps to 7Kap </line> 
+        <line> 7Kap to 5Iot </line> 
+        <line> 5Iot to 8The </line> 
+        <line> 8The to 11Del </line> 
+        <line> 11Del to 12Gam1 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Dorado </name> 
+        <abbr> Dor </abbr> 
+        <line> Gam to Alp </line> 
+        <line> Alp to Zet </line> 
+        <line> Zet to Bet </line> 
+        <line> Bet to Alp </line> 
+        <line> Bet to Del </line> 
+        <line> Bet to Eta2 </line> 
+        <line> Eta2 to Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Draco </name> 
+        <abbr> Dra </abbr> 
+        <line> 24Nu1 to Alwaid </line> 
+        <line> Alwaid to Rastaban </line> 
+        <line> Rastaban to 32Xi </line> 
+        <line> 32Xi to 24Nu1 </line> 
+        <line> 32Xi to 57Del </line> 
+        <line> 57Del to 63Eps </line> 
+        <line> 57Del to 43Phi </line> 
+        <line> 43Phi to 44Chi </line> 
+        <line> 43Phi to 22Zet </line> 
+        <line> 22Zet to 14Eta </line> 
+        <line> 14Eta to 13The </line> 
+        <line> 13The to 12Iot </line> 
+        <line> 12Iot to Thuban </line> 
+        <line> Thuban to 5Kap </line> 
+        <line> 5Kap to 1Lam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Equuleus </name> 
+        <abbr> Equ </abbr> 
+        <line> 7Del to 10Bet </line> 
+        <line> 10Bet to 8Alp </line> 
+        <line> 8Alp to 5Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Eridanus </name> 
+        <abbr> Eri </abbr> 
+        <line> 69Lam to Cursa </line> 
+        <line> Cursa to 61Ome </line> 
+        <line> 61Ome to 57Mu </line> 
+        <line> 57Mu to 48Nu </line> 
+        <line> 48Nu to 40Omi2 </line> 
+        <line> 40Omi2 to Zaurak </line> 
+        <line> Zaurak to 26Pi </line> 
+        <line> 26Pi to 23Del </line> 
+        <line> 23Del to 18Eps </line> 
+        <line> 18Eps to 3Eta </line> 
+        <line> 3Eta to 1Tau1 </line> 
+        <line> 1Tau1 to 2Tau2 </line> 
+        <line> 2Tau2 to 11Tau3 </line> 
+        <line> 11Tau3 to 15 </line> 
+        <line> 15 to 19Tau5 </line> 
+        <line> 19Tau5 to 27Tau6 </line> 
+        <line> 27Tau6 to 36Tau9 </line> 
+        <line> 36Tau9 to 52Ups2 </line> 
+        <line> 52Ups2 to 52Ups2 </line> 
+        <line> 52Ups2 to 43 </line> 
+        <line> 43 to 43 </line> 
+        <line> 43 to Chi3 </line> 
+        <line> Chi3 to Del </line> 
+        <line> Del to The2 </line> 
+        <line> The2 to The2 </line> 
+        <line> The2 to Iot </line> 
+        <line> Iot to Kap </line> 
+        <line> Kap to Kap </line> 
+        <line> Kap to Phi </line> 
+        <line> Phi to Chi </line> 
+        <line> Chi to Achernar </line> 
+    </constellation>
+
+    <constellation>
+        <name> Fornax </name> 
+        <abbr> For </abbr> 
+        <line> Alp to Bet </line> 
+        <line> Bet to Nu </line> 
+    </constellation>
+
+    <constellation>
+        <name> Gemini </name> 
+        <abbr> Gem </abbr> 
+        <line> Pollux to 69Ups </line> 
+        <line> 69Ups to 77Kap </line> 
+        <line> 69Ups to 60Iot </line> 
+        <line> 69Ups to Wasat </line> 
+        <line> Wasat to 54Lam </line> 
+        <line> Wasat to 43Zet </line> 
+        <line> 43Zet to 24Gam </line> 
+        <line> 54Lam to 31Xi </line> 
+        <line> 62Rho to Castor </line> 
+        <line> 46Tau to 62Rho </line> 
+        <line> 46Tau to 60Iot </line> 
+        <line> 46Tau to 34The </line> 
+        <line> MEbsuta to 46Tau </line> 
+        <line> 13Mu to MEbsuta </line> 
+        <line> 18Nu to MEbsuta </line> 
+        <line> 7Eta to 13Mu </line> 
+    </constellation>
+
+    <constellation>
+        <name> Grus </name> 
+        <abbr> Gru </abbr> 
+        <line> Gam to Lam </line> 
+        <line> Lam to Alp </line> 
+        <line> Alp to Del1 </line> 
+        <line> Del1 to The </line> 
+        <line> The to Iot </line> 
+        <line> Iot to Bet </line> 
+        <line> Bet to Alp </line> 
+        <line> Bet to Eps </line> 
+        <line> Bet to Zet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Hercules </name> 
+        <abbr> Her </abbr> 
+        <line> 67Pi to 44Eta </line> 
+        <line> 67Pi to 58Eps </line> 
+        <line> 58Eps to 40Zet </line> 
+        <line> 44Eta to 40Zet </line> 
+        <line> 67Pi to 75Rho </line> 
+        <line> 85Iot to 91The </line> 
+        <line> 91The to 75Rho </line> 
+        <line> 85Iot to 42 </line> 
+        <line> 42 to 22Tau </line> 
+        <line> 35Sig to 22Tau </line> 
+        <line> 35Sig to 85Iot </line> 
+        <line> 58Eps to Kornephoros </line> 
+        <line> Kornephoros to 20Gam </line> 
+        <line> 75Rho to 92Xi </line> 
+        <line> 92Xi to 103Omi </line> 
+        <line> 103Omi to 95 </line> 
+        <line> 95 to 102 </line> 
+        <line> 109 to 102 </line> 
+        <line> 109 to 110 </line> 
+        <line> 110 to 111 </line> 
+        <line> 86Mu to 92Xi </line> 
+        <line> 86Mu to 58Eps </line> 
+        <line> 86Mu to 76Lam </line> 
+        <line> 65Del to 76Lam </line> 
+        <line> 65Del to 64Alp1 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Horologium </name> 
+        <abbr> Hor </abbr> 
+        <line> Alp to Iot </line> 
+        <line> Iot to Eta </line> 
+        <line> Eta to Zet </line> 
+        <line> Zet to Mu </line> 
+        <line> Mu to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Hydra </name> 
+        <abbr> Hya </abbr> 
+        <line> 16Zet to 7Eta </line> 
+        <line> 7Eta to 5Sig </line> 
+        <line> 5Sig to 4Del </line> 
+        <line> 4Del to 11Eps </line> 
+        <line> 11Eps to 16Zet </line> 
+        <line> 22The to 16Zet </line> 
+        <line> 35Iot to 22The </line> 
+        <line> 30Alp to 35Iot </line> 
+        <line> 39Ups1 to 30Alp </line> 
+        <line> 40Ups2 to 39Ups1 </line> 
+        <line> 41Lam to 40Ups2 </line> 
+        <line> 42Mu to 41Lam </line> 
+        <line> Nu to 42Mu </line> 
+        <line> 7Alp to Nu </line> 
+        <line> 11Bet to 7Alp </line> 
+        <line> Xi to 11Bet </line> 
+        <line> Bet to Xi </line> 
+        <line> 46Gam to Bet </line> 
+        <line> 49Pi to 46Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Hydrus </name> 
+        <abbr> Hyi </abbr> 
+        <line> Gam to Bet </line> 
+        <line> Gam to Eps </line> 
+        <line> Eps to Del </line> 
+        <line> Del to Eta2 </line> 
+        <line> Eta2 to Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Indus </name> 
+        <abbr> Ind </abbr> 
+        <line> Alp to Bet </line> 
+        <line> Bet to Eps </line> 
+        <line> Bet to Del </line> 
+        <line> Del to Eps </line> 
+    </constellation>
+
+    <constellation>
+        <name> Lacerta </name> 
+        <abbr> Lac </abbr> 
+        <line> 1 to 6 </line> 
+        <line> 6 to 11 </line> 
+        <line> 11 to 5 </line> 
+        <line> 5 to 2 </line> 
+        <line> 2 to 6 </line> 
+        <line> 5 to 4 </line> 
+        <line> 4 to 3Bet </line> 
+        <line> 3Bet to 7Alp </line> 
+        <line> 7Alp to 5 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Leo </name> 
+        <abbr> Leo </abbr> 
+        <line> 1Kap to 4Lam </line> 
+        <line> 4Lam to 17Eps </line> 
+        <line> 17Eps to 24Mu </line> 
+        <line> 24Mu to 36Zet </line> 
+        <line> 36Zet to 41Gam2 </line> 
+        <line> 41Gam2 to 30Eta </line> 
+        <line> 30Eta to Regulus </line> 
+        <line> 1Kap to 24Mu </line> 
+        <line> 17Eps to 30Eta </line> 
+        <line> 30Eta to 14Omio </line> 
+        <line> 30Eta to 70The </line> 
+        <line> 70The to 47Rho </line> 
+        <line> 70The to 78Iot </line> 
+        <line> 78Iot to 77Sig </line> 
+        <line> 70The to Zozca </line> 
+        <line> Denebola to Zozca </line> 
+        <line> Zozca to 60 </line> 
+        <line> 60 to 41Gam2 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Leo Minor </name> 
+        <abbr> LMi </abbr> 
+        <line> 46 to 31Bet </line> 
+        <line> 31Bet to 21 </line> 
+        <line> 21 to 10 </line> 
+        <line> 21 to 30 </line> 
+        <line> 30 to 46 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Lepus </name> 
+        <abbr> Lep </abbr> 
+        <line> 4Kap to 3Iot </line> 
+        <line> 4Kap to 5Mu </line> 
+        <line> 6Lam to 7Nu </line> 
+        <line> 6Lam to 5Mu </line> 
+        <line> 5Mu to Arneb </line> 
+        <line> Arneb to 14Zet </line> 
+        <line> 14Zet to 16Eta </line> 
+        <line> 16Eta to 17 </line> 
+        <line> 17 to 15Del </line> 
+        <line> 15Del to 13Gam </line> 
+        <line> 13Gam to 9Bet </line> 
+        <line> 9Bet to Arneb </line> 
+        <line> 9Bet to 2Eps </line> 
+        <line> 2Eps to 5Mu </line> 
+    </constellation>
+
+    <constellation>
+        <name> Libra </name> 
+        <abbr> Lib </abbr> 
+        <line> 48 to 46The </line> 
+        <line> 46The to 44Eta </line> 
+        <line> 44Eta to 35Zet4 </line> 
+        <line> 35Zet4 to Zubeneschamali </line> 
+        <line> Zubeneschamali to 9Alp2 </line> 
+        <line> 9Alp2 to 20Sig </line> 
+        <line> 20Sig to 39Ups </line> 
+        <line> 39Ups to 40Tau </line> 
+        <line> 20Sig to Zubeneschamali </line> 
+    </constellation>
+
+    <constellation>
+        <name> Lupus </name> 
+        <abbr> Lup </abbr> 
+        <line> Tau2 to Alp </line> 
+        <line> Alp to Iot </line> 
+        <line> Alp to Rho </line> 
+        <line> Rho to Sig </line> 
+        <line> Rho to Pi </line> 
+        <line> Pi to Lam </line> 
+        <line> Lam to Del </line> 
+        <line> Del to Ups </line> 
+        <line> Ups to Phi2 </line> 
+        <line> Phi2 to Phi1 </line> 
+        <line> Phi1 to Bet </line> 
+        <line> Bet to Omi </line> 
+        <line> Omi to Alp </line> 
+        <line> Pi to Kap1 </line> 
+        <line> Kap1 to Zet </line> 
+        <line> Lam to Mu </line> 
+        <line> Mu to Eps </line> 
+        <line> Ups to Gam </line> 
+        <line> Gam to Ome </line> 
+        <line> Phi1 to Eta </line> 
+        <line> Phi1 to 5Chi </line> 
+        <line> 5Chi to The </line> 
+    </constellation>
+
+    <constellation>
+        <name> Lynx </name> 
+        <abbr> Lyn </abbr> 
+        <line> 40Alp to 38 </line> 
+        <line> 38 to 35 </line> 
+        <line> 35 to 31 </line> 
+        <line> 31 to 21 </line> 
+        <line> 21 to 15 </line> 
+        <line> 15 to 2 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Lyra </name> 
+        <abbr> Lyr </abbr> 
+        <line> Vega to 4Eps1 </line> 
+        <line> 4Eps1 to 13 </line> 
+        <line> 13 to 20Eta </line> 
+        <line> 20Eta to 21The </line> 
+        <line> 21The to Sulaphat </line> 
+        <line> Sulaphat to 11Del1 </line> 
+        <line> Sheliak to Sulaphat </line> 
+        <line> 6Zet1 to Sheliak </line> 
+        <line> Sheliak to 1Kap </line> 
+        <line> Vega to 1Kap </line> 
+    </constellation>
+
+    <constellation>
+        <name> Mensa </name> 
+        <abbr> Men </abbr> 
+        <line> Alp to Gam </line> 
+        <line> Gam to Eta </line> 
+        <line> Eta to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Microscopium </name> 
+        <abbr> Mic </abbr> 
+        <line> The1 to Eps </line> 
+        <line> Eps to Gam </line> 
+        <line> Gam to Bet </line> 
+        <line> Bet to Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Monoceros </name> 
+        <abbr> Mon </abbr> 
+        <line> 8Eps to 13 </line> 
+        <line> 13 to 15 </line> 
+        <line> 13 to 18 </line> 
+        <line> 18 to 8Eps </line> 
+        <line> 18 to 22Del </line> 
+        <line> 22Del to 11Bet </line> 
+        <line> 11Bet to 5Gam </line> 
+        <line> 22Del to 28 </line> 
+        <line> 28 to 29Zet </line> 
+        <line> 28 to 26Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Musca </name> 
+        <abbr> Mus </abbr> 
+        <line> Del to Gam </line> 
+        <line> Del to Alp </line> 
+        <line> Alp to Gam </line> 
+        <line> Bet to Alp </line> 
+        <line> Alp to Eps </line> 
+        <line> Eps to Lam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Norma </name> 
+        <abbr> Nor </abbr> 
+        <line> Eta to Del </line> 
+        <line> Del to Eps </line> 
+        <line> Eps to Gam2 </line> 
+        <line> Gam2 to Eta </line> 
+    </constellation>
+
+    <constellation>
+        <name> Octans </name> 
+        <abbr> Oct </abbr> 
+        <line> Del to Nu </line> 
+        <line> Nu to Eps </line> 
+        <line> Eps to Bet </line> 
+        <line> Bet to Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Ophiuchus </name> 
+        <abbr> Oph </abbr> 
+        <line> Celbalrai to 27Kap </line> 
+        <line> 27Kap to Alhague </line> 
+        <line> Alhague to Celbalrai </line> 
+        <line> Celbalrai to 57Mu </line> 
+        <line> Celbalrai to 35Eta </line> 
+        <line> 57Mu to 35Eta </line> 
+        <line> 35Eta to 13Zet </line> 
+        <line> 13Zet to 27Kap </line> 
+        <line> 27Kap to 25Iot </line> 
+        <line> 10Lam to 25Iot </line> 
+        <line> 1Del to 10Lam </line> 
+        <line> 2Eps to 1Del </line> 
+        <line> 3Ups to 2Eps </line> 
+        <line> 62Gam to Celbalrai </line> 
+        <line> 67 to 62Gam </line> 
+        <line> 70 to 67 </line> 
+        <line> 70 to 68 </line> 
+        <line> 68 to 67 </line> 
+        <line> 72 to 70 </line> 
+        <line> 13Zet to 8Phi </line> 
+        <line> 8Phi to 7Chi </line> 
+        <line> 7Chi to 4Psi </line> 
+        <line> 4Psi to 9Ome </line> 
+        <line> 35Eta to 40Xi </line> 
+        <line> 40Xi to 51 </line> 
+        <line> 51 to 44 </line> 
+        <line> 44 to 42The </line> 
+        <line> 42The to 45 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Orion </name> 
+        <abbr> Ori </abbr> 
+        <line> Betelgeuse to 48Sig </line> 
+        <line> 48Sig to 53Kap </line> 
+        <line> 53Kap to Rigel </line> 
+        <line> Rigel to 28Eta </line> 
+        <line> 28Eta to Mintaka </line> 
+        <line> Mintaka to Bellatrix </line> 
+        <line> 54Chi1 to 62Chi2 </line> 
+        <line> 67Nu to 54Chi1 </line> 
+        <line> 70Xi to 67Nu </line> 
+        <line> 62Chi2 to 70Xi </line> 
+        <line> 70Xi to 61Mu </line> 
+        <line> 61Mu to Betelgeuse </line> 
+        <line> 32 to Betelgeuse </line> 
+        <line> 39Lam to 32 </line> 
+        <line> 32 to Bellatrix </line> 
+        <line> Bellatrix to 1Pi3 </line> 
+        <line> 1Pi3 to 3Pi4 </line> 
+        <line> 3Pi4 to 8Pi5 </line> 
+        <line> 8Pi5 to 10Pi6 </line> 
+        <line> 1Pi3 to 2Pi2 </line> 
+        <line> 2Pi2 to 7Pi1 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Pavo </name> 
+        <abbr> Pav </abbr> 
+        <line> Alp to Gam </line> 
+        <line> Gam to Bet </line> 
+        <line> Del to Bet </line> 
+        <line> Del to Alp </line> 
+        <line> Del to Eps </line> 
+        <line> Eps to Zet </line> 
+        <line> Zet to Kap </line> 
+        <line> Kap to Del </line> 
+        <line> Kap to Lam </line> 
+        <line> Xi to Lam </line> 
+        <line> Pi to Xi </line> 
+        <line> Eta to Pi </line> 
+        <line> Lam to Pi </line> 
+    </constellation>
+
+    <constellation>
+        <name> Pegasus </name> 
+        <abbr> Peg </abbr> 
+        <line> Markab to Algenib </line> 
+        <line> Markab to 53Bet </line> 
+        <line> Algenib to 53Bet </line> 
+        <line> 46Xi to Markab </line> 
+        <line> Markab to 47Lam </line> 
+        <line> 47Lam to 24Iot </line> 
+        <line> 24Iot to 46Xi </line> 
+        <line> 55 to Markab </line> 
+        <line> 58 to Markab </line> 
+        <line> Homam to 46Xi </line> 
+        <line> 26The to Homam </line> 
+        <line> Eniph to Homam </line> 
+        <line> 48Mu to 47Lam </line> 
+        <line> 48Mu to 44Eta </line> 
+        <line> 44Eta to 27Pi1 </line> 
+        <line> 24Iot to 9 </line> 
+        <line> 10Kap to 24Iot </line> 
+        <line> 10Kap to 1 </line> 
+    </constellation>
+
+    <constellation>
+        <name> Perseus </name> 
+        <abbr> Per </abbr> 
+        <line> Mirfak to 23Gam </line> 
+        <line> 23Gam to 15Eta </line> 
+        <line> 15Eta to 18Tau </line> 
+        <line> 18Tau to 23Gam </line> 
+        <line> 18Tau to Iot </line> 
+        <line> Mirfak to Iot </line> 
+        <line> Iot to 27Kap </line> 
+        <line> 27Kap to Algol </line> 
+        <line> Algol to 45Eps </line> 
+        <line> 41Nu to 45Eps </line> 
+        <line> 41Nu to 35Sig </line> 
+        <line> 35Sig to Mirfak </line> 
+        <line> 37Psi to Mirfak </line> 
+        <line> 39Del to 37Psi </line> 
+        <line> 48 to 39Del </line> 
+        <line> 51Mu to 48 </line> 
+        <line> 47Lam to 51Mu </line> 
+        <line> Iot to 13The </line> 
+        <line> 13The to Phi </line> 
+        <line> 45Eps to 46Xi </line> 
+        <line> 46Xi to 44Zet </line> 
+        <line> 44Zet to 38Omi </line> 
+        <line> Algol to 25Rho </line> 
+        <line> 25Rho to 22Pi </line> 
+    </constellation>
+
+    <constellation>
+        <name> Phoenix </name> 
+        <abbr> Phe </abbr> 
+        <line> Kap to Eps </line> 
+        <line> Kap to Alp </line> 
+        <line> Alp to Eps </line> 
+        <line> Kap to Mu </line> 
+        <line> Mu to Bet </line> 
+        <line> Mu to Zet </line> 
+        <line> Mu to Gam </line> 
+        <line> Bet to Zet </line> 
+        <line> Bet to Gam </line> 
+        <line> Bet to Del </line> 
+        <line> Bet to Psi </line> 
+        <line> Psi to Del </line> 
+    </constellation>
+
+    <constellation>
+        <name> Pictor </name> 
+        <abbr> Pic </abbr> 
+        <line> Alp to Gam </line> 
+        <line> Gam to Bet </line> 
+        <line> Bet to Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Pisces </name> 
+        <abbr> Psc </abbr> 
+        <line> 85Phi to 83Tau </line> 
+        <line> 83Tau to 90Ups </line> 
+        <line> 90Ups to 85Phi </line> 
+        <line> 85Phi to 94 </line> 
+        <line> 94 to 99Eta </line> 
+        <line> 99Eta to 110Omi </line> 
+        <line> 110Omi to Kaitain </line> 
+        <line> Kaitain to 106Nu </line> 
+        <line> 106Nu to 98Mu </line> 
+        <line> 98Mu to 71Eps </line> 
+        <line> 71Eps to 63Del </line> 
+        <line> 63Del to 28Ome </line> 
+        <line> 28Ome to 17Iot </line> 
+        <line> 17Iot to 10The </line> 
+        <line> 10The to 6Gam </line> 
+        <line> 6Gam to 8Kap </line> 
+        <line> 8Kap to 18Lam </line> 
+        <line> 18Lam to 17Iot </line> 
+    </constellation>
+
+    <constellation>
+        <name> Pisces Austrinus </name> 
+        <abbr> PsA </abbr> 
+        <line> Fomalhaut to 18Eps </line> 
+        <line> 18Eps to 14Mu </line> 
+        <line> 14Mu to 10The </line> 
+        <line> 10The to 9Iot </line> 
+        <line> 9Iot to 14Mu </line> 
+        <line> 14Mu to 17Bet </line> 
+        <line> 17Bet to 22Gam </line> 
+        <line> 22Gam to 23Del </line> 
+        <line> 23Del to Fomalhaut </line> 
+    </constellation>
+
+    <constellation>
+        <name> Puppis </name> 
+        <abbr> Pup </abbr> 
+        <line> Pi to Nu </line> 
+        <line> 3 to Pi </line> 
+        <line> Omi to 3 </line> 
+        <line> 7Xi to Omi </line> 
+        <line> 11 to 7Xi </line> 
+        <line> 15Rho to 11 </line> 
+        <line> Zet to 15Rho </line> 
+        <line> Gam2 to Zet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Pyxis </name> 
+        <abbr> Pyx </abbr> 
+        <line> Zet to Bet </line> 
+        <line> Bet to Alp </line> 
+        <line> Alp to Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Reticulum </name> 
+        <abbr> Ret </abbr> 
+        <line> Bet to Alp </line> 
+        <line> Alp to Eps </line> 
+        <line> Eps to Iot </line> 
+        <line> Iot to Del </line> 
+        <line> Del to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Sagitta </name> 
+        <abbr> Sge </abbr> 
+        <line> 16Eta to 12Gam </line> 
+        <line> 12Gam to 7Del </line> 
+        <line> 7Del to 6Bet </line> 
+        <line> 7Del to 5Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Sagittarius </name> 
+        <abbr> Sgr </abbr> 
+        <line> 46Ups to 44Rho1 </line> 
+        <line> 44Rho1 to 41Pi </line> 
+        <line> 41Pi to 37Xi2 </line> 
+        <line> 37Xi2 to 34Sig </line> 
+        <line> 34Sig to 41Pi </line> 
+        <line> 40Tau to 38Zet </line> 
+        <line> 38Zet to 27Phi </line> 
+        <line> 27Phi to 34Sig </line> 
+        <line> 34Sig to 40Tau </line> 
+        <line> 40Tau to The1 </line> 
+        <line> The1 to Iot </line> 
+        <line> The1 to Alp </line> 
+        <line> Alp to Bet1 </line> 
+        <line> Alp to 38Zet </line> 
+        <line> 27Phi to 19Del </line> 
+        <line> 19Del to 10Gam2 </line> 
+        <line> 19Del to 22Lam </line> 
+        <line> 22Lam to 13Mu </line> 
+        <line> 13Mu to 10Gam2 </line> 
+        <line> 10Gam2 to Eta </line> 
+        <line> Australis to Eta </line> 
+        <line> 19Del to Australis </line> 
+    </constellation>
+
+    <constellation>
+        <name> Scorpius </name> 
+        <abbr> Sco </abbr> 
+        <line> 7Del to 8Bet1 </line> 
+        <line> 8Bet1 to 14Nu </line> 
+        <line> 14Nu to 20Sig </line> 
+        <line> 20Sig to 13 </line> 
+        <line> 13 to 5Rho </line> 
+        <line> 20Sig to Antares </line> 
+        <line> Antares to 23Tau </line> 
+        <line> 23Tau to 26Eps </line> 
+        <line> 26Eps to Mu1 </line> 
+        <line> Mu1 to Zet2 </line> 
+        <line> Zet2 to Eta </line> 
+        <line> Eta to The </line> 
+        <line> The to Iot2 </line> 
+        <line> Iot2 to Iot1 </line> 
+        <line> Iot1 to Kap </line> 
+        <line> Kap to 34Ups </line> 
+        <line> 34Ups to Shaula </line> 
+    </constellation>
+
+    <constellation>
+        <name> Sculptor </name> 
+        <abbr> Scl </abbr> 
+        <line> Alp to Iot </line> 
+        <line> Iot to Del </line> 
+        <line> Del to Gam </line> 
+        <line> Gam to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Scutum </name> 
+        <abbr> Sct </abbr> 
+        <line> Bet to Alp </line> 
+        <line> Alp to Gam </line> 
+        <line> Gam to Del </line> 
+        <line> Del to Bet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Serpens </name> 
+        <abbr> Ser </abbr> 
+        <line> 41Gam to 35Kap </line> 
+        <line> 35Kap to 21Iot </line> 
+        <line> 28Bet to 41Gam </line> 
+        <line> 21Iot to 28Bet </line> 
+        <line> 13Del to 28Bet </line> 
+        <line> 13Del to 27Lam </line> 
+        <line> Unukalhay to 27Lam </line> 
+        <line> 37Eps to Unukalhay </line> 
+        <line> 32Mu to 37Eps </line> 
+        <line> 32Mu to 1Del </line> 
+        <line> 63The1 to 72 </line> 
+        <line> 70 to 58Eta </line> 
+        <line> 58Eta to 64Nu </line> 
+        <line> 64Nu to 56Omio </line> 
+        <line> 56Omio to 55Xi </line> 
+        <line> 55Xi to 53Nu </line> 
+    </constellation>
+
+    <constellation>
+        <name> Sextans </name> 
+        <abbr> Sex </abbr> 
+        <line> 29Del to 15Alp </line> 
+        <line> 15Alp to 8Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Taurus </name> 
+        <abbr> Tau </abbr> 
+        <line> 5 to 2Xi </line> 
+        <line> 2Xi to 1Omi </line> 
+        <line> 1Omi to 10 </line> 
+        <line> 2Xi to 38Nu </line> 
+        <line> 35Lam to 2Xi </line> 
+        <line> 54Gam to 35Lam </line> 
+        <line> 54Gam to 49Mu </line> 
+        <line> 54Gam to 90 </line> 
+        <line> 90 to 88 </line> 
+        <line> 54Gam to 78The2 </line> 
+        <line> 78The2 to Aldebaran </line> 
+        <line> Aldebaran to 123Zet </line> 
+        <line> 123Zet to 94Tau </line> 
+        <line> Alnath to 94Tau </line> 
+        <line> 94Tau to 69Ups </line> 
+        <line> 69Ups to Atlas </line> 
+        <line> 69Ups to 65Kap1 </line> 
+        <line> 65Kap1 to 74Eps </line> 
+        <line> 74Eps to 68Del3 </line> 
+        <line> 68Del3 to 61Del1 </line> 
+        <line> 61Del1 to 54Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Telescopium </name> 
+        <abbr> Tel </abbr> 
+        <line> Eps to Alp </line> 
+        <line> Alp to Zet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Triangulum </name> 
+        <abbr> Tri </abbr> 
+        <line> 2Alp to 3Eps </line> 
+        <line> 3Eps to 4Bet </line> 
+        <line> 4Bet to 9Gam </line> 
+        <line> 9Gam to 2Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Triangulum Austral </name> 
+        <abbr> TrA </abbr> 
+        <line> Alp to Bet </line> 
+        <line> Bet to Eps </line> 
+        <line> Eps to Gam </line> 
+        <line> Gam to Alp </line> 
+    </constellation>
+
+    <constellation>
+        <name> Tucana </name> 
+        <abbr> Tuc </abbr> 
+        <line> Del to Alp </line> 
+        <line> Alp to Gam </line> 
+        <line> Gam to Eps </line> 
+        <line> Eps to Zet </line> 
+        <line> Zet to Bet1 </line> 
+        <line> Bet1 to Gam </line> 
+    </constellation>
+
+    <constellation>
+        <name> Ursa Major </name> 
+        <abbr> UMa </abbr> 
+        <line> Alkaid to Mizar </line> 
+        <line> Mizar to Alioth </line> 
+        <line> Alioth to Megrez </line> 
+        <line> Megrez to Phecda </line> 
+        <line> Phecda to Merak </line> 
+        <line> Merak to Dubhe </line> 
+        <line> Megrez to Dubhe </line> 
+        <line> Dubhe to 23 </line> 
+        <line> 23 to 1Omi </line> 
+        <line> 23 to 29Ups </line> 
+        <line> 30Phi to 29Ups </line> 
+        <line> 30Phi to 33Lam </line> 
+        <line> 1Omi to Talitha </line> 
+        <line> 12Kap to 34Mu </line> 
+        <line> 34Mu to 54Nu </line> 
+        <line> 52Psi to 54Nu </line> 
+        <line> 63Chi to 52Psi </line> 
+        <line> 63Chi to Alkaid </line> 
+    </constellation>
+
+    <constellation>
+        <name> Ursa Minor </name> 
+        <abbr> UMi </abbr> 
+        <line> Polaris to 23Del </line> 
+        <line> 23Del to 22Eps </line> 
+        <line> 22Eps to 16Zet </line> 
+        <line> 16Zet to Kocab </line> 
+        <line> Kocab to 13Gam </line> 
+        <line> 13Gam to 21Eta </line> 
+        <line> 21Eta to 16Zet </line> 
+    </constellation>
+
+    <constellation>
+        <name> Vela </name> 
+        <abbr> Vel </abbr> 
+        <line> Mu to Psi </line> 
+        <line> Psi to Lam </line> 
+        <line> Lam to Gam2 </line> 
+        <line> Gam2 to Del </line> 
+        <line> Del to Kap </line> 
+        <line> Kap to Phi </line> 
+        <line> Phi to Mu </line> 
+    </constellation>
+
+    <constellation>
+        <name> Virgo </name> 
+        <abbr> Vir </abbr> 
+        <line> 9Omi to 29Gam </line> 
+        <line> 9Omi to 3Nu </line> 
+        <line> 3Nu to Zawijah </line> 
+        <line> Zawijah to 15Eta </line> 
+        <line> 15Eta to 29Gam </line> 
+        <line> 29Gam to 43Del </line> 
+        <line> 43Del to Vindemiatrix </line> 
+        <line> 43Del to 79Zet </line> 
+        <line> 79Zet to Spica </line> 
+        <line> Spica to 51The </line> 
+        <line> 51The to 29Gam </line> 
+        <line> 79Zet to 93Tau </line> 
+        <line> 93Tau to 109 </line> 
+        <line> Spica to 98Kap </line> 
+        <line> 98Kap to 99Iot </line> 
+        <line> 99Iot to 107Mu </line> 
+        <line> 93Tau to 99Iot </line> 
+    </constellation>
+
+    <constellation>
+        <name> Volans </name> 
+        <abbr> Vol </abbr> 
+        <line> Alp to Bet </line> 
+        <line> Bet to Eps </line> 
+        <line> Eps to Alp </line> 
+        <line> Eps to Del </line> 
+        <line> Eps to Eta </line> 
+        <line> Eps to Gam1 </line> 
+        <line> Gam1 to Zet </line> 
+        <line> Zet to Eps </line> 
+    </constellation>
+
+    <constellation>
+        <name> Vulpecula </name> 
+        <abbr> Vul </abbr> 
+        <line> 13 to 6Alp </line> 
+        <line> 6Alp to 1 </line> 
+    </constellation>
+
+</xml>
