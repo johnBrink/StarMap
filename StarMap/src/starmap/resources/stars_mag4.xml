@@ -1,0 +1,5234 @@
+<xml>
+
+    <star>
+        <HRnumber> 2491 </HRnumber>
+        <name> 9Alp </name>
+        <constellation> CMa </constellation>
+        <ra> 6 45 8.90 </ra>
+        <dec> -16 42 58.00 </dec>
+        <vmag> -1.46 </vmag>
+        <class> A1V </class>
+        <common_name> Sirius </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2326 </HRnumber>
+        <name> Alp </name>
+        <constellation> Car </constellation>
+        <ra> 6 23 57.10 </ra>
+        <dec> -52 41 44.90 </dec>
+        <vmag> -0.72 </vmag>
+        <class> F0II </class>
+        <common_name> Canopus </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5340 </HRnumber>
+        <name> 16Alp </name>
+        <constellation> Boo </constellation>
+        <ra> 14 15 39.70 </ra>
+        <dec> 19 10 57.00 </dec>
+        <vmag> -0.04 </vmag>
+        <class> K1III </class>
+        <common_name> Arcturus </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5459 </HRnumber>
+        <name> Alp1 </name>
+        <constellation> Cen </constellation>
+        <ra> 14 39 35.90 </ra>
+        <dec> -60 50 7.10 </dec>
+        <vmag> -0.01 </vmag>
+        <class> G2V </class>
+        <common_name> Rigil_Kentaurus </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7001 </HRnumber>
+        <name> 3Alp </name>
+        <constellation> Lyr </constellation>
+        <ra> 18 36 56.30 </ra>
+        <dec> 38 47 1.00 </dec>
+        <vmag> 0.03 </vmag>
+        <class> A0V </class>
+        <common_name> Vega </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1708 </HRnumber>
+        <name> 13Alp </name>
+        <constellation> Aur </constellation>
+        <ra> 5 16 41.40 </ra>
+        <dec> 45 59 53.20 </dec>
+        <vmag> 0.08 </vmag>
+        <class> G5III </class>
+        <common_name> Capella </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1713 </HRnumber>
+        <name> 19Bet </name>
+        <constellation> Ori </constellation>
+        <ra> 5 14 32.30 </ra>
+        <dec> -8 12 6.10 </dec>
+        <vmag> 0.12 </vmag>
+        <class> B8I </class>
+        <common_name> Rigel </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2943 </HRnumber>
+        <name> 10Alp </name>
+        <constellation> CMi </constellation>
+        <ra> 7 39 18.10 </ra>
+        <dec> 5 13 30.00 </dec>
+        <vmag> 0.38 </vmag>
+        <class> F5IV </class>
+        <common_name> Procyon </common_name>
+    </star>
+
+    <star>
+        <HRnumber>  472 </HRnumber>
+        <name> Alp </name>
+        <constellation> Eri </constellation>
+        <ra> 1 37 42.89 </ra>
+        <dec> -57 14 12.10 </dec>
+        <vmag> 0.46 </vmag>
+        <class> B3V </class>
+        <common_name> Achernar </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2061 </HRnumber>
+        <name> 58Alp </name>
+        <constellation> Ori </constellation>
+        <ra> 5 55 10.30 </ra>
+        <dec> 7 24 24.80 </dec>
+        <vmag> 0.50 </vmag>
+        <class> M1I </class>
+        <common_name> Betelgeuse </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5267 </HRnumber>
+        <name> Bet </name>
+        <constellation> Cen </constellation>
+        <ra> 14 3 49.39 </ra>
+        <dec> -60 22 23.20 </dec>
+        <vmag> 0.61 </vmag>
+        <class> B1III </class>
+        <common_name> Hadar </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7557 </HRnumber>
+        <name> 53Alp </name>
+        <constellation> Aql </constellation>
+        <ra> 19 50 46.99 </ra>
+        <dec> 8 52 5.90 </dec>
+        <vmag> 0.77 </vmag>
+        <class> A7V </class>
+        <common_name> Altair </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1457 </HRnumber>
+        <name> 87Alp </name>
+        <constellation> Tau </constellation>
+        <ra> 4 35 55.20 </ra>
+        <dec> 16 30 33.10 </dec>
+        <vmag> 0.85 </vmag>
+        <class> K5III </class>
+        <common_name> Aldebaran </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6134 </HRnumber>
+        <name> 21Alp </name>
+        <constellation> Sco </constellation>
+        <ra> 16 29 24.41 </ra>
+        <dec> -26 25 54.80 </dec>
+        <vmag> 0.96 </vmag>
+        <class> M1I </class>
+        <common_name> Antares </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5056 </HRnumber>
+        <name> 67Alp </name>
+        <constellation> Vir </constellation>
+        <ra> 13 25 11.59 </ra>
+        <dec> -11 9 41.00 </dec>
+        <vmag> 0.98 </vmag>
+        <class> B1III </class>
+        <common_name> Spica </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2990 </HRnumber>
+        <name> 78Bet </name>
+        <constellation> Gem </constellation>
+        <ra> 7 45 18.91 </ra>
+        <dec> 28 1 34.00 </dec>
+        <vmag> 1.14 </vmag>
+        <class> K0III </class>
+        <common_name> Pollux </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 8728 </HRnumber>
+        <name> 24Alp </name>
+        <constellation> PsA </constellation>
+        <ra> 22 57 39.10 </ra>
+        <dec> -29 37 19.90 </dec>
+        <vmag> 1.16 </vmag>
+        <class> A3V </class>
+        <common_name> Fomalhaut </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7924 </HRnumber>
+        <name> 50Alp </name>
+        <constellation> Cyg </constellation>
+        <ra> 20 41 25.90 </ra>
+        <dec> 45 16 49.10 </dec>
+        <vmag> 1.25 </vmag>
+        <class> A2I </class>
+        <common_name> Deneb </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4853 </HRnumber>
+        <name> Bet </name>
+        <constellation> Cru </constellation>
+        <ra> 12 47 43.20 </ra>
+        <dec> -59 41 19.00 </dec>
+        <vmag> 1.25 </vmag>
+        <class> B0III </class>
+        <common_name> Mimosa </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4730 </HRnumber>
+        <name> Alp1 </name>
+        <constellation> Cru </constellation>
+        <ra> 12 26 35.90 </ra>
+        <dec> -63 5 57.10 </dec>
+        <vmag> 1.33 </vmag>
+        <class> B0IV </class>
+        <common_name> Acrux </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5460 </HRnumber>
+        <name> Alp2 </name>
+        <constellation> Cen </constellation>
+        <ra> 14 39 36.10 </ra>
+        <dec> -60 50 8.20 </dec>
+        <vmag> 1.33 </vmag>
+        <class> K1V </class>
+        <common_name> Rigil_Kentaurus </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3982 </HRnumber>
+        <name> 32Alp </name>
+        <constellation> Leo </constellation>
+        <ra> 10 8 22.30 </ra>
+        <dec> 11 58 1.90 </dec>
+        <vmag> 1.35 </vmag>
+        <class> B7V </class>
+        <common_name> Regulus </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2618 </HRnumber>
+        <name> 21Eps </name>
+        <constellation> CMa </constellation>
+        <ra> 6 58 37.49 </ra>
+        <dec> -28 58 19.90 </dec>
+        <vmag> 1.50 </vmag>
+        <class> B2II </class>
+        <common_name> Adhara </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6527 </HRnumber>
+        <name> 35Lam </name>
+        <constellation> Sco </constellation>
+        <ra> 17 33 36.50 </ra>
+        <dec> -37 6 14.00 </dec>
+        <vmag> 1.63 </vmag>
+        <class> B2IV </class>
+        <common_name> Shaula </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4763 </HRnumber>
+        <name> Gam </name>
+        <constellation> Cru </constellation>
+        <ra> 12 31 9.89 </ra>
+        <dec> -57 6 47.90 </dec>
+        <vmag> 1.63 </vmag>
+        <class> M3III </class>
+        <common_name> Gacrux </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1790 </HRnumber>
+        <name> 24Gam </name>
+        <constellation> Ori </constellation>
+        <ra> 5 25 7.90 </ra>
+        <dec> 6 20 58.90 </dec>
+        <vmag> 1.64 </vmag>
+        <class> B2III </class>
+        <common_name> Bellatrix </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1791 </HRnumber>
+        <name> 112Bet </name>
+        <constellation> Tau </constellation>
+        <ra> 5 26 17.50 </ra>
+        <dec> 28 36 27.00 </dec>
+        <vmag> 1.65 </vmag>
+        <class> B7III </class>
+        <common_name> El_Nath </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3685 </HRnumber>
+        <name> Bet </name>
+        <constellation> Car </constellation>
+        <ra> 9 13 12.00 </ra>
+        <dec> -69 43 1.90 </dec>
+        <vmag> 1.68 </vmag>
+        <class> A2IV </class>
+        <common_name> Miaplacidus </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1903 </HRnumber>
+        <name> 46Eps </name>
+        <constellation> Ori </constellation>
+        <ra> 5 36 12.79 </ra>
+        <dec> -1 12 6.80 </dec>
+        <vmag> 1.70 </vmag>
+        <class> B0I </class>
+        <common_name> Alnilan </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4731 </HRnumber>
+        <name> Alp2 </name>
+        <constellation> Cru </constellation>
+        <ra> 12 26 36.50 </ra>
+        <dec> -63 5 57.80 </dec>
+        <vmag> 1.73 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8425 </HRnumber>
+        <name> Alp </name>
+        <constellation> Gru </constellation>
+        <ra> 22 8 13.99 </ra>
+        <dec> -46 57 40.00 </dec>
+        <vmag> 1.74 </vmag>
+        <class> B7IV </class>
+        <common_name> Al_Na'ir </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4905 </HRnumber>
+        <name> 77Eps </name>
+        <constellation> UMa </constellation>
+        <ra> 12 54 1.70 </ra>
+        <dec> 55 57 34.90 </dec>
+        <vmag> 1.77 </vmag>
+        <class> A0 </class>
+        <common_name> Alioth </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3207 </HRnumber>
+        <name> Gam2 </name>
+        <constellation> Vel </constellation>
+        <ra> 8 9 31.99 </ra>
+        <dec> -47 20 12.10 </dec>
+        <vmag> 1.78 </vmag>
+        <class> ??? </class>
+    </star>
+
+    <star>
+        <HRnumber> 03207 </HRnumber>
+        <name> Gam2 </name>
+        <constellation> Car </constellation>
+        <ra> 8 9 31.99 </ra>
+        <dec> -47 20 12.10 </dec>
+        <vmag> 1.78 </vmag>
+        <class> ??? </class>
+    </star>
+
+    <star>
+        <HRnumber> 1017 </HRnumber>
+        <name> 33Alp </name>
+        <constellation> Per </constellation>
+        <ra> 3 24 19.39 </ra>
+        <dec> 49 51 40.00 </dec>
+        <vmag> 1.79 </vmag>
+        <class> F5I </class>
+        <common_name> Mirfak </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4301 </HRnumber>
+        <name> 50Alp </name>
+        <constellation> UMa </constellation>
+        <ra> 11 3 43.70 </ra>
+        <dec> 61 45 2.90 </dec>
+        <vmag> 1.79 </vmag>
+        <class> K0III </class>
+        <common_name> Dubhe </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2693 </HRnumber>
+        <name> 25Del </name>
+        <constellation> CMa </constellation>
+        <ra> 7 8 23.50 </ra>
+        <dec> -26 23 35.90 </dec>
+        <vmag> 1.84 </vmag>
+        <class> F8I </class>
+        <common_name> Wezen </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6879 </HRnumber>
+        <name> 20Eps </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 24 10.30 </ra>
+        <dec> -34 23 4.90 </dec>
+        <vmag> 1.85 </vmag>
+        <class> B9III </class>
+        <common_name> Kaus_Australis </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5191 </HRnumber>
+        <name> 85Eta </name>
+        <constellation> UMa </constellation>
+        <ra> 13 47 32.40 </ra>
+        <dec> 49 18 47.90 </dec>
+        <vmag> 1.86 </vmag>
+        <class> B3V </class>
+        <common_name> Alkaid </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3307 </HRnumber>
+        <name> Eps </name>
+        <constellation> Car </constellation>
+        <ra> 8 22 30.79 </ra>
+        <dec> -59 30 34.90 </dec>
+        <vmag> 1.86 </vmag>
+        <class> K3III </class>
+        <common_name> Avior </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6553 </HRnumber>
+        <name> The </name>
+        <constellation> Sco </constellation>
+        <ra> 17 37 19.20 </ra>
+        <dec> -42 59 52.10 </dec>
+        <vmag> 1.87 </vmag>
+        <class> F1II </class>
+        <common_name> Sargas </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2088 </HRnumber>
+        <name> 34Bet </name>
+        <constellation> Aur </constellation>
+        <ra> 5 59 31.70 </ra>
+        <dec> 44 56 51.00 </dec>
+        <vmag> 1.90 </vmag>
+        <class> A2IV </class>
+        <common_name> Menkaliman </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6217 </HRnumber>
+        <name> Alp </name>
+        <constellation> TrA </constellation>
+        <ra> 16 48 39.89 </ra>
+        <dec> -69 1 40.10 </dec>
+        <vmag> 1.92 </vmag>
+        <class> K2II </class>
+        <common_name> Atria </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2421 </HRnumber>
+        <name> 24Gam </name>
+        <constellation> Gem </constellation>
+        <ra> 6 37 42.70 </ra>
+        <dec> 16 23 57.10 </dec>
+        <vmag> 1.93 </vmag>
+        <class> A0IV </class>
+        <common_name> Alhena </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7790 </HRnumber>
+        <name> Alp </name>
+        <constellation> Pav </constellation>
+        <ra> 20 25 38.90 </ra>
+        <dec> -56 44 6.00 </dec>
+        <vmag> 1.94 </vmag>
+        <class> B2IV </class>
+        <common_name> Peacock </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3485 </HRnumber>
+        <name> Del </name>
+        <constellation> Vel </constellation>
+        <ra> 8 44 42.19 </ra>
+        <dec> -54 42 29.90 </dec>
+        <vmag> 1.96 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2891 </HRnumber>
+        <name> 66Alp </name>
+        <constellation> Gem </constellation>
+        <ra> 7 34 36.00 </ra>
+        <dec> 31 53 17.90 </dec>
+        <vmag> 1.98 </vmag>
+        <class> A1V </class>
+        <common_name> Castor </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2294 </HRnumber>
+        <name> 2Bet </name>
+        <constellation> CMa </constellation>
+        <ra> 6 22 42.00 </ra>
+        <dec> -17 57 20.90 </dec>
+        <vmag> 1.98 </vmag>
+        <class> B1II </class>
+        <common_name> Mirzam </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3748 </HRnumber>
+        <name> 30Alp </name>
+        <constellation> Hya </constellation>
+        <ra> 9 27 35.21 </ra>
+        <dec> -8 39 31.00 </dec>
+        <vmag> 1.98 </vmag>
+        <class> K3II </class>
+        <common_name> Alphard </common_name>
+    </star>
+
+    <star>
+        <HRnumber>  617 </HRnumber>
+        <name> 13Alp </name>
+        <constellation> Ari </constellation>
+        <ra> 2 7 10.39 </ra>
+        <dec> 23 27 45.00 </dec>
+        <vmag> 2.00 </vmag>
+        <class> K2III </class>
+        <common_name> Hamal </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5958 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 15 59 30.19 </ra>
+        <dec> 25 55 13.10 </dec>
+        <vmag> 2.00 </vmag>
+        <class> ??? </class>
+    </star>
+
+    <star>
+        <HRnumber> 7121 </HRnumber>
+        <name> 34Sig </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 55 15.91 </ra>
+        <dec> -26 17 48.10 </dec>
+        <vmag> 2.02 </vmag>
+        <class> B2V </class>
+        <common_name> Nunki </common_name>
+    </star>
+
+    <star>
+        <HRnumber>  424 </HRnumber>
+        <name> 1Alp </name>
+        <constellation> UMi </constellation>
+        <ra> 2 31 48.70 </ra>
+        <dec> 89 15 51.10 </dec>
+        <vmag> 2.02 </vmag>
+        <class> F7I </class>
+        <common_name> Polaris </common_name>
+    </star>
+
+    <star>
+        <HRnumber>  188 </HRnumber>
+        <name> 16Bet </name>
+        <constellation> Cet </constellation>
+        <ra> 0 43 35.40 </ra>
+        <dec> -17 59 12.10 </dec>
+        <vmag> 2.04 </vmag>
+        <class> G9III </class>
+        <common_name> Deneb_Kaitos </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1948 </HRnumber>
+        <name> 50Zet </name>
+        <constellation> Ori </constellation>
+        <ra> 5 40 45.50 </ra>
+        <dec> -1 56 34.10 </dec>
+        <vmag> 2.05 </vmag>
+        <class> O9I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5288 </HRnumber>
+        <name> 5The </name>
+        <constellation> Cen </constellation>
+        <ra> 14 6 40.99 </ra>
+        <dec> -36 22 12.00 </dec>
+        <vmag> 2.06 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber>   15 </HRnumber>
+        <name> 21Alp </name>
+        <constellation> And </constellation>
+        <ra> 0 8 23.30 </ra>
+        <dec> 29 5 26.20 </dec>
+        <vmag> 2.06 </vmag>
+        <class> B8IV </class>
+        <common_name> Alpheratz </common_name>
+    </star>
+
+    <star>
+        <HRnumber>  337 </HRnumber>
+        <name> 43Bet </name>
+        <constellation> And </constellation>
+        <ra> 1 9 43.90 </ra>
+        <dec> 35 37 14.20 </dec>
+        <vmag> 2.06 </vmag>
+        <class> M0III </class>
+        <common_name> Mirach </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2004 </HRnumber>
+        <name> 53Kap </name>
+        <constellation> Ori </constellation>
+        <ra> 5 47 45.41 </ra>
+        <dec> -9 40 10.90 </dec>
+        <vmag> 2.06 </vmag>
+        <class> B0I </class>
+    </star>
+
+    <star>
+        <HRnumber> 6556 </HRnumber>
+        <name> 55Alp </name>
+        <constellation> Oph </constellation>
+        <ra> 17 34 56.11 </ra>
+        <dec> 12 33 36.00 </dec>
+        <vmag> 2.08 </vmag>
+        <class> A5III </class>
+        <common_name> Alhague </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5563 </HRnumber>
+        <name> 7Bet </name>
+        <constellation> UMi </constellation>
+        <ra> 14 50 42.31 </ra>
+        <dec> 74 9 20.20 </dec>
+        <vmag> 2.08 </vmag>
+        <class> K4III </class>
+        <common_name> Kocab </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 8636 </HRnumber>
+        <name> Bet </name>
+        <constellation> Gru </constellation>
+        <ra> 22 42 40.10 </ra>
+        <dec> -46 53 4.90 </dec>
+        <vmag> 2.10 </vmag>
+        <class> M5III </class>
+    </star>
+
+    <star>
+        <HRnumber>  936 </HRnumber>
+        <name> 26Bet </name>
+        <constellation> Per </constellation>
+        <ra> 3 8 10.10 </ra>
+        <dec> 40 57 20.20 </dec>
+        <vmag> 2.12 </vmag>
+        <class> B8V </class>
+        <common_name> Algol </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4534 </HRnumber>
+        <name> 94Bet </name>
+        <constellation> Leo </constellation>
+        <ra> 11 49 3.60 </ra>
+        <dec> 14 34 18.80 </dec>
+        <vmag> 2.14 </vmag>
+        <class> A3V </class>
+        <common_name> Denebola </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4819 </HRnumber>
+        <name> Gam </name>
+        <constellation> Cen </constellation>
+        <ra> 12 41 31.01 </ra>
+        <dec> -48 57 34.90 </dec>
+        <vmag> 2.17 </vmag>
+        <class> A1IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7796 </HRnumber>
+        <name> 37Gam </name>
+        <constellation> Cyg </constellation>
+        <ra> 20 22 13.70 </ra>
+        <dec> 40 15 24.10 </dec>
+        <vmag> 2.20 </vmag>
+        <class> F8I </class>
+    </star>
+
+    <star>
+        <HRnumber> 3634 </HRnumber>
+        <name> Lam </name>
+        <constellation> Vel </constellation>
+        <ra> 9 7 59.81 </ra>
+        <dec> -43 25 57.00 </dec>
+        <vmag> 2.21 </vmag>
+        <class> K4I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5793 </HRnumber>
+        <name> 5Alp </name>
+        <constellation> CrB </constellation>
+        <ra> 15 34 41.30 </ra>
+        <dec> 26 42 52.90 </dec>
+        <vmag> 2.23 </vmag>
+        <class> A0V </class>
+        <common_name> Alphecca </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6705 </HRnumber>
+        <name> 33Gam </name>
+        <constellation> Dra </constellation>
+        <ra> 17 56 36.41 </ra>
+        <dec> 51 29 20.00 </dec>
+        <vmag> 2.23 </vmag>
+        <class> K5III </class>
+    </star>
+
+    <star>
+        <HRnumber>  168 </HRnumber>
+        <name> 18Alp </name>
+        <constellation> Cas </constellation>
+        <ra> 0 40 30.50 </ra>
+        <dec> 56 32 13.90 </dec>
+        <vmag> 2.23 </vmag>
+        <class> K0III </class>
+        <common_name> Schedar </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1852 </HRnumber>
+        <name> 34Del </name>
+        <constellation> Ori </constellation>
+        <ra> 5 32 0.41 </ra>
+        <dec> 0 17 57.10 </dec>
+        <vmag> 2.23 </vmag>
+        <class> O9II </class>
+        <common_name> Mintaka </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3165 </HRnumber>
+        <name> Zet </name>
+        <constellation> Pup </constellation>
+        <ra> 8 3 35.09 </ra>
+        <dec> -40 0 11.90 </dec>
+        <vmag> 2.25 </vmag>
+        <class> O5 </class>
+    </star>
+
+    <star>
+        <HRnumber> 3699 </HRnumber>
+        <name> Iot </name>
+        <constellation> Car </constellation>
+        <ra> 9 17 5.40 </ra>
+        <dec> -59 16 31.10 </dec>
+        <vmag> 2.25 </vmag>
+        <class> A8I </class>
+    </star>
+
+    <star>
+        <HRnumber>  603 </HRnumber>
+        <name> 57Gam1 </name>
+        <constellation> And </constellation>
+        <ra> 2 3 54.00 </ra>
+        <dec> 42 19 46.90 </dec>
+        <vmag> 2.26 </vmag>
+        <class> K3II </class>
+        <common_name> Almach </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5054 </HRnumber>
+        <name> 79Zet </name>
+        <constellation> UMa </constellation>
+        <ra> 13 23 55.49 </ra>
+        <dec> 54 55 31.10 </dec>
+        <vmag> 2.27 </vmag>
+        <class> A1V </class>
+        <common_name> Mizar </common_name>
+    </star>
+
+    <star>
+        <HRnumber>   21 </HRnumber>
+        <name> 11Bet </name>
+        <constellation> Cas </constellation>
+        <ra> 0 9 10.70 </ra>
+        <dec> 59 8 58.90 </dec>
+        <vmag> 2.27 </vmag>
+        <class> F2III </class>
+        <common_name> Caph </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6241 </HRnumber>
+        <name> 26Eps </name>
+        <constellation> Sco </constellation>
+        <ra> 16 50 9.79 </ra>
+        <dec> -34 17 35.90 </dec>
+        <vmag> 2.29 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5132 </HRnumber>
+        <name> Eps </name>
+        <constellation> Cen </constellation>
+        <ra> 13 39 53.21 </ra>
+        <dec> -53 27 59.00 </dec>
+        <vmag> 2.30 </vmag>
+        <class> B1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5469 </HRnumber>
+        <name> Alp </name>
+        <constellation> Lup </constellation>
+        <ra> 14 41 55.80 </ra>
+        <dec> -47 23 17.90 </dec>
+        <vmag> 2.30 </vmag>
+        <class> B1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5440 </HRnumber>
+        <name> Eta </name>
+        <constellation> Cen </constellation>
+        <ra> 14 35 30.41 </ra>
+        <dec> -42 9 28.10 </dec>
+        <vmag> 2.31 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5953 </HRnumber>
+        <name> 7Del </name>
+        <constellation> Sco </constellation>
+        <ra> 16 0 19.99 </ra>
+        <dec> -22 37 18.10 </dec>
+        <vmag> 2.32 </vmag>
+        <class> B0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4295 </HRnumber>
+        <name> 48Bet </name>
+        <constellation> UMa </constellation>
+        <ra> 11 1 50.50 </ra>
+        <dec> 56 22 57.00 </dec>
+        <vmag> 2.37 </vmag>
+        <class> A1V </class>
+        <common_name> Merak </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 8308 </HRnumber>
+        <name> 8Eps </name>
+        <constellation> Peg </constellation>
+        <ra> 21 44 11.21 </ra>
+        <dec> 9 52 30.00 </dec>
+        <vmag> 2.39 </vmag>
+        <class> K2I </class>
+    </star>
+
+    <star>
+        <HRnumber>   99 </HRnumber>
+        <name> Alp </name>
+        <constellation> Phe </constellation>
+        <ra> 0 26 16.99 </ra>
+        <dec> -42 18 22.00 </dec>
+        <vmag> 2.39 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6580 </HRnumber>
+        <name> Kap </name>
+        <constellation> Sco </constellation>
+        <ra> 17 42 29.30 </ra>
+        <dec> -39 1 48.00 </dec>
+        <vmag> 2.41 </vmag>
+        <class> B1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8775 </HRnumber>
+        <name> 53Bet </name>
+        <constellation> Peg </constellation>
+        <ra> 23 3 46.51 </ra>
+        <dec> 28 4 58.10 </dec>
+        <vmag> 2.42 </vmag>
+        <class> M2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6378 </HRnumber>
+        <name> 35Eta </name>
+        <constellation> Oph </constellation>
+        <ra> 17 10 22.70 </ra>
+        <dec> -15 43 28.90 </dec>
+        <vmag> 2.43 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4554 </HRnumber>
+        <name> 64Gam </name>
+        <constellation> UMa </constellation>
+        <ra> 11 53 49.80 </ra>
+        <dec> 53 41 40.90 </dec>
+        <vmag> 2.44 </vmag>
+        <class> A0V </class>
+        <common_name> Phecda </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 8162 </HRnumber>
+        <name> 5Alp </name>
+        <constellation> Cep </constellation>
+        <ra> 21 18 34.80 </ra>
+        <dec> 62 35 8.20 </dec>
+        <vmag> 2.44 </vmag>
+        <class> A7V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2827 </HRnumber>
+        <name> 31Eta </name>
+        <constellation> CMa </constellation>
+        <ra> 7 24 5.71 </ra>
+        <dec> -29 18 11.20 </dec>
+        <vmag> 2.45 </vmag>
+        <class> B5I </class>
+    </star>
+
+    <star>
+        <HRnumber> 7949 </HRnumber>
+        <name> 53Eps </name>
+        <constellation> Cyg </constellation>
+        <ra> 20 46 12.70 </ra>
+        <dec> 33 58 13.10 </dec>
+        <vmag> 2.46 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber>  264 </HRnumber>
+        <name> 27Gam </name>
+        <constellation> Cas </constellation>
+        <ra> 0 56 42.50 </ra>
+        <dec> 60 43 0.10 </dec>
+        <vmag> 2.47 </vmag>
+        <class> B0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 8781 </HRnumber>
+        <name> 54Alp </name>
+        <constellation> Peg </constellation>
+        <ra> 23 4 45.70 </ra>
+        <dec> 15 12 19.10 </dec>
+        <vmag> 2.49 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3734 </HRnumber>
+        <name> Kap </name>
+        <constellation> Vel </constellation>
+        <ra> 9 22 6.79 </ra>
+        <dec> -55 0 38.90 </dec>
+        <vmag> 2.50 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  911 </HRnumber>
+        <name> 92Alp </name>
+        <constellation> Cet </constellation>
+        <ra> 3 2 16.80 </ra>
+        <dec> 4 5 22.90 </dec>
+        <vmag> 2.53 </vmag>
+        <class> M1III </class>
+        <common_name> Menkar </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5231 </HRnumber>
+        <name> Zet </name>
+        <constellation> Cen </constellation>
+        <ra> 13 55 32.40 </ra>
+        <dec> -47 17 17.90 </dec>
+        <vmag> 2.55 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4357 </HRnumber>
+        <name> 68Del </name>
+        <constellation> Leo </constellation>
+        <ra> 11 14 6.50 </ra>
+        <dec> 20 31 25.00 </dec>
+        <vmag> 2.56 </vmag>
+        <class> A4V </class>
+        <common_name> Zozca </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6175 </HRnumber>
+        <name> 13Zet </name>
+        <constellation> Oph </constellation>
+        <ra> 16 37 9.50 </ra>
+        <dec> -10 34 1.90 </dec>
+        <vmag> 2.56 </vmag>
+        <class> O9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1865 </HRnumber>
+        <name> 11Alp </name>
+        <constellation> Lep </constellation>
+        <ra> 5 32 43.80 </ra>
+        <dec> -17 49 19.90 </dec>
+        <vmag> 2.58 </vmag>
+        <class> F0I </class>
+    </star>
+
+    <star>
+        <HRnumber> 4662 </HRnumber>
+        <name> 4Gam </name>
+        <constellation> Crv </constellation>
+        <ra> 12 15 48.41 </ra>
+        <dec> -17 32 30.80 </dec>
+        <vmag> 2.59 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4621 </HRnumber>
+        <name> Del </name>
+        <constellation> Cen </constellation>
+        <ra> 12 8 21.50 </ra>
+        <dec> -50 43 21.00 </dec>
+        <vmag> 2.60 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7194 </HRnumber>
+        <name> 38Zet </name>
+        <constellation> Sgr </constellation>
+        <ra> 19 2 36.70 </ra>
+        <dec> -29 52 49.10 </dec>
+        <vmag> 2.60 </vmag>
+        <class> A2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4057 </HRnumber>
+        <name> 41Gam1 </name>
+        <constellation> Leo </constellation>
+        <ra> 10 19 58.30 </ra>
+        <dec> 19 50 30.10 </dec>
+        <vmag> 2.61 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5685 </HRnumber>
+        <name> 27Bet </name>
+        <constellation> Lib </constellation>
+        <ra> 15 17 0.41 </ra>
+        <dec> -9 22 59.20 </dec>
+        <vmag> 2.61 </vmag>
+        <class> B8V </class>
+        <common_name> Zubeneschamali </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2095 </HRnumber>
+        <name> 37The </name>
+        <constellation> Aur </constellation>
+        <ra> 5 59 43.30 </ra>
+        <dec> 37 12 45.00 </dec>
+        <vmag> 2.62 </vmag>
+        <class> A0 </class>
+    </star>
+
+    <star>
+        <HRnumber> 5984 </HRnumber>
+        <name> 8Bet1 </name>
+        <constellation> Sco </constellation>
+        <ra> 16 5 26.21 </ra>
+        <dec> -19 48 20.20 </dec>
+        <vmag> 2.62 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber>  553 </HRnumber>
+        <name> 6Bet </name>
+        <constellation> Ari </constellation>
+        <ra> 1 54 38.40 </ra>
+        <dec> 20 48 29.20 </dec>
+        <vmag> 2.64 </vmag>
+        <class> A5V </class>
+        <common_name> Sheratan </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1956 </HRnumber>
+        <name> Alp </name>
+        <constellation> Col </constellation>
+        <ra> 5 39 38.90 </ra>
+        <dec> -34 4 27.10 </dec>
+        <vmag> 2.64 </vmag>
+        <class> B7IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4786 </HRnumber>
+        <name> 9Bet </name>
+        <constellation> Crv </constellation>
+        <ra> 12 34 23.21 </ra>
+        <dec> -23 23 48.10 </dec>
+        <vmag> 2.65 </vmag>
+        <class> G5II </class>
+    </star>
+
+    <star>
+        <HRnumber> 5854 </HRnumber>
+        <name> 24Alp </name>
+        <constellation> Ser </constellation>
+        <ra> 15 44 16.10 </ra>
+        <dec> 6 25 32.20 </dec>
+        <vmag> 2.65 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5235 </HRnumber>
+        <name> 8Eta </name>
+        <constellation> Boo </constellation>
+        <ra> 13 54 41.09 </ra>
+        <dec> 18 23 52.10 </dec>
+        <vmag> 2.68 </vmag>
+        <class> G0IV </class>
+        <common_name> Muphrid </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5571 </HRnumber>
+        <name> Bet </name>
+        <constellation> Lup </constellation>
+        <ra> 14 58 31.90 </ra>
+        <dec> -43 8 2.00 </dec>
+        <vmag> 2.68 </vmag>
+        <class> B2III </class>
+    </star>
+
+    <star>
+        <HRnumber>  403 </HRnumber>
+        <name> 37Del </name>
+        <constellation> Cas </constellation>
+        <ra> 1 25 49.01 </ra>
+        <dec> 60 14 7.10 </dec>
+        <vmag> 2.68 </vmag>
+        <class> A5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4216 </HRnumber>
+        <name> Mu </name>
+        <constellation> Vel </constellation>
+        <ra> 10 46 46.20 </ra>
+        <dec> -49 25 12.00 </dec>
+        <vmag> 2.69 </vmag>
+        <class> G5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6508 </HRnumber>
+        <name> 34Ups </name>
+        <constellation> Sco </constellation>
+        <ra> 17 30 45.79 </ra>
+        <dec> -37 17 44.90 </dec>
+        <vmag> 2.69 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1577 </HRnumber>
+        <name> 3Iot </name>
+        <constellation> Aur </constellation>
+        <ra> 4 56 59.59 </ra>
+        <dec> 33 9 58.00 </dec>
+        <vmag> 2.69 </vmag>
+        <class> K3II </class>
+    </star>
+
+    <star>
+        <HRnumber> 4798 </HRnumber>
+        <name> Alp </name>
+        <constellation> Mus </constellation>
+        <ra> 12 37 10.99 </ra>
+        <dec> -69 8 8.20 </dec>
+        <vmag> 2.69 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2773 </HRnumber>
+        <name> Pi </name>
+        <constellation> Pup </constellation>
+        <ra> 7 17 8.59 </ra>
+        <dec> -37 5 51.00 </dec>
+        <vmag> 2.70 </vmag>
+        <class> K3I </class>
+    </star>
+
+    <star>
+        <HRnumber> 6859 </HRnumber>
+        <name> 19Del </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 20 59.69 </ra>
+        <dec> -29 49 41.20 </dec>
+        <vmag> 2.70 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5506 </HRnumber>
+        <name> 36Eps </name>
+        <constellation> Boo </constellation>
+        <ra> 14 44 59.21 </ra>
+        <dec> 27 4 27.10 </dec>
+        <vmag> 2.70 </vmag>
+        <class> K0II </class>
+        <common_name> Pulcherrima </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7525 </HRnumber>
+        <name> 50Gam </name>
+        <constellation> Aql </constellation>
+        <ra> 19 46 15.60 </ra>
+        <dec> 10 36 47.90 </dec>
+        <vmag> 2.72 </vmag>
+        <class> K3II </class>
+        <common_name> Tarazed </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6132 </HRnumber>
+        <name> 14Eta </name>
+        <constellation> Dra </constellation>
+        <ra> 16 23 59.50 </ra>
+        <dec> 61 30 51.10 </dec>
+        <vmag> 2.74 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6056 </HRnumber>
+        <name> 1Del </name>
+        <constellation> Oph </constellation>
+        <ra> 16 14 20.69 </ra>
+        <dec> -3 41 39.80 </dec>
+        <vmag> 2.74 </vmag>
+        <class> M0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5028 </HRnumber>
+        <name> Iot </name>
+        <constellation> Cen </constellation>
+        <ra> 13 20 35.81 </ra>
+        <dec> -36 42 43.90 </dec>
+        <vmag> 2.75 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5531 </HRnumber>
+        <name> 9Alp2 </name>
+        <constellation> Lib </constellation>
+        <ra> 14 50 52.70 </ra>
+        <dec> -16 2 30.10 </dec>
+        <vmag> 2.75 </vmag>
+        <class> A3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4199 </HRnumber>
+        <name> The </name>
+        <constellation> Car </constellation>
+        <ra> 10 42 57.41 </ra>
+        <dec> -64 23 39.80 </dec>
+        <vmag> 2.76 </vmag>
+        <class> B0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6148 </HRnumber>
+        <name> 27Bet </name>
+        <constellation> Her </constellation>
+        <ra> 16 30 13.20 </ra>
+        <dec> 21 29 22.90 </dec>
+        <vmag> 2.77 </vmag>
+        <class> G7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1899 </HRnumber>
+        <name> 44Iot </name>
+        <constellation> Ori </constellation>
+        <ra> 5 35 25.99 </ra>
+        <dec> -5 54 36.00 </dec>
+        <vmag> 2.77 </vmag>
+        <class> O9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6603 </HRnumber>
+        <name> 60Bet </name>
+        <constellation> Oph </constellation>
+        <ra> 17 43 28.39 </ra>
+        <dec> 4 34 1.90 </dec>
+        <vmag> 2.77 </vmag>
+        <class> K2III </class>
+        <common_name> Celbalrai </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 5776 </HRnumber>
+        <name> Gam </name>
+        <constellation> Lup </constellation>
+        <ra> 15 35 8.50 </ra>
+        <dec> -41 10 0.80 </dec>
+        <vmag> 2.78 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6536 </HRnumber>
+        <name> 23Bet </name>
+        <constellation> Dra </constellation>
+        <ra> 17 30 25.99 </ra>
+        <dec> 52 18 5.00 </dec>
+        <vmag> 2.79 </vmag>
+        <class> G2I </class>
+        <common_name> Rastaban </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1666 </HRnumber>
+        <name> 67Bet </name>
+        <constellation> Eri </constellation>
+        <ra> 5 7 51.00 </ra>
+        <dec> -5 5 11.00 </dec>
+        <vmag> 2.79 </vmag>
+        <class> A3III </class>
+    </star>
+
+    <star>
+        <HRnumber>   98 </HRnumber>
+        <name> Bet </name>
+        <constellation> Hyi </constellation>
+        <ra> 0 25 45.10 </ra>
+        <dec> -77 15 15.10 </dec>
+        <vmag> 2.80 </vmag>
+        <class> G2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4656 </HRnumber>
+        <name> Del </name>
+        <constellation> Cru </constellation>
+        <ra> 12 15 8.71 </ra>
+        <dec> -58 44 56.00 </dec>
+        <vmag> 2.80 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6913 </HRnumber>
+        <name> 22Lam </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 27 58.20 </ra>
+        <dec> -25 25 18.10 </dec>
+        <vmag> 2.81 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6212 </HRnumber>
+        <name> 40Zet </name>
+        <constellation> Her </constellation>
+        <ra> 16 41 17.21 </ra>
+        <dec> 31 36 11.20 </dec>
+        <vmag> 2.81 </vmag>
+        <class> G0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3185 </HRnumber>
+        <name> 15Rho </name>
+        <constellation> Pup </constellation>
+        <ra> 8 7 32.59 </ra>
+        <dec> -24 18 15.10 </dec>
+        <vmag> 2.81 </vmag>
+        <class> F6II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6165 </HRnumber>
+        <name> 23Tau </name>
+        <constellation> Sco </constellation>
+        <ra> 16 35 52.99 </ra>
+        <dec> -28 12 58.00 </dec>
+        <vmag> 2.82 </vmag>
+        <class> B0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4932 </HRnumber>
+        <name> 47Eps </name>
+        <constellation> Vir </constellation>
+        <ra> 13 2 10.61 </ra>
+        <dec> 10 57 33.10 </dec>
+        <vmag> 2.83 </vmag>
+        <class> G8III </class>
+        <common_name> Vindemiatrix </common_name>
+    </star>
+
+    <star>
+        <HRnumber>   39 </HRnumber>
+        <name> 88Gam </name>
+        <constellation> Peg </constellation>
+        <ra> 0 13 14.21 </ra>
+        <dec> 15 11 1.00 </dec>
+        <vmag> 2.83 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1829 </HRnumber>
+        <name> 9Bet </name>
+        <constellation> Lep </constellation>
+        <ra> 5 28 14.69 </ra>
+        <dec> -20 45 33.80 </dec>
+        <vmag> 2.84 </vmag>
+        <class> G5II </class>
+    </star>
+
+    <star>
+        <HRnumber> 1203 </HRnumber>
+        <name> 44Zet </name>
+        <constellation> Per </constellation>
+        <ra> 3 54 7.90 </ra>
+        <dec> 31 53 1.00 </dec>
+        <vmag> 2.85 </vmag>
+        <class> B1I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5897 </HRnumber>
+        <name> Bet </name>
+        <constellation> TrA </constellation>
+        <ra> 15 55 8.50 </ra>
+        <dec> -63 25 50.20 </dec>
+        <vmag> 2.85 </vmag>
+        <class> F2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6461 </HRnumber>
+        <name> Bet </name>
+        <constellation> Ara </constellation>
+        <ra> 17 25 18.00 </ra>
+        <dec> -55 31 48.00 </dec>
+        <vmag> 2.85 </vmag>
+        <class> K3I </class>
+    </star>
+
+    <star>
+        <HRnumber>  591 </HRnumber>
+        <name> Alp </name>
+        <constellation> Hyi </constellation>
+        <ra> 1 58 46.20 </ra>
+        <dec> -61 34 10.90 </dec>
+        <vmag> 2.86 </vmag>
+        <class> F0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8502 </HRnumber>
+        <name> Alp </name>
+        <constellation> Tuc </constellation>
+        <ra> 22 18 30.10 </ra>
+        <dec> -60 15 34.90 </dec>
+        <vmag> 2.86 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1165 </HRnumber>
+        <name> 25Eta </name>
+        <constellation> Tau </constellation>
+        <ra> 3 47 29.11 </ra>
+        <dec> 24 6 18.00 </dec>
+        <vmag> 2.87 </vmag>
+        <class> B7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7528 </HRnumber>
+        <name> 18Del </name>
+        <constellation> Cyg </constellation>
+        <ra> 19 44 58.49 </ra>
+        <dec> 45 7 50.90 </dec>
+        <vmag> 2.87 </vmag>
+        <class> B9IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 8322 </HRnumber>
+        <name> 49Del </name>
+        <constellation> Cap </constellation>
+        <ra> 21 47 2.40 </ra>
+        <dec> -16 7 37.90 </dec>
+        <vmag> 2.87 </vmag>
+        <class> A0 </class>
+        <common_name> Deneb_Algiedi </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2286 </HRnumber>
+        <name> 13Mu </name>
+        <constellation> Gem </constellation>
+        <ra> 6 22 57.60 </ra>
+        <dec> 22 30 49.00 </dec>
+        <vmag> 2.88 </vmag>
+        <class> M3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2890 </HRnumber>
+        <name> 66Alp </name>
+        <constellation> Gem </constellation>
+        <ra> 7 34 36.00 </ra>
+        <dec> 31 53 19.00 </dec>
+        <vmag> 2.88 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5944 </HRnumber>
+        <name> 6Pi </name>
+        <constellation> Sco </constellation>
+        <ra> 15 58 51.10 </ra>
+        <dec> -26 6 51.10 </dec>
+        <vmag> 2.89 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6084 </HRnumber>
+        <name> 20Sig </name>
+        <constellation> Sco </constellation>
+        <ra> 16 21 11.30 </ra>
+        <dec> -25 35 34.10 </dec>
+        <vmag> 2.89 </vmag>
+        <class> B1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7264 </HRnumber>
+        <name> 41Pi </name>
+        <constellation> Sgr </constellation>
+        <ra> 19 9 45.79 </ra>
+        <dec> -21 1 25.00 </dec>
+        <vmag> 2.89 </vmag>
+        <class> F2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 1220 </HRnumber>
+        <name> 45Eps </name>
+        <constellation> Per </constellation>
+        <ra> 3 57 51.19 </ra>
+        <dec> 40 0 37.10 </dec>
+        <vmag> 2.89 </vmag>
+        <class> B0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5671 </HRnumber>
+        <name> Gam </name>
+        <constellation> TrA </constellation>
+        <ra> 15 18 54.60 </ra>
+        <dec> -68 40 45.80 </dec>
+        <vmag> 2.89 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4915 </HRnumber>
+        <name> 12Alp2 </name>
+        <constellation> CVn </constellation>
+        <ra> 12 56 1.70 </ra>
+        <dec> 38 19 5.90 </dec>
+        <vmag> 2.90 </vmag>
+        <class> A0 </class>
+    </star>
+
+    <star>
+        <HRnumber> 2845 </HRnumber>
+        <name> 3Bet </name>
+        <constellation> CMi </constellation>
+        <ra> 7 27 9.00 </ra>
+        <dec> 8 17 21.80 </dec>
+        <vmag> 2.90 </vmag>
+        <class> B8V </class>
+        <common_name> Gomeisa </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 8232 </HRnumber>
+        <name> 22Bet </name>
+        <constellation> Aqr </constellation>
+        <ra> 21 31 33.50 </ra>
+        <dec> -5 34 16.00 </dec>
+        <vmag> 2.91 </vmag>
+        <class> G0I </class>
+        <common_name> Sadalsud </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2553 </HRnumber>
+        <name> Tau </name>
+        <constellation> Pup </constellation>
+        <ra> 6 49 56.21 </ra>
+        <dec> -50 36 52.90 </dec>
+        <vmag> 2.93 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber>  915 </HRnumber>
+        <name> 23Gam </name>
+        <constellation> Per </constellation>
+        <ra> 3 4 47.81 </ra>
+        <dec> 53 30 23.00 </dec>
+        <vmag> 2.93 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8650 </HRnumber>
+        <name> 44Eta </name>
+        <constellation> Peg </constellation>
+        <ra> 22 43 0.10 </ra>
+        <dec> 30 13 17.00 </dec>
+        <vmag> 2.94 </vmag>
+        <class> G2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6510 </HRnumber>
+        <name> Alp </name>
+        <constellation> Ara </constellation>
+        <ra> 17 31 50.50 </ra>
+        <dec> -49 52 34.00 </dec>
+        <vmag> 2.95 </vmag>
+        <class> B2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1231 </HRnumber>
+        <name> 34Gam </name>
+        <constellation> Eri </constellation>
+        <ra> 3 58 1.80 </ra>
+        <dec> -13 30 31.00 </dec>
+        <vmag> 2.95 </vmag>
+        <class> M0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4757 </HRnumber>
+        <name> 7Del </name>
+        <constellation> Crv </constellation>
+        <ra> 12 29 51.89 </ra>
+        <dec> -16 30 56.20 </dec>
+        <vmag> 2.95 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8414 </HRnumber>
+        <name> 34Alp </name>
+        <constellation> Aqr </constellation>
+        <ra> 22 5 46.99 </ra>
+        <dec> 0 19 10.90 </dec>
+        <vmag> 2.96 </vmag>
+        <class> G2I </class>
+        <common_name> Sadalmelik </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2473 </HRnumber>
+        <name> 27Eps </name>
+        <constellation> Gem </constellation>
+        <ra> 6 43 55.90 </ra>
+        <dec> 25 7 52.00 </dec>
+        <vmag> 2.98 </vmag>
+        <class> G8I </class>
+        <common_name> Mebsuta </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3873 </HRnumber>
+        <name> 17Eps </name>
+        <constellation> Leo </constellation>
+        <ra> 9 45 51.10 </ra>
+        <dec> 23 46 27.10 </dec>
+        <vmag> 2.98 </vmag>
+        <class> G1II </class>
+    </star>
+
+    <star>
+        <HRnumber> 7235 </HRnumber>
+        <name> 17Zet </name>
+        <constellation> Aql </constellation>
+        <ra> 19 5 24.60 </ra>
+        <dec> 13 51 47.90 </dec>
+        <vmag> 2.99 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6746 </HRnumber>
+        <name> 10Gam2 </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 5 48.50 </ra>
+        <dec> -30 25 27.10 </dec>
+        <vmag> 2.99 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1605 </HRnumber>
+        <name> 7Eps </name>
+        <constellation> Aur </constellation>
+        <ra> 5 1 58.10 </ra>
+        <dec> 43 49 23.90 </dec>
+        <vmag> 2.99 </vmag>
+        <class> F0I </class>
+    </star>
+
+    <star>
+        <HRnumber> 1910 </HRnumber>
+        <name> 123Zet </name>
+        <constellation> Tau </constellation>
+        <ra> 5 37 38.69 </ra>
+        <dec> 21 8 33.00 </dec>
+        <vmag> 3.00 </vmag>
+        <class> B4III </class>
+    </star>
+
+    <star>
+        <HRnumber>  622 </HRnumber>
+        <name> 4Bet </name>
+        <constellation> Tri </constellation>
+        <ra> 2 9 32.59 </ra>
+        <dec> 34 59 13.90 </dec>
+        <vmag> 3.00 </vmag>
+        <class> A5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5020 </HRnumber>
+        <name> 46Gam </name>
+        <constellation> Hya </constellation>
+        <ra> 13 18 55.30 </ra>
+        <dec> -23 10 18.10 </dec>
+        <vmag> 3.00 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4630 </HRnumber>
+        <name> 2Eps </name>
+        <constellation> Crv </constellation>
+        <ra> 12 10 7.49 </ra>
+        <dec> -22 37 10.90 </dec>
+        <vmag> 3.00 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8353 </HRnumber>
+        <name> Gam </name>
+        <constellation> Gru </constellation>
+        <ra> 21 53 55.70 </ra>
+        <dec> -37 21 54.00 </dec>
+        <vmag> 3.01 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1122 </HRnumber>
+        <name> 39Del </name>
+        <constellation> Per </constellation>
+        <ra> 3 42 55.51 </ra>
+        <dec> 47 47 15.00 </dec>
+        <vmag> 3.01 </vmag>
+        <class> B5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4335 </HRnumber>
+        <name> 52Psi </name>
+        <constellation> UMa </constellation>
+        <ra> 11 9 39.79 </ra>
+        <dec> 44 29 55.00 </dec>
+        <vmag> 3.01 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3890 </HRnumber>
+        <name> Ups </name>
+        <constellation> Car </constellation>
+        <ra> 9 47 6.10 </ra>
+        <dec> -65 4 18.80 </dec>
+        <vmag> 3.01 </vmag>
+        <class> A6I </class>
+    </star>
+
+    <star>
+        <HRnumber> 2282 </HRnumber>
+        <name> 1Zet </name>
+        <constellation> CMa </constellation>
+        <ra> 6 20 18.79 </ra>
+        <dec> -30 3 47.90 </dec>
+        <vmag> 3.02 </vmag>
+        <class> B2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2653 </HRnumber>
+        <name> 24Omi2 </name>
+        <constellation> CMa </constellation>
+        <ra> 7 3 1.49 </ra>
+        <dec> -23 49 59.90 </dec>
+        <vmag> 3.02 </vmag>
+        <class> B3I </class>
+    </star>
+
+    <star>
+        <HRnumber> 6615 </HRnumber>
+        <name> Iot1 </name>
+        <constellation> Sco </constellation>
+        <ra> 17 47 35.09 </ra>
+        <dec> -40 7 36.80 </dec>
+        <vmag> 3.03 </vmag>
+        <class> F2I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5435 </HRnumber>
+        <name> 27Gam </name>
+        <constellation> Boo </constellation>
+        <ra> 14 32 4.70 </ra>
+        <dec> 38 18 29.90 </dec>
+        <vmag> 3.03 </vmag>
+        <class> A7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5193 </HRnumber>
+        <name> Mu </name>
+        <constellation> Cen </constellation>
+        <ra> 13 49 37.01 </ra>
+        <dec> -42 28 26.00 </dec>
+        <vmag> 3.04 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  681 </HRnumber>
+        <name> 68Omi </name>
+        <constellation> Cet </constellation>
+        <ra> 2 19 20.71 </ra>
+        <dec> -2 58 39.00 </dec>
+        <vmag> 3.04 </vmag>
+        <class> M7III </class>
+        <common_name> Mira </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4069 </HRnumber>
+        <name> 34Mu </name>
+        <constellation> UMa </constellation>
+        <ra> 10 22 19.70 </ra>
+        <dec> 41 29 57.80 </dec>
+        <vmag> 3.05 </vmag>
+        <class> M0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5735 </HRnumber>
+        <name> 13Gam </name>
+        <constellation> UMi </constellation>
+        <ra> 15 20 43.70 </ra>
+        <dec> 71 50 2.00 </dec>
+        <vmag> 3.05 </vmag>
+        <class> A3II </class>
+    </star>
+
+    <star>
+        <HRnumber> 4844 </HRnumber>
+        <name> Bet </name>
+        <constellation> Mus </constellation>
+        <ra> 12 46 16.90 </ra>
+        <dec> -68 6 29.20 </dec>
+        <vmag> 3.05 </vmag>
+        <class> B2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7310 </HRnumber>
+        <name> 57Del </name>
+        <constellation> Dra </constellation>
+        <ra> 19 12 33.31 </ra>
+        <dec> 67 39 42.10 </dec>
+        <vmag> 3.07 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6247 </HRnumber>
+        <name> Mu1 </name>
+        <constellation> Sco </constellation>
+        <ra> 16 51 52.20 </ra>
+        <dec> -38 2 51.00 </dec>
+        <vmag> 3.08 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7417 </HRnumber>
+        <name> 6Bet1 </name>
+        <constellation> Cyg </constellation>
+        <ra> 19 30 43.30 </ra>
+        <dec> 27 57 34.90 </dec>
+        <vmag> 3.08 </vmag>
+        <class> K3II </class>
+        <common_name> Albireo </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7776 </HRnumber>
+        <name> 9Bet </name>
+        <constellation> Cap </constellation>
+        <ra> 20 21 0.70 </ra>
+        <dec> -14 46 53.00 </dec>
+        <vmag> 3.08 </vmag>
+        <class> F8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7869 </HRnumber>
+        <name> Alp </name>
+        <constellation> Ind </constellation>
+        <ra> 20 37 34.01 </ra>
+        <dec> -47 17 29.00 </dec>
+        <vmag> 3.11 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6832 </HRnumber>
+        <name> Eta </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 17 37.61 </ra>
+        <dec> -36 45 42.10 </dec>
+        <vmag> 3.11 </vmag>
+        <class> M3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4232 </HRnumber>
+        <name> Nu </name>
+        <constellation> Hya </constellation>
+        <ra> 10 49 37.49 </ra>
+        <dec> -16 11 37.00 </dec>
+        <vmag> 3.11 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3547 </HRnumber>
+        <name> 16Zet </name>
+        <constellation> Hya </constellation>
+        <ra> 8 55 23.59 </ra>
+        <dec> 5 56 44.20 </dec>
+        <vmag> 3.11 </vmag>
+        <class> G9II </class>
+    </star>
+
+    <star>
+        <HRnumber> 2040 </HRnumber>
+        <name> Bet </name>
+        <constellation> Col </constellation>
+        <ra> 5 50 57.60 </ra>
+        <dec> -35 46 5.90 </dec>
+        <vmag> 3.12 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5576 </HRnumber>
+        <name> Kap </name>
+        <constellation> Cen </constellation>
+        <ra> 14 59 9.70 </ra>
+        <dec> -42 6 15.10 </dec>
+        <vmag> 3.13 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3705 </HRnumber>
+        <name> 40Alp </name>
+        <constellation> Lyn </constellation>
+        <ra> 9 21 3.29 </ra>
+        <dec> 34 23 33.00 </dec>
+        <vmag> 3.13 </vmag>
+        <class> K7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4467 </HRnumber>
+        <name> Lam </name>
+        <constellation> Cen </constellation>
+        <ra> 11 35 46.80 </ra>
+        <dec> -63 1 10.90 </dec>
+        <vmag> 3.13 </vmag>
+        <class> B9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3803 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 9 31 13.30 </ra>
+        <dec> -57 2 3.80 </dec>
+        <vmag> 3.13 </vmag>
+        <class> K5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6285 </HRnumber>
+        <name> Zet </name>
+        <constellation> Ara </constellation>
+        <ra> 16 58 37.20 </ra>
+        <dec> -55 59 25.10 </dec>
+        <vmag> 3.13 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6410 </HRnumber>
+        <name> 65Del </name>
+        <constellation> Her </constellation>
+        <ra> 17 15 1.90 </ra>
+        <dec> 24 50 21.10 </dec>
+        <vmag> 3.14 </vmag>
+        <class> A3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3569 </HRnumber>
+        <name> 9Iot </name>
+        <constellation> UMa </constellation>
+        <ra> 8 59 12.41 </ra>
+        <dec> 48 2 30.10 </dec>
+        <vmag> 3.14 </vmag>
+        <class> A7IV </class>
+        <common_name> Talitha </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6418 </HRnumber>
+        <name> 67Pi </name>
+        <constellation> Her </constellation>
+        <ra> 17 15 2.81 </ra>
+        <dec> 36 48 33.10 </dec>
+        <vmag> 3.16 </vmag>
+        <class> K3II </class>
+    </star>
+
+    <star>
+        <HRnumber> 2451 </HRnumber>
+        <name> Nu </name>
+        <constellation> Pup </constellation>
+        <ra> 6 37 45.70 </ra>
+        <dec> -43 11 46.00 </dec>
+        <vmag> 3.17 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7039 </HRnumber>
+        <name> 27Phi </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 45 39.41 </ra>
+        <dec> -26 59 26.90 </dec>
+        <vmag> 3.17 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1641 </HRnumber>
+        <name> 10Eta </name>
+        <constellation> Aur </constellation>
+        <ra> 5 6 30.91 </ra>
+        <dec> 41 14 3.80 </dec>
+        <vmag> 3.17 </vmag>
+        <class> B3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3775 </HRnumber>
+        <name> 25The </name>
+        <constellation> UMa </constellation>
+        <ra> 9 32 51.41 </ra>
+        <dec> 51 40 37.90 </dec>
+        <vmag> 3.17 </vmag>
+        <class> F6IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6396 </HRnumber>
+        <name> 22Zet </name>
+        <constellation> Dra </constellation>
+        <ra> 17 8 47.21 </ra>
+        <dec> 65 42 52.90 </dec>
+        <vmag> 3.17 </vmag>
+        <class> B6III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1654 </HRnumber>
+        <name> 2Eps </name>
+        <constellation> Lep </constellation>
+        <ra> 5 5 27.70 </ra>
+        <dec> -22 22 16.00 </dec>
+        <vmag> 3.19 </vmag>
+        <class> K5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5463 </HRnumber>
+        <name> Alp </name>
+        <constellation> Cir </constellation>
+        <ra> 14 42 30.41 </ra>
+        <dec> -64 58 31.10 </dec>
+        <vmag> 3.19 </vmag>
+        <class> A0 </class>
+    </star>
+
+    <star>
+        <HRnumber> 1543 </HRnumber>
+        <name> 1Pi3 </name>
+        <constellation> Ori </constellation>
+        <ra> 4 49 50.40 </ra>
+        <dec> 6 57 41.00 </dec>
+        <vmag> 3.19 </vmag>
+        <class> F6V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6299 </HRnumber>
+        <name> 27Kap </name>
+        <constellation> Oph </constellation>
+        <ra> 16 57 40.10 </ra>
+        <dec> 9 22 30.00 </dec>
+        <vmag> 3.20 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8115 </HRnumber>
+        <name> 64Zet </name>
+        <constellation> Cyg </constellation>
+        <ra> 21 12 56.21 </ra>
+        <dec> 30 13 36.80 </dec>
+        <vmag> 3.20 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6630 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 17 49 51.50 </ra>
+        <dec> -37 2 35.90 </dec>
+        <vmag> 3.21 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8974 </HRnumber>
+        <name> 35Gam </name>
+        <constellation> Cep </constellation>
+        <ra> 23 39 20.81 </ra>
+        <dec> 77 37 57.00 </dec>
+        <vmag> 3.21 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5695 </HRnumber>
+        <name> Del </name>
+        <constellation> Lup </constellation>
+        <ra> 15 21 22.30 </ra>
+        <dec> -40 38 51.00 </dec>
+        <vmag> 3.22 </vmag>
+        <class> B1IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7710 </HRnumber>
+        <name> 65The </name>
+        <constellation> Aql </constellation>
+        <ra> 20 11 18.31 </ra>
+        <dec> 0 49 17.00 </dec>
+        <vmag> 3.23 </vmag>
+        <class> B9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8238 </HRnumber>
+        <name> 8Bet </name>
+        <constellation> Cep </constellation>
+        <ra> 21 28 39.60 </ra>
+        <dec> 70 33 38.90 </dec>
+        <vmag> 3.23 </vmag>
+        <class> B1IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  897 </HRnumber>
+        <name> The1 </name>
+        <constellation> Eri </constellation>
+        <ra> 2 58 15.70 </ra>
+        <dec> -40 18 16.90 </dec>
+        <vmag> 3.24 </vmag>
+        <class> A4III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7178 </HRnumber>
+        <name> 14Gam </name>
+        <constellation> Lyr </constellation>
+        <ra> 18 58 56.59 </ra>
+        <dec> 32 41 21.80 </dec>
+        <vmag> 3.24 </vmag>
+        <class> B9III </class>
+        <common_name> Sulaphat </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1208 </HRnumber>
+        <name> Gam </name>
+        <constellation> Hyi </constellation>
+        <ra> 3 47 14.30 </ra>
+        <dec> -74 14 20.00 </dec>
+        <vmag> 3.24 </vmag>
+        <class> M2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6075 </HRnumber>
+        <name> 2Eps </name>
+        <constellation> Oph </constellation>
+        <ra> 16 18 19.30 </ra>
+        <dec> -4 41 33.00 </dec>
+        <vmag> 3.24 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2878 </HRnumber>
+        <name> Sig </name>
+        <constellation> Pup </constellation>
+        <ra> 7 29 13.80 </ra>
+        <dec> -43 18 5.00 </dec>
+        <vmag> 3.25 </vmag>
+        <class> K5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6869 </HRnumber>
+        <name> 58Eta </name>
+        <constellation> Ser </constellation>
+        <ra> 18 21 18.60 </ra>
+        <dec> -2 53 56.00 </dec>
+        <vmag> 3.26 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber>  165 </HRnumber>
+        <name> 31Del </name>
+        <constellation> And </constellation>
+        <ra> 0 39 19.70 </ra>
+        <dec> 30 51 38.90 </dec>
+        <vmag> 3.27 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5287 </HRnumber>
+        <name> 49Pi </name>
+        <constellation> Hya </constellation>
+        <ra> 14 6 22.30 </ra>
+        <dec> -26 40 57.00 </dec>
+        <vmag> 3.27 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6453 </HRnumber>
+        <name> 42The </name>
+        <constellation> Oph </constellation>
+        <ra> 17 22 0.60 </ra>
+        <dec> -24 59 57.80 </dec>
+        <vmag> 3.27 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 8709 </HRnumber>
+        <name> 76Del </name>
+        <constellation> Aqr </constellation>
+        <ra> 22 54 39.00 </ra>
+        <dec> -15 49 14.90 </dec>
+        <vmag> 3.27 </vmag>
+        <class> A3V </class>
+        <common_name> Skat </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 2550 </HRnumber>
+        <name> Alp </name>
+        <constellation> Pic </constellation>
+        <ra> 6 48 11.40 </ra>
+        <dec> -61 56 29.00 </dec>
+        <vmag> 3.27 </vmag>
+        <class> A7IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1465 </HRnumber>
+        <name> Alp </name>
+        <constellation> Dor </constellation>
+        <ra> 4 33 59.81 </ra>
+        <dec> -55 2 42.00 </dec>
+        <vmag> 3.27 </vmag>
+        <class> A0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2216 </HRnumber>
+        <name> 7Eta </name>
+        <constellation> Gem </constellation>
+        <ra> 6 14 52.61 </ra>
+        <dec> 22 30 24.10 </dec>
+        <vmag> 3.28 </vmag>
+        <class> M3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5603 </HRnumber>
+        <name> 20Sig </name>
+        <constellation> Lib </constellation>
+        <ra> 15 4 4.20 </ra>
+        <dec> -25 16 54.80 </dec>
+        <vmag> 3.29 </vmag>
+        <class> M3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5744 </HRnumber>
+        <name> 12Iot </name>
+        <constellation> Dra </constellation>
+        <ra> 15 24 55.80 </ra>
+        <dec> 58 57 58.00 </dec>
+        <vmag> 3.29 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber>  322 </HRnumber>
+        <name> Bet </name>
+        <constellation> Phe </constellation>
+        <ra> 1 6 4.99 </ra>
+        <dec> -46 43 7.00 </dec>
+        <vmag> 3.31 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1702 </HRnumber>
+        <name> 5Mu </name>
+        <constellation> Lep </constellation>
+        <ra> 5 12 55.90 </ra>
+        <dec> -16 12 20.20 </dec>
+        <vmag> 3.31 </vmag>
+        <class> B9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4660 </HRnumber>
+        <name> 69Del </name>
+        <constellation> UMa </constellation>
+        <ra> 12 15 25.61 </ra>
+        <dec> 57 1 57.00 </dec>
+        <vmag> 3.31 </vmag>
+        <class> A3V </class>
+        <common_name> Megrez </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 7234 </HRnumber>
+        <name> 40Tau </name>
+        <constellation> Sgr </constellation>
+        <ra> 19 6 56.40 </ra>
+        <dec> -27 40 14.20 </dec>
+        <vmag> 3.32 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4037 </HRnumber>
+        <name> Ome </name>
+        <constellation> Car </constellation>
+        <ra> 10 13 44.21 </ra>
+        <dec> -70 2 17.20 </dec>
+        <vmag> 3.32 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4140 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 10 32 1.39 </ra>
+        <dec> -61 41 7.10 </dec>
+        <vmag> 3.32 </vmag>
+        <class> B4V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6380 </HRnumber>
+        <name> Eta </name>
+        <constellation> Sco </constellation>
+        <ra> 17 12 9.19 </ra>
+        <dec> -43 14 21.10 </dec>
+        <vmag> 3.33 </vmag>
+        <class> F3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4359 </HRnumber>
+        <name> 70The </name>
+        <constellation> Leo </constellation>
+        <ra> 11 14 14.40 </ra>
+        <dec> 15 25 45.80 </dec>
+        <vmag> 3.34 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3045 </HRnumber>
+        <name> 7Xi </name>
+        <constellation> Pup </constellation>
+        <ra> 7 49 17.71 </ra>
+        <dec> -24 51 34.90 </dec>
+        <vmag> 3.34 </vmag>
+        <class> G6I </class>
+    </star>
+
+    <star>
+        <HRnumber> 6698 </HRnumber>
+        <name> 64Nu </name>
+        <constellation> Oph </constellation>
+        <ra> 17 59 1.61 </ra>
+        <dec> -9 46 25.00 </dec>
+        <vmag> 3.34 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6462 </HRnumber>
+        <name> Gam </name>
+        <constellation> Ara </constellation>
+        <ra> 17 25 23.59 </ra>
+        <dec> -56 22 39.00 </dec>
+        <vmag> 3.34 </vmag>
+        <class> B1I </class>
+    </star>
+
+    <star>
+        <HRnumber> 8465 </HRnumber>
+        <name> 21Zet </name>
+        <constellation> Cep </constellation>
+        <ra> 22 10 51.29 </ra>
+        <dec> 58 12 4.00 </dec>
+        <vmag> 3.35 </vmag>
+        <class> K1I </class>
+    </star>
+
+    <star>
+        <HRnumber> 1336 </HRnumber>
+        <name> Alp </name>
+        <constellation> Ret </constellation>
+        <ra> 4 14 25.51 </ra>
+        <dec> -62 28 26.00 </dec>
+        <vmag> 3.35 </vmag>
+        <class> G8II </class>
+    </star>
+
+    <star>
+        <HRnumber> 2484 </HRnumber>
+        <name> 31Xi </name>
+        <constellation> Gem </constellation>
+        <ra> 6 45 17.40 </ra>
+        <dec> 12 53 44.20 </dec>
+        <vmag> 3.36 </vmag>
+        <class> F5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1788 </HRnumber>
+        <name> 28Eta </name>
+        <constellation> Ori </constellation>
+        <ra> 5 24 28.61 </ra>
+        <dec> -2 23 48.80 </dec>
+        <vmag> 3.36 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3323 </HRnumber>
+        <name> 1Omi </name>
+        <constellation> UMa </constellation>
+        <ra> 8 30 15.91 </ra>
+        <dec> 60 43 5.20 </dec>
+        <vmag> 3.36 </vmag>
+        <class> G5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7377 </HRnumber>
+        <name> 30Del </name>
+        <constellation> Aql </constellation>
+        <ra> 19 25 29.90 </ra>
+        <dec> 3 6 52.90 </dec>
+        <vmag> 3.36 </vmag>
+        <class> F3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5708 </HRnumber>
+        <name> Eps </name>
+        <constellation> Lup </constellation>
+        <ra> 15 22 40.90 </ra>
+        <dec> -44 41 21.80 </dec>
+        <vmag> 3.37 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5107 </HRnumber>
+        <name> 79Zet </name>
+        <constellation> Vir </constellation>
+        <ra> 13 34 41.59 </ra>
+        <dec> 0 35 44.90 </dec>
+        <vmag> 3.37 </vmag>
+        <class> A3V </class>
+    </star>
+
+    <star>
+        <HRnumber>  542 </HRnumber>
+        <name> 45Eps </name>
+        <constellation> Cas </constellation>
+        <ra> 1 54 23.69 </ra>
+        <dec> 63 40 12.00 </dec>
+        <vmag> 3.38 </vmag>
+        <class> B3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4910 </HRnumber>
+        <name> 43Del </name>
+        <constellation> Vir </constellation>
+        <ra> 12 55 36.19 </ra>
+        <dec> 3 23 51.00 </dec>
+        <vmag> 3.38 </vmag>
+        <class> M3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3482 </HRnumber>
+        <name> 11Eps </name>
+        <constellation> Hya </constellation>
+        <ra> 8 46 46.61 </ra>
+        <dec> 6 25 8.00 </dec>
+        <vmag> 3.38 </vmag>
+        <class> G5III </class>
+    </star>
+
+    <star>
+        <HRnumber>  921 </HRnumber>
+        <name> 25Rho </name>
+        <constellation> Per </constellation>
+        <ra> 3 5 10.61 </ra>
+        <dec> 38 50 25.10 </dec>
+        <vmag> 3.39 </vmag>
+        <class> M4II </class>
+    </star>
+
+    <star>
+        <HRnumber> 8634 </HRnumber>
+        <name> 42Zet </name>
+        <constellation> Peg </constellation>
+        <ra> 22 41 27.70 </ra>
+        <dec> 10 49 53.00 </dec>
+        <vmag> 3.40 </vmag>
+        <class> B8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1412 </HRnumber>
+        <name> 78The2 </name>
+        <constellation> Tau </constellation>
+        <ra> 4 28 39.70 </ra>
+        <dec> 15 52 14.90 </dec>
+        <vmag> 3.40 </vmag>
+        <class> A7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4050 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 10 17 4.99 </ra>
+        <dec> -61 19 55.90 </dec>
+        <vmag> 3.40 </vmag>
+        <class> K3II </class>
+    </star>
+
+    <star>
+        <HRnumber> 5649 </HRnumber>
+        <name> Zet </name>
+        <constellation> Lup </constellation>
+        <ra> 15 12 17.09 </ra>
+        <dec> -52 5 57.10 </dec>
+        <vmag> 3.41 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5190 </HRnumber>
+        <name> Nu </name>
+        <constellation> Cen </constellation>
+        <ra> 13 49 30.31 </ra>
+        <dec> -41 41 16.10 </dec>
+        <vmag> 3.41 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  429 </HRnumber>
+        <name> Gam </name>
+        <constellation> Phe </constellation>
+        <ra> 1 28 21.89 </ra>
+        <dec> -43 19 5.90 </dec>
+        <vmag> 3.41 </vmag>
+        <class> M0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5948 </HRnumber>
+        <name> Eta </name>
+        <constellation> Lup </constellation>
+        <ra> 16 0 7.30 </ra>
+        <dec> -38 23 48.80 </dec>
+        <vmag> 3.41 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  544 </HRnumber>
+        <name> 2Alp </name>
+        <constellation> Tri </constellation>
+        <ra> 1 53 4.90 </ra>
+        <dec> 29 34 44.00 </dec>
+        <vmag> 3.41 </vmag>
+        <class> F6IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6623 </HRnumber>
+        <name> 86Mu </name>
+        <constellation> Her </constellation>
+        <ra> 17 46 27.50 </ra>
+        <dec> 27 43 14.20 </dec>
+        <vmag> 3.42 </vmag>
+        <class> G5IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7913 </HRnumber>
+        <name> Bet </name>
+        <constellation> Pav </constellation>
+        <ra> 20 44 57.50 </ra>
+        <dec> -66 12 11.20 </dec>
+        <vmag> 3.42 </vmag>
+        <class> A7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7957 </HRnumber>
+        <name> 3Eta </name>
+        <constellation> Cep </constellation>
+        <ra> 20 45 17.40 </ra>
+        <dec> 61 50 20.00 </dec>
+        <vmag> 3.43 </vmag>
+        <class> K0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4031 </HRnumber>
+        <name> 36Zet </name>
+        <constellation> Leo </constellation>
+        <ra> 10 16 41.40 </ra>
+        <dec> 23 25 1.90 </dec>
+        <vmag> 3.44 </vmag>
+        <class> F0III </class>
+    </star>
+
+    <star>
+        <HRnumber>  219 </HRnumber>
+        <name> 24Eta </name>
+        <constellation> Cas </constellation>
+        <ra> 0 49 6.00 </ra>
+        <dec> 57 48 56.90 </dec>
+        <vmag> 3.44 </vmag>
+        <class> F9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7236 </HRnumber>
+        <name> 16Lam </name>
+        <constellation> Aql </constellation>
+        <ra> 19 6 14.90 </ra>
+        <dec> -4 52 57.00 </dec>
+        <vmag> 3.44 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3659 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 9 10 58.01 </ra>
+        <dec> -58 58 0.80 </dec>
+        <vmag> 3.44 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7106 </HRnumber>
+        <name> 10Bet </name>
+        <constellation> Lyr </constellation>
+        <ra> 18 50 4.80 </ra>
+        <dec> 33 21 46.10 </dec>
+        <vmag> 3.45 </vmag>
+        <class> B8II </class>
+        <common_name> Sheliak </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4033 </HRnumber>
+        <name> 33Lam </name>
+        <constellation> UMa </constellation>
+        <ra> 10 17 5.81 </ra>
+        <dec> 42 54 51.80 </dec>
+        <vmag> 3.45 </vmag>
+        <class> A2IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  334 </HRnumber>
+        <name> 31Eta </name>
+        <constellation> Cet </constellation>
+        <ra> 1 8 35.40 </ra>
+        <dec> -10 10 55.90 </dec>
+        <vmag> 3.45 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3117 </HRnumber>
+        <name> Chi </name>
+        <constellation> Car </constellation>
+        <ra> 7 56 46.70 </ra>
+        <dec> -52 58 55.90 </dec>
+        <vmag> 3.47 </vmag>
+        <class> B3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1239 </HRnumber>
+        <name> 35Lam </name>
+        <constellation> Tau </constellation>
+        <ra> 4 0 40.80 </ra>
+        <dec> 12 29 25.10 </dec>
+        <vmag> 3.47 </vmag>
+        <class> B3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7635 </HRnumber>
+        <name> 12Gam </name>
+        <constellation> Sge </constellation>
+        <ra> 19 58 45.41 </ra>
+        <dec> 19 29 31.90 </dec>
+        <vmag> 3.47 </vmag>
+        <class> M0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5681 </HRnumber>
+        <name> 49Del </name>
+        <constellation> Boo </constellation>
+        <ra> 15 15 30.19 </ra>
+        <dec> 33 18 52.90 </dec>
+        <vmag> 3.47 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2646 </HRnumber>
+        <name> 22Sig </name>
+        <constellation> CMa </constellation>
+        <ra> 7 1 43.10 </ra>
+        <dec> -27 56 4.90 </dec>
+        <vmag> 3.47 </vmag>
+        <class> K7I </class>
+    </star>
+
+    <star>
+        <HRnumber>  804 </HRnumber>
+        <name> 86Gam </name>
+        <constellation> Cet </constellation>
+        <ra> 2 43 18.00 </ra>
+        <dec> 3 14 8.90 </dec>
+        <vmag> 3.47 </vmag>
+        <class> A3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6406 </HRnumber>
+        <name> 64Alp1 </name>
+        <constellation> Her </constellation>
+        <ra> 17 14 38.90 </ra>
+        <dec> 14 23 25.10 </dec>
+        <vmag> 3.48 </vmag>
+        <class> M5I </class>
+    </star>
+
+    <star>
+        <HRnumber> 8684 </HRnumber>
+        <name> 48Mu </name>
+        <constellation> Peg </constellation>
+        <ra> 22 50 0.19 </ra>
+        <dec> 24 36 6.10 </dec>
+        <vmag> 3.48 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4377 </HRnumber>
+        <name> 54Nu </name>
+        <constellation> UMa </constellation>
+        <ra> 11 18 28.70 </ra>
+        <dec> 33 5 39.10 </dec>
+        <vmag> 3.48 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8675 </HRnumber>
+        <name> Eps </name>
+        <constellation> Gru </constellation>
+        <ra> 22 48 33.31 </ra>
+        <dec> -51 19 0.80 </dec>
+        <vmag> 3.49 </vmag>
+        <class> A3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5602 </HRnumber>
+        <name> 42Bet </name>
+        <constellation> Boo </constellation>
+        <ra> 15 1 56.81 </ra>
+        <dec> 40 23 26.20 </dec>
+        <vmag> 3.50 </vmag>
+        <class> G8III </class>
+        <common_name> Nekkar </common_name>
+    </star>
+
+    <star>
+        <HRnumber>  509 </HRnumber>
+        <name> 52Tau </name>
+        <constellation> Cet </constellation>
+        <ra> 1 44 4.10 </ra>
+        <dec> -15 56 15.00 </dec>
+        <vmag> 3.50 </vmag>
+        <class> G8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6897 </HRnumber>
+        <name> Alp </name>
+        <constellation> Tel </constellation>
+        <ra> 18 26 58.39 </ra>
+        <dec> -45 58 5.90 </dec>
+        <vmag> 3.51 </vmag>
+        <class> B3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7150 </HRnumber>
+        <name> 37Xi </name>
+        <constellation> 2Sgr </constellation>
+        <ra> 18 57 43.80 </ra>
+        <dec> -21 6 24.10 </dec>
+        <vmag> 3.51 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3249 </HRnumber>
+        <name> 17Bet </name>
+        <constellation> Cnc </constellation>
+        <ra> 8 16 30.91 </ra>
+        <dec> 9 11 8.20 </dec>
+        <vmag> 3.52 </vmag>
+        <class> K4III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3852 </HRnumber>
+        <name> 14Omi </name>
+        <constellation> Leo </constellation>
+        <ra> 9 41 9.00 </ra>
+        <dec> 9 53 31.90 </dec>
+        <vmag> 3.52 </vmag>
+        <class> F6II </class>
+    </star>
+
+    <star>
+        <HRnumber> 3975 </HRnumber>
+        <name> 30Eta </name>
+        <constellation> Leo </constellation>
+        <ra> 10 7 19.99 </ra>
+        <dec> 16 45 46.10 </dec>
+        <vmag> 3.52 </vmag>
+        <class> A0I </class>
+    </star>
+
+    <star>
+        <HRnumber> 8694 </HRnumber>
+        <name> 32Iot </name>
+        <constellation> Cep </constellation>
+        <ra> 22 49 40.80 </ra>
+        <dec> 66 12 2.20 </dec>
+        <vmag> 3.52 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1409 </HRnumber>
+        <name> 74Eps </name>
+        <constellation> Tau </constellation>
+        <ra> 4 28 37.01 </ra>
+        <dec> 19 10 49.10 </dec>
+        <vmag> 3.53 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2777 </HRnumber>
+        <name> 55Del </name>
+        <constellation> Gem </constellation>
+        <ra> 7 20 7.39 </ra>
+        <dec> 21 58 55.90 </dec>
+        <vmag> 3.53 </vmag>
+        <class> F2IV </class>
+        <common_name> Wasat </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 6220 </HRnumber>
+        <name> 44Eta </name>
+        <constellation> Her </constellation>
+        <ra> 16 42 53.81 </ra>
+        <dec> 38 55 19.90 </dec>
+        <vmag> 3.53 </vmag>
+        <class> G7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5881 </HRnumber>
+        <name> 32Mu </name>
+        <constellation> Ser </constellation>
+        <ra> 15 49 37.20 </ra>
+        <dec> -3 25 49.10 </dec>
+        <vmag> 3.53 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8450 </HRnumber>
+        <name> 26The </name>
+        <constellation> Peg </constellation>
+        <ra> 22 10 12.00 </ra>
+        <dec> 6 11 52.10 </dec>
+        <vmag> 3.53 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1879 </HRnumber>
+        <name> 39Lam </name>
+        <constellation> Ori </constellation>
+        <ra> 5 35 8.30 </ra>
+        <dec> 9 56 3.10 </dec>
+        <vmag> 3.54 </vmag>
+        <class> O8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4450 </HRnumber>
+        <name> Xi </name>
+        <constellation> Hya </constellation>
+        <ra> 11 33 0.10 </ra>
+        <dec> -31 51 28.10 </dec>
+        <vmag> 3.54 </vmag>
+        <class> G7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6561 </HRnumber>
+        <name> 55Xi </name>
+        <constellation> Ser </constellation>
+        <ra> 17 37 35.21 </ra>
+        <dec> -15 23 55.00 </dec>
+        <vmag> 3.54 </vmag>
+        <class> F0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1136 </HRnumber>
+        <name> 23Del </name>
+        <constellation> Eri </constellation>
+        <ra> 3 43 14.90 </ra>
+        <dec> -9 45 47.90 </dec>
+        <vmag> 3.54 </vmag>
+        <class> K0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3940 </HRnumber>
+        <name> Phi </name>
+        <constellation> Vel </constellation>
+        <ra> 9 56 51.79 </ra>
+        <dec> -54 34 4.10 </dec>
+        <vmag> 3.54 </vmag>
+        <class> B5I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5354 </HRnumber>
+        <name> Iot </name>
+        <constellation> Lup </constellation>
+        <ra> 14 19 24.19 </ra>
+        <dec> -46 3 28.10 </dec>
+        <vmag> 3.55 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1998 </HRnumber>
+        <name> 14Zet </name>
+        <constellation> Lep </constellation>
+        <ra> 5 46 57.29 </ra>
+        <dec> -14 49 18.80 </dec>
+        <vmag> 3.55 </vmag>
+        <class> A3V </class>
+    </star>
+
+    <star>
+        <HRnumber>  674 </HRnumber>
+        <name> Phi </name>
+        <constellation> Eri </constellation>
+        <ra> 2 16 30.60 </ra>
+        <dec> -51 30 43.90 </dec>
+        <vmag> 3.56 </vmag>
+        <class> B8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1347 </HRnumber>
+        <name> 41Ups4 </name>
+        <constellation> Eri </constellation>
+        <ra> 4 17 53.69 </ra>
+        <dec> -33 47 53.90 </dec>
+        <vmag> 3.56 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5705 </HRnumber>
+        <name> Phi1 </name>
+        <constellation> Lup </constellation>
+        <ra> 15 21 48.41 </ra>
+        <dec> -36 15 41.00 </dec>
+        <vmag> 3.56 </vmag>
+        <class> K5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4382 </HRnumber>
+        <name> 12Del </name>
+        <constellation> Crt </constellation>
+        <ra> 11 19 20.50 </ra>
+        <dec> -14 46 43.00 </dec>
+        <vmag> 3.56 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber>   74 </HRnumber>
+        <name> 8Iot </name>
+        <constellation> Cet </constellation>
+        <ra> 0 19 25.70 </ra>
+        <dec> -8 49 26.00 </dec>
+        <vmag> 3.56 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7665 </HRnumber>
+        <name> Del </name>
+        <constellation> Pav </constellation>
+        <ra> 20 8 43.61 </ra>
+        <dec> -66 10 54.80 </dec>
+        <vmag> 3.56 </vmag>
+        <class> G6IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6252 </HRnumber>
+        <name> Mu2 </name>
+        <constellation> Sco </constellation>
+        <ra> 16 52 20.11 </ra>
+        <dec> -38 1 3.00 </dec>
+        <vmag> 3.57 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2985 </HRnumber>
+        <name> 77Kap </name>
+        <constellation> Gem </constellation>
+        <ra> 7 44 26.81 </ra>
+        <dec> 24 23 53.20 </dec>
+        <vmag> 3.57 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber>  464 </HRnumber>
+        <name> 51 </name>
+        <constellation> And </constellation>
+        <ra> 1 37 59.59 </ra>
+        <dec> 48 37 41.90 </dec>
+        <vmag> 3.57 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7754 </HRnumber>
+        <name> 6Alp2 </name>
+        <constellation> Cap </constellation>
+        <ra> 20 18 3.31 </ra>
+        <dec> -12 32 40.90 </dec>
+        <vmag> 3.57 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6927 </HRnumber>
+        <name> 44Chi </name>
+        <constellation> Dra </constellation>
+        <ra> 18 21 3.41 </ra>
+        <dec> 72 43 58.10 </dec>
+        <vmag> 3.57 </vmag>
+        <class> F7V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2763 </HRnumber>
+        <name> 54Lam </name>
+        <constellation> Gem </constellation>
+        <ra> 7 18 5.59 </ra>
+        <dec> 16 32 25.10 </dec>
+        <vmag> 3.58 </vmag>
+        <class> A3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5429 </HRnumber>
+        <name> 25Rho </name>
+        <constellation> Boo </constellation>
+        <ra> 14 31 49.80 </ra>
+        <dec> 30 22 17.00 </dec>
+        <vmag> 3.58 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5794 </HRnumber>
+        <name> 39Ups </name>
+        <constellation> Lib </constellation>
+        <ra> 15 37 1.51 </ra>
+        <dec> -28 8 6.00 </dec>
+        <vmag> 3.58 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4700 </HRnumber>
+        <name> Eps </name>
+        <constellation> Cru </constellation>
+        <ra> 12 21 21.60 </ra>
+        <dec> -60 24 4.00 </dec>
+        <vmag> 3.59 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1030 </HRnumber>
+        <name> 1Omi </name>
+        <constellation> Tau </constellation>
+        <ra> 3 24 48.79 </ra>
+        <dec> 9 1 44.00 </dec>
+        <vmag> 3.60 </vmag>
+        <class> G6III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3786 </HRnumber>
+        <name> Psi </name>
+        <constellation> Vel </constellation>
+        <ra> 9 30 42.00 </ra>
+        <dec> -40 28 0.10 </dec>
+        <vmag> 3.60 </vmag>
+        <class> F3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2540 </HRnumber>
+        <name> 34The </name>
+        <constellation> Gem </constellation>
+        <ra> 6 52 47.30 </ra>
+        <dec> 33 57 40.00 </dec>
+        <vmag> 3.60 </vmag>
+        <class> A3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1983 </HRnumber>
+        <name> 13Gam </name>
+        <constellation> Lep </constellation>
+        <ra> 5 44 27.79 </ra>
+        <dec> -22 26 53.90 </dec>
+        <vmag> 3.60 </vmag>
+        <class> F6V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3594 </HRnumber>
+        <name> 12Kap </name>
+        <constellation> UMa </constellation>
+        <ra> 9 3 37.49 </ra>
+        <dec> 47 9 24.10 </dec>
+        <vmag> 3.60 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1735 </HRnumber>
+        <name> 20Tau </name>
+        <constellation> Ori </constellation>
+        <ra> 5 17 36.41 </ra>
+        <dec> -6 50 39.80 </dec>
+        <vmag> 3.60 </vmag>
+        <class> B5III </class>
+    </star>
+
+    <star>
+        <HRnumber>  402 </HRnumber>
+        <name> 45The </name>
+        <constellation> Cet </constellation>
+        <ra> 1 24 1.39 </ra>
+        <dec> -8 10 59.90 </dec>
+        <vmag> 3.60 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3017 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 7 45 15.31 </ra>
+        <dec> -37 58 7.00 </dec>
+        <vmag> 3.61 </vmag>
+        <class> K2I </class>
+    </star>
+
+    <star>
+        <HRnumber> 3994 </HRnumber>
+        <name> 41Lam </name>
+        <constellation> Hya </constellation>
+        <ra> 10 10 35.30 </ra>
+        <dec> -12 21 15.10 </dec>
+        <vmag> 3.61 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4540 </HRnumber>
+        <name> 5Bet </name>
+        <constellation> Vir </constellation>
+        <ra> 11 50 41.71 </ra>
+        <dec> 1 45 52.90 </dec>
+        <vmag> 3.61 </vmag>
+        <class> F9V </class>
+        <common_name> Zawijah </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 3447 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 8 40 17.59 </ra>
+        <dec> -52 55 18.80 </dec>
+        <vmag> 3.62 </vmag>
+        <class> B3IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  437 </HRnumber>
+        <name> 99Eta </name>
+        <constellation> Psc </constellation>
+        <ra> 1 31 28.99 </ra>
+        <dec> 15 20 44.90 </dec>
+        <vmag> 3.62 </vmag>
+        <class> G7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6271 </HRnumber>
+        <name> Zet2 </name>
+        <constellation> Sco </constellation>
+        <ra> 16 54 34.99 </ra>
+        <dec> -42 21 41.00 </dec>
+        <vmag> 3.62 </vmag>
+        <class> K4III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8762 </HRnumber>
+        <name> 1Omi </name>
+        <constellation> And </constellation>
+        <ra> 23 1 55.30 </ra>
+        <dec> 42 19 34.00 </dec>
+        <vmag> 3.62 </vmag>
+        <class> B6III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4923 </HRnumber>
+        <name> Del </name>
+        <constellation> Mus </constellation>
+        <ra> 13 2 16.20 </ra>
+        <dec> -71 32 56.00 </dec>
+        <vmag> 3.62 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6582 </HRnumber>
+        <name> Eta </name>
+        <constellation> Pav </constellation>
+        <ra> 17 45 43.99 </ra>
+        <dec> -64 43 26.00 </dec>
+        <vmag> 3.62 </vmag>
+        <class> K2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6500 </HRnumber>
+        <name> Del </name>
+        <constellation> Ara </constellation>
+        <ra> 17 31 5.90 </ra>
+        <dec> -60 41 2.00 </dec>
+        <vmag> 3.62 </vmag>
+        <class> B8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7882 </HRnumber>
+        <name> 6Bet </name>
+        <constellation> Del </constellation>
+        <ra> 20 37 33.00 </ra>
+        <dec> 14 35 43.10 </dec>
+        <vmag> 3.63 </vmag>
+        <class> F5IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 1178 </HRnumber>
+        <name> 27 </name>
+        <constellation> Tau </constellation>
+        <ra> 3 49 9.70 </ra>
+        <dec> 24 3 11.90 </dec>
+        <vmag> 3.63 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber>  838 </HRnumber>
+        <name> 41 </name>
+        <constellation> Ari </constellation>
+        <ra> 2 49 58.99 </ra>
+        <dec> 27 15 38.20 </dec>
+        <vmag> 3.63 </vmag>
+        <class> B8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4520 </HRnumber>
+        <name> Lam </name>
+        <constellation> Mus </constellation>
+        <ra> 11 45 36.41 </ra>
+        <dec> -66 43 43.00 </dec>
+        <vmag> 3.64 </vmag>
+        <class> A7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1346 </HRnumber>
+        <name> 54Gam </name>
+        <constellation> Tau </constellation>
+        <ra> 4 19 47.59 </ra>
+        <dec> 15 37 39.00 </dec>
+        <vmag> 3.65 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5291 </HRnumber>
+        <name> 11Alp </name>
+        <constellation> Dra </constellation>
+        <ra> 14 4 23.30 </ra>
+        <dec> 64 22 32.90 </dec>
+        <vmag> 3.65 </vmag>
+        <class> A0III </class>
+        <common_name> Thuban </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4825 </HRnumber>
+        <name> 29Gam </name>
+        <constellation> Vir </constellation>
+        <ra> 12 41 39.60 </ra>
+        <dec> -1 26 57.80 </dec>
+        <vmag> 3.65 </vmag>
+        <class> F0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7986 </HRnumber>
+        <name> Bet </name>
+        <constellation> Ind </constellation>
+        <ra> 20 54 48.60 </ra>
+        <dec> -58 27 15.10 </dec>
+        <vmag> 3.65 </vmag>
+        <class> K1II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6743 </HRnumber>
+        <name> The </name>
+        <constellation> Ara </constellation>
+        <ra> 18 6 37.90 </ra>
+        <dec> -50 5 30.10 </dec>
+        <vmag> 3.66 </vmag>
+        <class> B2I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5812 </HRnumber>
+        <name> 40Tau </name>
+        <constellation> Lib </constellation>
+        <ra> 15 38 39.41 </ra>
+        <dec> -29 46 40.10 </dec>
+        <vmag> 3.66 </vmag>
+        <class> B2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8812 </HRnumber>
+        <name> 88 </name>
+        <constellation> Aqr </constellation>
+        <ra> 23 9 26.81 </ra>
+        <dec> -21 10 21.00 </dec>
+        <vmag> 3.66 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber>  153 </HRnumber>
+        <name> 17Zet </name>
+        <constellation> Cas </constellation>
+        <ra> 0 36 58.30 </ra>
+        <dec> 53 53 48.80 </dec>
+        <vmag> 3.66 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5867 </HRnumber>
+        <name> 28Bet </name>
+        <constellation> Ser </constellation>
+        <ra> 15 46 11.30 </ra>
+        <dec> 15 25 18.80 </dec>
+        <vmag> 3.67 </vmag>
+        <class> A2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3757 </HRnumber>
+        <name> 23 </name>
+        <constellation> UMa </constellation>
+        <ra> 9 31 31.70 </ra>
+        <dec> 63 3 42.80 </dec>
+        <vmag> 3.67 </vmag>
+        <class> F0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5747 </HRnumber>
+        <name> 3Bet </name>
+        <constellation> CrB </constellation>
+        <ra> 15 27 49.70 </ra>
+        <dec> 29 6 20.90 </dec>
+        <vmag> 3.68 </vmag>
+        <class> F0 </class>
+    </star>
+
+    <star>
+        <HRnumber> 3468 </HRnumber>
+        <name> Alp </name>
+        <constellation> Pyx </constellation>
+        <ra> 8 43 35.50 </ra>
+        <dec> -33 11 11.00 </dec>
+        <vmag> 3.68 </vmag>
+        <class> B1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8278 </HRnumber>
+        <name> 40Gam </name>
+        <constellation> Cap </constellation>
+        <ra> 21 40 5.50 </ra>
+        <dec> -16 39 43.90 </dec>
+        <vmag> 3.68 </vmag>
+        <class> F0 </class>
+    </star>
+
+    <star>
+        <HRnumber> 4826 </HRnumber>
+        <name> 29Gam </name>
+        <constellation> Vir </constellation>
+        <ra> 12 41 39.60 </ra>
+        <dec> -1 26 57.80 </dec>
+        <vmag> 3.68 </vmag>
+        <class> F0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1003 </HRnumber>
+        <name> 16Tau4 </name>
+        <constellation> Eri </constellation>
+        <ra> 3 19 31.01 </ra>
+        <dec> -21 45 28.10 </dec>
+        <vmag> 3.69 </vmag>
+        <class> M3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1552 </HRnumber>
+        <name> 3Pi4 </name>
+        <constellation> Ori </constellation>
+        <ra> 4 51 12.41 </ra>
+        <dec> 5 36 18.00 </dec>
+        <vmag> 3.69 </vmag>
+        <class> B2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3884 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 9 45 14.81 </ra>
+        <dec> -62 30 28.10 </dec>
+        <vmag> 3.69 </vmag>
+        <class> G5I </class>
+    </star>
+
+    <star>
+        <HRnumber> 8852 </HRnumber>
+        <name> 6Gam </name>
+        <constellation> Psc </constellation>
+        <ra> 23 17 9.91 </ra>
+        <dec> 3 16 55.90 </dec>
+        <vmag> 3.69 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber>  566 </HRnumber>
+        <name> Chi </name>
+        <constellation> Eri </constellation>
+        <ra> 1 55 57.50 </ra>
+        <dec> -51 36 32.00 </dec>
+        <vmag> 3.70 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1142 </HRnumber>
+        <name> 17 </name>
+        <constellation> Tau </constellation>
+        <ra> 3 44 52.51 </ra>
+        <dec> 24 6 47.90 </dec>
+        <vmag> 3.70 </vmag>
+        <class> B6III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6703 </HRnumber>
+        <name> 92Xi </name>
+        <constellation> Her </constellation>
+        <ra> 17 57 45.91 </ra>
+        <dec> 29 14 52.10 </dec>
+        <vmag> 3.70 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2085 </HRnumber>
+        <name> 16Eta </name>
+        <constellation> Lep </constellation>
+        <ra> 5 56 24.29 </ra>
+        <dec> -14 10 4.10 </dec>
+        <vmag> 3.71 </vmag>
+        <class> F1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4518 </HRnumber>
+        <name> 63Chi </name>
+        <constellation> UMa </constellation>
+        <ra> 11 46 3.00 </ra>
+        <dec> 47 46 45.80 </dec>
+        <vmag> 3.71 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5892 </HRnumber>
+        <name> 37Eps </name>
+        <constellation> Ser </constellation>
+        <ra> 15 50 49.01 </ra>
+        <dec> 4 28 40.10 </dec>
+        <vmag> 3.71 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7602 </HRnumber>
+        <name> 60Bet </name>
+        <constellation> Aql </constellation>
+        <ra> 19 55 18.79 </ra>
+        <dec> 6 24 24.10 </dec>
+        <vmag> 3.71 </vmag>
+        <class> G8IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 8130 </HRnumber>
+        <name> 65Tau </name>
+        <constellation> Cyg </constellation>
+        <ra> 21 14 47.50 </ra>
+        <dec> 38 2 44.20 </dec>
+        <vmag> 3.72 </vmag>
+        <class> F2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 8079 </HRnumber>
+        <name> 62Xi </name>
+        <constellation> Cyg </constellation>
+        <ra> 21 4 55.90 </ra>
+        <dec> 43 55 40.10 </dec>
+        <vmag> 3.72 </vmag>
+        <class> K4I </class>
+    </star>
+
+    <star>
+        <HRnumber> 2077 </HRnumber>
+        <name> 33Del </name>
+        <constellation> Aur </constellation>
+        <ra> 5 59 31.61 </ra>
+        <dec> 54 17 4.90 </dec>
+        <vmag> 3.72 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5511 </HRnumber>
+        <name> 109 </name>
+        <constellation> Vir </constellation>
+        <ra> 14 46 14.90 </ra>
+        <dec> 1 53 34.10 </dec>
+        <vmag> 3.72 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1567 </HRnumber>
+        <name> 8Pi5 </name>
+        <constellation> Ori </constellation>
+        <ra> 4 54 15.10 </ra>
+        <dec> 2 26 26.20 </dec>
+        <vmag> 3.72 </vmag>
+        <class> B3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6771 </HRnumber>
+        <name> 72 </name>
+        <constellation> Oph </constellation>
+        <ra> 18 7 21.00 </ra>
+        <dec> 9 33 50.00 </dec>
+        <vmag> 3.73 </vmag>
+        <class> A4IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3080 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 7 52 13.01 </ra>
+        <dec> -40 34 32.90 </dec>
+        <vmag> 3.73 </vmag>
+        <class> K1II </class>
+    </star>
+
+    <star>
+        <HRnumber>  539 </HRnumber>
+        <name> 55Zet </name>
+        <constellation> Cet </constellation>
+        <ra> 1 51 27.60 </ra>
+        <dec> -10 20 6.00 </dec>
+        <vmag> 3.73 </vmag>
+        <class> K0III </class>
+        <common_name> Baten </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 1084 </HRnumber>
+        <name> 18Eps </name>
+        <constellation> Eri </constellation>
+        <ra> 3 32 55.80 </ra>
+        <dec> -9 27 29.90 </dec>
+        <vmag> 3.73 </vmag>
+        <class> K2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1038 </HRnumber>
+        <name> 2Xi </name>
+        <constellation> Tau </constellation>
+        <ra> 3 27 10.20 </ra>
+        <dec> 9 43 58.10 </dec>
+        <vmag> 3.74 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8204 </HRnumber>
+        <name> 34Zet </name>
+        <constellation> Cap </constellation>
+        <ra> 21 26 40.01 </ra>
+        <dec> -22 24 41.00 </dec>
+        <vmag> 3.74 </vmag>
+        <class> G4I </class>
+    </star>
+
+    <star>
+        <HRnumber> 8698 </HRnumber>
+        <name> 73Lam </name>
+        <constellation> Aqr </constellation>
+        <ra> 22 52 36.89 </ra>
+        <dec> -7 34 46.90 </dec>
+        <vmag> 3.74 </vmag>
+        <class> M2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3614 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 9 4 9.31 </ra>
+        <dec> -47 5 52.10 </dec>
+        <vmag> 3.75 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6095 </HRnumber>
+        <name> 20Gam </name>
+        <constellation> Her </constellation>
+        <ra> 16 21 55.20 </ra>
+        <dec> 19 9 11.20 </dec>
+        <vmag> 3.75 </vmag>
+        <class> A9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1612 </HRnumber>
+        <name> 8Zet </name>
+        <constellation> Aur </constellation>
+        <ra> 5 2 28.70 </ra>
+        <dec> 41 4 32.90 </dec>
+        <vmag> 3.75 </vmag>
+        <class> K4II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6688 </HRnumber>
+        <name> 32Xi </name>
+        <constellation> Dra </constellation>
+        <ra> 17 53 31.70 </ra>
+        <dec> 56 52 22.10 </dec>
+        <vmag> 3.75 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8571 </HRnumber>
+        <name> 27Del </name>
+        <constellation> Cep </constellation>
+        <ra> 22 29 10.30 </ra>
+        <dec> 58 24 55.10 </dec>
+        <vmag> 3.75 </vmag>
+        <class> F5I </class>
+    </star>
+
+    <star>
+        <HRnumber> 6629 </HRnumber>
+        <name> 62Gam </name>
+        <constellation> Oph </constellation>
+        <ra> 17 47 53.59 </ra>
+        <dec> 2 42 25.90 </dec>
+        <vmag> 3.75 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8254 </HRnumber>
+        <name> Nu </name>
+        <constellation> Oct </constellation>
+        <ra> 21 41 28.49 </ra>
+        <dec> -77 23 24.00 </dec>
+        <vmag> 3.76 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1373 </HRnumber>
+        <name> 61Del1 </name>
+        <constellation> Tau </constellation>
+        <ra> 4 22 56.09 </ra>
+        <dec> 17 32 33.00 </dec>
+        <vmag> 3.76 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8430 </HRnumber>
+        <name> 24Iot </name>
+        <constellation> Peg </constellation>
+        <ra> 22 7 0.70 </ra>
+        <dec> 25 20 42.00 </dec>
+        <vmag> 3.76 </vmag>
+        <class> F5V </class>
+    </star>
+
+    <star>
+        <HRnumber>  834 </HRnumber>
+        <name> 15Eta </name>
+        <constellation> Per </constellation>
+        <ra> 2 50 41.81 </ra>
+        <dec> 55 53 44.20 </dec>
+        <vmag> 3.76 </vmag>
+        <class> K3I </class>
+    </star>
+
+    <star>
+        <HRnumber> 6229 </HRnumber>
+        <name> Eta </name>
+        <constellation> Ara </constellation>
+        <ra> 16 49 47.09 </ra>
+        <dec> -59 2 29.00 </dec>
+        <vmag> 3.76 </vmag>
+        <class> K5III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1922 </HRnumber>
+        <name> Bet </name>
+        <constellation> Dor </constellation>
+        <ra> 5 33 37.49 </ra>
+        <dec> -62 29 22.90 </dec>
+        <vmag> 3.76 </vmag>
+        <class> F6I </class>
+    </star>
+
+    <star>
+        <HRnumber> 7906 </HRnumber>
+        <name> 9Alp </name>
+        <constellation> Del </constellation>
+        <ra> 20 39 38.30 </ra>
+        <dec> 15 54 42.80 </dec>
+        <vmag> 3.77 </vmag>
+        <class> B9IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 7217 </HRnumber>
+        <name> 39Omi </name>
+        <constellation> Sgr </constellation>
+        <ra> 19 4 40.99 </ra>
+        <dec> -21 44 30.10 </dec>
+        <vmag> 3.77 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1135 </HRnumber>
+        <name> 41Nu </name>
+        <constellation> Per </constellation>
+        <ra> 3 45 11.59 </ra>
+        <dec> 42 34 43.00 </dec>
+        <vmag> 3.77 </vmag>
+        <class> F5II </class>
+    </star>
+
+    <star>
+        <HRnumber> 7950 </HRnumber>
+        <name> 2Eps </name>
+        <constellation> Aqr </constellation>
+        <ra> 20 47 40.61 </ra>
+        <dec> -9 29 44.90 </dec>
+        <vmag> 3.77 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7328 </HRnumber>
+        <name> 1Kap </name>
+        <constellation> Cyg </constellation>
+        <ra> 19 17 6.19 </ra>
+        <dec> 53 22 7.00 </dec>
+        <vmag> 3.77 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8585 </HRnumber>
+        <name> 7Alp </name>
+        <constellation> Lac </constellation>
+        <ra> 22 31 17.50 </ra>
+        <dec> 50 16 57.00 </dec>
+        <vmag> 3.77 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3347 </HRnumber>
+        <name> Bet </name>
+        <constellation> Vol </constellation>
+        <ra> 8 25 44.21 </ra>
+        <dec> -66 8 12.80 </dec>
+        <vmag> 3.77 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2736 </HRnumber>
+        <name> Gam2 </name>
+        <constellation> Vol </constellation>
+        <ra> 7 8 44.90 </ra>
+        <dec> -70 29 56.00 </dec>
+        <vmag> 3.78 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4257 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 10 53 29.59 </ra>
+        <dec> -58 51 11.90 </dec>
+        <vmag> 3.78 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2650 </HRnumber>
+        <name> 43Zet </name>
+        <constellation> Gem </constellation>
+        <ra> 7 4 6.50 </ra>
+        <dec> 20 34 13.10 </dec>
+        <vmag> 3.79 </vmag>
+        <class> F7I </class>
+    </star>
+
+    <star>
+        <HRnumber> 2821 </HRnumber>
+        <name> 60Iot </name>
+        <constellation> Gem </constellation>
+        <ra> 7 25 43.61 </ra>
+        <dec> 27 47 53.20 </dec>
+        <vmag> 3.79 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7735 </HRnumber>
+        <name> 31 </name>
+        <constellation> Cyg </constellation>
+        <ra> 20 13 37.90 </ra>
+        <dec> 46 44 29.00 </dec>
+        <vmag> 3.79 </vmag>
+        <class> K2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 7420 </HRnumber>
+        <name> 10Iot2 </name>
+        <constellation> Cyg </constellation>
+        <ra> 19 29 42.29 </ra>
+        <dec> 51 43 46.90 </dec>
+        <vmag> 3.79 </vmag>
+        <class> A5V </class>
+    </star>
+
+    <star>
+        <HRnumber> 5788 </HRnumber>
+        <name> 13Del </name>
+        <constellation> Ser </constellation>
+        <ra> 15 34 48.10 </ra>
+        <dec> 10 32 15.00 </dec>
+        <vmag> 3.80 </vmag>
+        <class> F0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5789 </HRnumber>
+        <name> 13Del </name>
+        <constellation> Ser </constellation>
+        <ra> 15 34 48.10 </ra>
+        <dec> 10 32 21.10 </dec>
+        <vmag> 3.80 </vmag>
+        <class> F0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4058 </HRnumber>
+        <name> 41Gam2 </name>
+        <constellation> Leo </constellation>
+        <ra> 10 19 58.61 </ra>
+        <dec> 19 50 26.20 </dec>
+        <vmag> 3.80 </vmag>
+        <class> G7III </class>
+    </star>
+
+    <star>
+        <HRnumber>  941 </HRnumber>
+        <name> 27Kap </name>
+        <constellation> Per </constellation>
+        <ra> 3 9 29.81 </ra>
+        <dec> 44 51 25.90 </dec>
+        <vmag> 3.80 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6588 </HRnumber>
+        <name> 85Iot </name>
+        <constellation> Her </constellation>
+        <ra> 17 39 27.89 </ra>
+        <dec> 46 0 23.00 </dec>
+        <vmag> 3.80 </vmag>
+        <class> B3IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3888 </HRnumber>
+        <name> 29Ups </name>
+        <constellation> UMa </constellation>
+        <ra> 9 50 59.40 </ra>
+        <dec> 59 2 19.00 </dec>
+        <vmag> 3.80 </vmag>
+        <class> F2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2035 </HRnumber>
+        <name> 15Del </name>
+        <constellation> Lep </constellation>
+        <ra> 5 51 19.30 </ra>
+        <dec> -20 52 45.10 </dec>
+        <vmag> 3.81 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4094 </HRnumber>
+        <name> 42Mu </name>
+        <constellation> Hya </constellation>
+        <ra> 10 26 5.40 </ra>
+        <dec> -16 50 11.00 </dec>
+        <vmag> 3.81 </vmag>
+        <class> K4III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1931 </HRnumber>
+        <name> 48Sig </name>
+        <constellation> Ori </constellation>
+        <ra> 5 38 44.81 </ra>
+        <dec> -2 36 0.00 </dec>
+        <vmag> 3.81 </vmag>
+        <class> O9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7536 </HRnumber>
+        <name> 7Del </name>
+        <constellation> Sge </constellation>
+        <ra> 19 47 23.30 </ra>
+        <dec> 18 32 3.10 </dec>
+        <vmag> 3.82 </vmag>
+        <class> M2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 1464 </HRnumber>
+        <name> 52Ups2 </name>
+        <constellation> Eri </constellation>
+        <ra> 4 35 33.00 </ra>
+        <dec> -30 33 43.90 </dec>
+        <vmag> 3.82 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3690 </HRnumber>
+        <name> 38 </name>
+        <constellation> Lyn </constellation>
+        <ra> 9 18 50.69 </ra>
+        <dec> 36 48 9.00 </dec>
+        <vmag> 3.82 </vmag>
+        <class> A3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8961 </HRnumber>
+        <name> 16Lam </name>
+        <constellation> And </constellation>
+        <ra> 23 37 33.89 </ra>
+        <dec> 46 27 29.20 </dec>
+        <vmag> 3.82 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6149 </HRnumber>
+        <name> 10Lam </name>
+        <constellation> Oph </constellation>
+        <ra> 16 30 54.79 </ra>
+        <dec> 1 59 2.00 </dec>
+        <vmag> 3.82 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4114 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 10 27 52.70 </ra>
+        <dec> -58 44 21.80 </dec>
+        <vmag> 3.82 </vmag>
+        <class> F2II </class>
+    </star>
+
+    <star>
+        <HRnumber> 5470 </HRnumber>
+        <name> Alp </name>
+        <constellation> Aps </constellation>
+        <ra> 14 47 51.60 </ra>
+        <dec> -79 2 40.90 </dec>
+        <vmag> 3.83 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5248 </HRnumber>
+        <name> Phi </name>
+        <constellation> Cen </constellation>
+        <ra> 13 58 16.30 </ra>
+        <dec> -42 6 2.90 </dec>
+        <vmag> 3.83 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6779 </HRnumber>
+        <name> 103Omi </name>
+        <constellation> Her </constellation>
+        <ra> 18 7 32.59 </ra>
+        <dec> 28 45 45.00 </dec>
+        <vmag> 3.83 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4247 </HRnumber>
+        <name> 46 </name>
+        <constellation> LMi </constellation>
+        <ra> 10 53 18.70 </ra>
+        <dec> 34 12 54.00 </dec>
+        <vmag> 3.83 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1131 </HRnumber>
+        <name> 38Omi </name>
+        <constellation> Per </constellation>
+        <ra> 3 44 19.10 </ra>
+        <dec> 32 17 17.90 </dec>
+        <vmag> 3.83 </vmag>
+        <class> B1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7582 </HRnumber>
+        <name> 63Eps </name>
+        <constellation> Dra </constellation>
+        <ra> 19 48 10.39 </ra>
+        <dec> 70 16 4.10 </dec>
+        <vmag> 3.83 </vmag>
+        <class> G7III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3445 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 8 40 37.61 </ra>
+        <dec> -46 38 56.00 </dec>
+        <vmag> 3.84 </vmag>
+        <class> F3I </class>
+    </star>
+
+    <star>
+        <HRnumber> 1411 </HRnumber>
+        <name> 77The1 </name>
+        <constellation> Tau </constellation>
+        <ra> 4 28 34.51 </ra>
+        <dec> 15 57 43.90 </dec>
+        <vmag> 3.84 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4167 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 10 37 18.10 </ra>
+        <dec> -48 13 32.90 </dec>
+        <vmag> 3.84 </vmag>
+        <class> F4IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6895 </HRnumber>
+        <name> 109 </name>
+        <constellation> Her </constellation>
+        <ra> 18 23 41.90 </ra>
+        <dec> 21 46 10.90 </dec>
+        <vmag> 3.84 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5849 </HRnumber>
+        <name> 8Gam </name>
+        <constellation> CrB </constellation>
+        <ra> 15 42 44.59 </ra>
+        <dec> 26 17 44.20 </dec>
+        <vmag> 3.84 </vmag>
+        <class> B9IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 8518 </HRnumber>
+        <name> 48Gam </name>
+        <constellation> Aqr </constellation>
+        <ra> 22 21 39.41 </ra>
+        <dec> -1 23 13.90 </dec>
+        <vmag> 3.84 </vmag>
+        <class> A0V </class>
+        <common_name> Sadachbia </common_name>
+    </star>
+
+    <star>
+        <HRnumber> 4434 </HRnumber>
+        <name> 1Lam </name>
+        <constellation> Dra </constellation>
+        <ra> 11 31 24.19 </ra>
+        <dec> 69 19 52.00 </dec>
+        <vmag> 3.84 </vmag>
+        <class> M0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3571 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 8 55 2.81 </ra>
+        <dec> -60 38 40.90 </dec>
+        <vmag> 3.84 </vmag>
+        <class> B8II </class>
+    </star>
+
+    <star>
+        <HRnumber> 2020 </HRnumber>
+        <name> Bet </name>
+        <constellation> Pic </constellation>
+        <ra> 5 47 17.11 </ra>
+        <dec> -51 3 59.00 </dec>
+        <vmag> 3.85 </vmag>
+        <class> A5V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4133 </HRnumber>
+        <name> 47Rho </name>
+        <constellation> Leo </constellation>
+        <ra> 10 32 48.70 </ra>
+        <dec> 9 18 24.10 </dec>
+        <vmag> 3.85 </vmag>
+        <class> B1I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5933 </HRnumber>
+        <name> 41Gam </name>
+        <constellation> Ser </constellation>
+        <ra> 15 56 27.19 </ra>
+        <dec> 15 39 42.10 </dec>
+        <vmag> 3.85 </vmag>
+        <class> F6V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4023 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 10 14 44.21 </ra>
+        <dec> -42 7 18.80 </dec>
+        <vmag> 3.85 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2296 </HRnumber>
+        <name> Del </name>
+        <constellation> Col </constellation>
+        <ra> 6 22 6.79 </ra>
+        <dec> -33 26 11.00 </dec>
+        <vmag> 3.85 </vmag>
+        <class> G7II </class>
+    </star>
+
+    <star>
+        <HRnumber> 2749 </HRnumber>
+        <name> 28Ome </name>
+        <constellation> CMa </constellation>
+        <ra> 7 14 48.70 </ra>
+        <dec> -26 46 22.10 </dec>
+        <vmag> 3.85 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 6973 </HRnumber>
+        <name> Alp </name>
+        <constellation> Sct </constellation>
+        <ra> 18 35 12.41 </ra>
+        <dec> -8 14 39.10 </dec>
+        <vmag> 3.85 </vmag>
+        <class> K3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1175 </HRnumber>
+        <name> Bet </name>
+        <constellation> Ret </constellation>
+        <ra> 3 44 12.00 </ra>
+        <dec> -64 48 24.80 </dec>
+        <vmag> 3.85 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6030 </HRnumber>
+        <name> Del </name>
+        <constellation> TrA </constellation>
+        <ra> 16 15 26.30 </ra>
+        <dec> -63 41 8.20 </dec>
+        <vmag> 3.85 </vmag>
+        <class> G2I </class>
+    </star>
+
+    <star>
+        <HRnumber> 4802 </HRnumber>
+        <name> Tau </name>
+        <constellation> Cen </constellation>
+        <ra> 12 37 42.19 </ra>
+        <dec> -48 32 28.00 </dec>
+        <vmag> 3.86 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1326 </HRnumber>
+        <name> Alp </name>
+        <constellation> Hor </constellation>
+        <ra> 4 14 0.10 </ra>
+        <dec> -42 17 39.80 </dec>
+        <vmag> 3.86 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6695 </HRnumber>
+        <name> 91The </name>
+        <constellation> Her </constellation>
+        <ra> 17 56 15.19 </ra>
+        <dec> 37 15 2.20 </dec>
+        <vmag> 3.86 </vmag>
+        <class> K1II </class>
+    </star>
+
+    <star>
+        <HRnumber> 6812 </HRnumber>
+        <name> 13Mu </name>
+        <constellation> Sgr </constellation>
+        <ra> 18 13 45.79 </ra>
+        <dec> -21 3 32.00 </dec>
+        <vmag> 3.86 </vmag>
+        <class> B8I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5249 </HRnumber>
+        <name> Ups1 </name>
+        <constellation> Cen </constellation>
+        <ra> 13 58 40.80 </ra>
+        <dec> -44 48 13.00 </dec>
+        <vmag> 3.87 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5646 </HRnumber>
+        <name> Kap1 </name>
+        <constellation> Lup </constellation>
+        <ra> 15 11 56.09 </ra>
+        <dec> -48 44 16.10 </dec>
+        <vmag> 3.87 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 1862 </HRnumber>
+        <name> Eps </name>
+        <constellation> Col </constellation>
+        <ra> 5 31 12.70 </ra>
+        <dec> -35 28 14.20 </dec>
+        <vmag> 3.87 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1149 </HRnumber>
+        <name> 20 </name>
+        <constellation> Tau </constellation>
+        <ra> 3 45 49.61 </ra>
+        <dec> 24 22 4.10 </dec>
+        <vmag> 3.87 </vmag>
+        <class> B8III </class>
+    </star>
+
+    <star>
+        <HRnumber>  963 </HRnumber>
+        <name> Alp </name>
+        <constellation> For </constellation>
+        <ra> 3 12 4.30 </ra>
+        <dec> -28 59 12.80 </dec>
+        <vmag> 3.87 </vmag>
+        <class> F8V </class>
+    </star>
+
+    <star>
+        <HRnumber>  269 </HRnumber>
+        <name> 37Mu </name>
+        <constellation> And </constellation>
+        <ra> 0 56 45.19 </ra>
+        <dec> 38 29 57.80 </dec>
+        <vmag> 3.87 </vmag>
+        <class> A5V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2580 </HRnumber>
+        <name> 16Omi1 </name>
+        <constellation> CMa </constellation>
+        <ra> 6 54 7.90 </ra>
+        <dec> -24 11 2.00 </dec>
+        <vmag> 3.87 </vmag>
+        <class> K2I </class>
+    </star>
+
+    <star>
+        <HRnumber> 1481 </HRnumber>
+        <name> 53 </name>
+        <constellation> Eri </constellation>
+        <ra> 4 38 10.80 </ra>
+        <dec> -14 18 14.00 </dec>
+        <vmag> 3.87 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4773 </HRnumber>
+        <name> Gam </name>
+        <constellation> Mus </constellation>
+        <ra> 12 32 28.01 </ra>
+        <dec> -72 7 59.20 </dec>
+        <vmag> 3.87 </vmag>
+        <class> B5V </class>
+    </star>
+
+    <star>
+        <HRnumber> 4787 </HRnumber>
+        <name> 5Kap </name>
+        <constellation> Dra </constellation>
+        <ra> 12 33 28.99 </ra>
+        <dec> 69 47 17.90 </dec>
+        <vmag> 3.87 </vmag>
+        <class> B6III </class>
+    </star>
+
+    <star>
+        <HRnumber>   25 </HRnumber>
+        <name> Eps </name>
+        <constellation> Phe </constellation>
+        <ra> 0 9 24.70 </ra>
+        <dec> -45 44 51.00 </dec>
+        <vmag> 3.88 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5089 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 13 31 2.69 </ra>
+        <dec> -39 24 27.00 </dec>
+        <vmag> 3.88 </vmag>
+        <class> G9I </class>
+    </star>
+
+    <star>
+        <HRnumber> 3905 </HRnumber>
+        <name> 24Mu </name>
+        <constellation> Leo </constellation>
+        <ra> 9 52 45.79 </ra>
+        <dec> 26 0 24.80 </dec>
+        <vmag> 3.88 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5928 </HRnumber>
+        <name> 5Rho </name>
+        <constellation> Sco </constellation>
+        <ra> 15 56 53.11 </ra>
+        <dec> -29 12 51.10 </dec>
+        <vmag> 3.88 </vmag>
+        <class> B2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 5487 </HRnumber>
+        <name> 107Mu </name>
+        <constellation> Vir </constellation>
+        <ra> 14 43 3.60 </ra>
+        <dec> -5 39 29.90 </dec>
+        <vmag> 3.88 </vmag>
+        <class> F2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3665 </HRnumber>
+        <name> 22The </name>
+        <constellation> Hya </constellation>
+        <ra> 9 14 21.89 </ra>
+        <dec> 2 18 51.10 </dec>
+        <vmag> 3.88 </vmag>
+        <class> B9V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6102 </HRnumber>
+        <name> Gam </name>
+        <constellation> Aps </constellation>
+        <ra> 16 33 27.00 </ra>
+        <dec> -78 53 49.90 </dec>
+        <vmag> 3.89 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 7615 </HRnumber>
+        <name> 21Eta </name>
+        <constellation> Cyg </constellation>
+        <ra> 19 56 18.41 </ra>
+        <dec> 35 4 59.90 </dec>
+        <vmag> 3.89 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6092 </HRnumber>
+        <name> 22Tau </name>
+        <constellation> Her </constellation>
+        <ra> 16 19 44.40 </ra>
+        <dec> 46 18 47.90 </dec>
+        <vmag> 3.89 </vmag>
+        <class> B5IV </class>
+    </star>
+
+    <star>
+        <HRnumber>  874 </HRnumber>
+        <name> 3Eta </name>
+        <constellation> Eri </constellation>
+        <ra> 2 56 25.70 </ra>
+        <dec> -8 53 53.20 </dec>
+        <vmag> 3.89 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4689 </HRnumber>
+        <name> 15Eta </name>
+        <constellation> Vir </constellation>
+        <ra> 12 19 54.41 </ra>
+        <dec> 0 40 0.80 </dec>
+        <vmag> 3.89 </vmag>
+        <class> A2IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 4390 </HRnumber>
+        <name> Pi </name>
+        <constellation> Cen </constellation>
+        <ra> 11 21 0.41 </ra>
+        <dec> -54 29 28.00 </dec>
+        <vmag> 3.89 </vmag>
+        <class> B5V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8820 </HRnumber>
+        <name> Iot </name>
+        <constellation> Gru </constellation>
+        <ra> 23 10 21.60 </ra>
+        <dec> -45 14 48.10 </dec>
+        <vmag> 3.90 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3314 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 8 25 39.60 </ra>
+        <dec> -3 54 23.00 </dec>
+        <vmag> 3.90 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7570 </HRnumber>
+        <name> 55Eta </name>
+        <constellation> Aql </constellation>
+        <ra> 19 52 28.39 </ra>
+        <dec> 1 0 20.20 </dec>
+        <vmag> 3.90 </vmag>
+        <class> F6I </class>
+    </star>
+
+    <star>
+        <HRnumber> 4743 </HRnumber>
+        <name> Sig </name>
+        <constellation> Cen </constellation>
+        <ra> 12 28 2.40 </ra>
+        <dec> -50 13 50.20 </dec>
+        <vmag> 3.91 </vmag>
+        <class> B2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 3487 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 8 46 1.70 </ra>
+        <dec> -46 2 30.10 </dec>
+        <vmag> 3.91 </vmag>
+        <class> A1III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5787 </HRnumber>
+        <name> 38Gam </name>
+        <constellation> Lib </constellation>
+        <ra> 15 35 31.61 </ra>
+        <dec> -14 47 21.80 </dec>
+        <vmag> 3.91 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3845 </HRnumber>
+        <name> 35Iot </name>
+        <constellation> Hya </constellation>
+        <ra> 9 39 51.41 </ra>
+        <dec> -1 8 34.10 </dec>
+        <vmag> 3.91 </vmag>
+        <class> K2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4337 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 11 8 35.40 </ra>
+        <dec> -58 58 30.00 </dec>
+        <vmag> 3.91 </vmag>
+        <class> G4I </class>
+    </star>
+
+    <star>
+        <HRnumber> 1251 </HRnumber>
+        <name> 38Nu </name>
+        <constellation> Tau </constellation>
+        <ra> 4 3 9.41 </ra>
+        <dec> 5 59 21.10 </dec>
+        <vmag> 3.91 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 6324 </HRnumber>
+        <name> 58Eps </name>
+        <constellation> Her </constellation>
+        <ra> 17 0 17.40 </ra>
+        <dec> 30 55 35.00 </dec>
+        <vmag> 3.92 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8131 </HRnumber>
+        <name> 8Alp </name>
+        <constellation> Equ </constellation>
+        <ra> 21 15 49.39 </ra>
+        <dec> 5 14 52.10 </dec>
+        <vmag> 3.92 </vmag>
+        <class> G0III </class>
+    </star>
+
+    <star>
+        <HRnumber>  338 </HRnumber>
+        <name> Zet </name>
+        <constellation> Phe </constellation>
+        <ra> 1 8 23.11 </ra>
+        <dec> -55 14 44.90 </dec>
+        <vmag> 3.92 </vmag>
+        <class> B6V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7340 </HRnumber>
+        <name> 44Rho1 </name>
+        <constellation> Sgr </constellation>
+        <ra> 19 21 40.39 </ra>
+        <dec> -17 50 49.90 </dec>
+        <vmag> 3.93 </vmag>
+        <class> F0IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2970 </HRnumber>
+        <name> 26Alp </name>
+        <constellation> Mon </constellation>
+        <ra> 7 41 14.81 </ra>
+        <dec> -9 33 4.00 </dec>
+        <vmag> 3.93 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1463 </HRnumber>
+        <name> 48Nu </name>
+        <constellation> Eri </constellation>
+        <ra> 4 36 19.10 </ra>
+        <dec> -3 21 9.00 </dec>
+        <vmag> 3.93 </vmag>
+        <class> B2III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4399 </HRnumber>
+        <name> 78Iot </name>
+        <constellation> Leo </constellation>
+        <ra> 11 23 55.49 </ra>
+        <dec> 10 31 45.10 </dec>
+        <vmag> 3.94 </vmag>
+        <class> F4IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 3461 </HRnumber>
+        <name> 47Del </name>
+        <constellation> Cnc </constellation>
+        <ra> 8 44 41.09 </ra>
+        <dec> 18 9 15.10 </dec>
+        <vmag> 3.94 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber>  100 </HRnumber>
+        <name> Kap </name>
+        <constellation> Phe </constellation>
+        <ra> 0 26 12.19 </ra>
+        <dec> -43 40 48.00 </dec>
+        <vmag> 3.94 </vmag>
+        <class> A7V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8028 </HRnumber>
+        <name> 58Nu </name>
+        <constellation> Cyg </constellation>
+        <ra> 20 57 10.39 </ra>
+        <dec> 41 10 1.90 </dec>
+        <vmag> 3.94 </vmag>
+        <class> A1V </class>
+    </star>
+
+    <star>
+        <HRnumber>  440 </HRnumber>
+        <name> Del </name>
+        <constellation> Phe </constellation>
+        <ra> 1 31 15.10 </ra>
+        <dec> -49 4 22.10 </dec>
+        <vmag> 3.95 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8667 </HRnumber>
+        <name> 47Lam </name>
+        <constellation> Peg </constellation>
+        <ra> 22 46 31.90 </ra>
+        <dec> 23 33 56.20 </dec>
+        <vmag> 3.95 </vmag>
+        <class> G8III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5883 </HRnumber>
+        <name> 5Chi </name>
+        <constellation> Lup </constellation>
+        <ra> 15 50 57.50 </ra>
+        <dec> -33 37 37.90 </dec>
+        <vmag> 3.95 </vmag>
+        <class> B9IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2429 </HRnumber>
+        <name> 7Nu2 </name>
+        <constellation> CMa </constellation>
+        <ra> 6 36 40.99 </ra>
+        <dec> -19 15 20.90 </dec>
+        <vmag> 3.95 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber>  854 </HRnumber>
+        <name> 18Tau </name>
+        <constellation> Per </constellation>
+        <ra> 2 54 15.50 </ra>
+        <dec> 52 45 45.00 </dec>
+        <vmag> 3.95 </vmag>
+        <class> G4III </class>
+    </star>
+
+    <star>
+        <HRnumber> 5055 </HRnumber>
+        <name> 79Zet </name>
+        <constellation> UMa </constellation>
+        <ra> 13 23 56.40 </ra>
+        <dec> 54 55 18.10 </dec>
+        <vmag> 3.95 </vmag>
+        <class> A1 </class>
+    </star>
+
+    <star>
+        <HRnumber> 3024 </HRnumber>
+        <name> Zet </name>
+        <constellation> Vol </constellation>
+        <ra> 7 41 49.20 </ra>
+        <dec> -72 36 22.00 </dec>
+        <vmag> 3.95 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 4638 </HRnumber>
+        <name> Rho </name>
+        <constellation> Cen </constellation>
+        <ra> 12 11 39.10 </ra>
+        <dec> -52 22 7.00 </dec>
+        <vmag> 3.96 </vmag>
+        <class> B3V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2120 </HRnumber>
+        <name> Eta </name>
+        <constellation> Col </constellation>
+        <ra> 5 59 8.81 </ra>
+        <dec> -42 48 55.10 </dec>
+        <vmag> 3.96 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 1393 </HRnumber>
+        <name> 43 </name>
+        <constellation> Eri </constellation>
+        <ra> 4 24 2.21 </ra>
+        <dec> -34 1 0.80 </dec>
+        <vmag> 3.96 </vmag>
+        <class> K4III </class>
+    </star>
+
+    <star>
+        <HRnumber> 2538 </HRnumber>
+        <name> 13Kap </name>
+        <constellation> CMa </constellation>
+        <ra> 6 49 50.50 </ra>
+        <dec> -32 30 31.00 </dec>
+        <vmag> 3.96 </vmag>
+        <class> B1IV </class>
+    </star>
+
+    <star>
+        <HRnumber> 2996 </HRnumber>
+        <name> 3 </name>
+        <constellation> Pup </constellation>
+        <ra> 7 43 48.50 </ra>
+        <dec> -28 57 16.90 </dec>
+        <vmag> 3.96 </vmag>
+        <class> A2I </class>
+    </star>
+
+    <star>
+        <HRnumber> 5993 </HRnumber>
+        <name> 9Ome1 </name>
+        <constellation> Sco </constellation>
+        <ra> 16 6 48.41 </ra>
+        <dec> -20 40 9.10 </dec>
+        <vmag> 3.96 </vmag>
+        <class> B1V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7590 </HRnumber>
+        <name> Eps </name>
+        <constellation> Pav </constellation>
+        <ra> 20 0 35.50 </ra>
+        <dec> -72 54 38.20 </dec>
+        <vmag> 3.96 </vmag>
+        <class> A0V </class>
+    </star>
+
+    <star>
+        <HRnumber> 7348 </HRnumber>
+        <name> Alp </name>
+        <constellation> Sgr </constellation>
+        <ra> 19 23 53.21 </ra>
+        <dec> -40 36 58.00 </dec>
+        <vmag> 3.97 </vmag>
+        <class> B8V </class>
+    </star>
+
+    <star>
+        <HRnumber> 8556 </HRnumber>
+        <name> Del1 </name>
+        <constellation> Gru </constellation>
+        <ra> 22 29 16.20 </ra>
+        <dec> -43 29 44.20 </dec>
+        <vmag> 3.97 </vmag>
+        <class> G6III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3438 </HRnumber>
+        <name> Bet </name>
+        <constellation> Pyx </constellation>
+        <ra> 8 40 6.19 </ra>
+        <dec> -35 18 29.90 </dec>
+        <vmag> 3.97 </vmag>
+        <class> G7I </class>
+    </star>
+
+    <star>
+        <HRnumber> 3579 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 9 0 38.40 </ra>
+        <dec> 41 46 58.10 </dec>
+        <vmag> 3.97 </vmag>
+        <class> F5V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2012 </HRnumber>
+        <name> 32Nu </name>
+        <constellation> Aur </constellation>
+        <ra> 5 51 29.40 </ra>
+        <dec> 39 8 55.00 </dec>
+        <vmag> 3.97 </vmag>
+        <class> G9III </class>
+    </star>
+
+    <star>
+        <HRnumber> 8892 </HRnumber>
+        <name> 98 </name>
+        <constellation> Aqr </constellation>
+        <ra> 23 22 58.20 </ra>
+        <dec> -20 6 2.20 </dec>
+        <vmag> 3.97 </vmag>
+        <class> K0III </class>
+    </star>
+
+    <star>
+        <HRnumber> 3663 </HRnumber>
+        <name> ??? </name>
+        <constellation> ??? </constellation>
+        <ra> 9 11 16.61 </ra>
+        <dec> -62 19 1.90 </dec>
+        <vmag> 3.97 </vmag>
+        <class> B3III </class>
+    </star>
+
+    <star>
+        <HRnumber> 6714 </HRnumber>
+        <name> 67 </name>
+        <constellation> Oph </constellation>
+        <ra> 18 0 38.71 </ra>
+        <dec> 2 55 54.10 </dec>
+        <vmag> 3.97 </vmag>
+        <class> B5I </class>
+    </star>
+
+    <star>
+        <HRnumber> 7751 </HRnumber>
+        <name> 32 </name>
+        <constellation> Cyg </constellation>
+        <ra> 20 15 28.30 </ra>
+        <dec> 47 42 51.80 </dec>
+        <vmag> 3.98 </vmag>
+        <class> K3I </class>
+    </star>
+
+    <star>
+        <HRnumber> 2227 </HRnumber>
+        <name> 5Gam </name>
+        <constellation> Mon </constellation>
+        <ra> 6 14 51.31 </ra>
+        <dec> -6 16 28.90 </dec>
+        <vmag> 3.98 </vmag>
+        <class> K1III </class>
+    </star>
+
+    <star>
+        <HRnumber>  580 </HRnumber>
+        <name> 50 </name>
+        <constellation> Cas </constellation>
+        <ra> 2 3 26.09 </ra>
+        <dec> 72 25 17.00 </dec>
+        <vmag> 3.98 </vmag>
+        <class> A2V </class>
+    </star>
+
+    <star>
+        <HRnumber> 2803 </HRnumber>
+        <name> Del </name>
+        <constellation> Vol </constellation>
+        <ra> 7 16 49.80 </ra>
+        <dec> -67 57 25.90 </dec>
+        <vmag> 3.98 </vmag>
+        <class> F6II </class>
+    </star>
+
+    <star>
+        <HRnumber> 8848 </HRnumber>
+        <name> Gam </name>
+        <constellation> Tuc </constellation>
+        <ra> 23 17 25.80 </ra>
+        <dec> -58 14 8.90 </dec>
+        <vmag> 3.99 </vmag>
+        <class> F1III </class>
+    </star>
+
+</xml>

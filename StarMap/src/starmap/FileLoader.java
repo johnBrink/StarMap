@@ -20,7 +20,7 @@ public class FileLoader {
     {
         ArrayList<Star> stars = new ArrayList<>();
         ArrayList<Constellation> constellations = new ArrayList<>();
-        
+
         // Find all the stars
         try
         {
