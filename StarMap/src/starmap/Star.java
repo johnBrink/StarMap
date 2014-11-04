@@ -1,40 +1,24 @@
 package starmap;
 
 import java.util.GregorianCalendar;
-import javax.xml.bind.annotation.*;
+import org.jdom2.Element;
 
 /**
  * Data class describing a single star, with methods to draw on a panel.
  * Contains methods by Dr. John Weiss provided for CSC421 GUI/OOP class.
  * @author John Brink
  */
-@XmlRootElement (name = "star")
-@XmlType (propOrder = {"HRnumber", "name", "constellation", "ra", "dec", "vmag", "class", "common_name"})
 public class Star {
     // Identity
-    @XmlElement (required = true, name = "HRnumber")
     public int hrNumber;
-    
-    @XmlElement (required = true, name = "name")
     public String name;
-    
-    @XmlElement (required = true, name = "commonName")
     public String commonName;
-    
-    @XmlElement (required = true, name = "constellation")
     public String constellation;
-    
-    @XmlElement (required = true, name = "class")
     public String starClass;
     
     // Given data
-    @XmlElement (required = true, name = "ra")
     public double radians;
-    
-    @XmlElement (required = true, name = "dec")
     public double declination;
-    
-    @XmlElement (required = true, name = "vmag")
     public double magnitude;
     
     // Computed data
@@ -119,5 +103,29 @@ public class Star {
     public double getAzimuth()
     {
         return azimuth;
+    }
+    
+    public static Star deserialize(Element elem)
+    {
+        int hrNumber = Integer.parseInt(elem.getChild("HRnumber").getTextTrim());
+        String name = elem.getChild("name").getTextTrim();
+        String constellation = elem.getChild("constellation").getTextTrim();
+        double radians = parseDegrees(elem.getChild("ra").getTextTrim());
+        double declination = parseDegrees(elem.getChild("dec").getTextTrim());
+        double magnitude = Double.parseDouble(elem.getChild("vmag").getTextTrim());
+        String className = elem.getChild("class").getTextTrim();
+        String commonName = elem.getChild("common_name").getTextTrim();
+        
+        return new Star(hrNumber, name, constellation, radians, declination, magnitude, className, commonName);
+    }
+        
+    private static double parseDegrees(String s)
+    {
+        //Sample: "6 45 8.90"
+        String[] parts = s.split(" ");
+        
+        return Double.parseDouble(parts[0])         // Degrees
+            + (Double.parseDouble(parts[1]) / 60)   // Minutes
+            + (Double.parseDouble(parts[2]) / 360); // Seconds
     }
 }
