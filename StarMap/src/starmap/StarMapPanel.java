@@ -52,7 +52,6 @@ public class StarMapPanel extends JPanel
         
         g.setColor(Color.black);
         g.fillRect(this.getX(), this.getY(), this.getWidth(), this.getHeight());
-        
         g.setColor(Color.white);
         for(Constellation c : constellations)
         {

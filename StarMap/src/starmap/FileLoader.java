@@ -20,7 +20,8 @@ public class FileLoader {
     {
         ArrayList<Star> stars = new ArrayList<>();
         ArrayList<Constellation> constellations = new ArrayList<>();
-        
+        System.out.print(starsFile);
+        System.out.print("\n");
         // Find all the stars
         try
         {
