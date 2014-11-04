@@ -24,7 +24,7 @@ public class FileLoader {
         // Find all the stars
         try
         {
-            InputStream istream = FileLoader.class.getResourceAsStream("/resource/path/to/some.xml");
+            InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/stars_mag4.xml");
             SAXBuilder builder = new SAXBuilder();
             Document doc = (Document)builder.build(istream);
             Element root = doc.getRootElement();
@@ -46,7 +46,7 @@ public class FileLoader {
         // Build the constellations
         try
         {
-            InputStream istream = FileLoader.class.getResourceAsStream("/resource/path/to/some.xml");
+            InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/constellations.xml");
             SAXBuilder builder = new SAXBuilder();
             Document doc = (Document)builder.build(istream);
             Element root = doc.getRootElement();
