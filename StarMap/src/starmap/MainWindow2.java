@@ -139,9 +139,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainWindow2().setVisible(true);
-                FileLoader.getConstellations("C:\\Users\\7101020\\Documents\\Classes\\CSC-421\\Java\\prog2\\StarMap\\stars.xml",
-                                             "C:\\Users\\7101020\\Documents\\Classes\\CSC-421\\Java\\prog2\\StarMap\\constellations.xml");
-                
+                FileLoader.getConstellations();
             }
         });
     }

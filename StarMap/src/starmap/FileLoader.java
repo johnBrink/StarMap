@@ -5,7 +5,7 @@
  */
 package starmap;
 
-import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -16,18 +16,17 @@ import org.jdom2.input.SAXBuilder;
  * @author John Brink
  */
 public class FileLoader {
-    public static ArrayList<Constellation> getConstellations(String starsFile, String constellationsFile)
+    public static ArrayList<Constellation> getConstellations()
     {
         ArrayList<Star> stars = new ArrayList<>();
         ArrayList<Constellation> constellations = new ArrayList<>();
-        System.out.print(starsFile);
-        System.out.print("\n");
+        
         // Find all the stars
         try
         {
+            InputStream istream = FileLoader.class.getResourceAsStream("/resource/path/to/some.xml");
             SAXBuilder builder = new SAXBuilder();
-            File file = new File(starsFile);
-            Document doc = (Document)builder.build(file);
+            Document doc = (Document)builder.build(istream);
             Element root = doc.getRootElement();
             
             for(Element node : root.getChildren())
@@ -47,9 +46,9 @@ public class FileLoader {
         // Build the constellations
         try
         {
+            InputStream istream = FileLoader.class.getResourceAsStream("/resource/path/to/some.xml");
             SAXBuilder builder = new SAXBuilder();
-            File file = new File(constellationsFile);
-            Document doc = (Document)builder.build(file);
+            Document doc = (Document)builder.build(istream);
             Element root = doc.getRootElement();
             
             for(Element node : root.getChildren())
