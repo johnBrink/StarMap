@@ -6,6 +6,7 @@
 package starmap;
 import java.awt.Color;
 import java.awt.Graphics;
+import javax.swing.JOptionPane;
 /**
  *
  * @author 7101020
@@ -80,6 +81,11 @@ public class MainWindow2 extends javax.swing.JFrame {
         HelpMenu.add(Usage);
 
         About.setText("About");
+        About.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AboutActionPerformed(evt);
+            }
+        });
         HelpMenu.add(About);
 
         jMenuBar1.add(HelpMenu);
@@ -105,8 +111,13 @@ public class MainWindow2 extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void UsageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsageActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_UsageActionPerformed
+
+    private void AboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AboutActionPerformed
+        String message = "StarMap v1.0.0\n   Matthew Rames\n   John Brink";
+        JOptionPane.showMessageDialog(null, message, "About", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_AboutActionPerformed
 
     /**
      * @param args the command line arguments
