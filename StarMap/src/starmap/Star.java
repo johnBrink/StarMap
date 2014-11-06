@@ -9,6 +9,10 @@ import org.jdom2.Element;
  * @author John Brink
  */
 public class Star {
+    // Constants
+    public static final double MAX_ALTITUDE = 90;
+    public static final double MAX_AZIMUTH = 90;
+    
     // Identity
     public int hrNumber;
     public String name;

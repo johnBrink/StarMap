@@ -71,12 +71,14 @@ public class StarMapPanel extends JPanel
     
     private int getStarX(Star s)
     {
-        return this.getX() + (int)s.getAzimuth();
+        double offset = (s.getAzimuth() / Star.MAX_AZIMUTH) * this.getWidth();
+        return this.getX() + (int)offset;
     }
     
     private int getStarY(Star s)
     {
-        return this.getY() + this.getHeight() - (int)s.getAltitude();
+        double offset = (s.getAltitude() / Star.MAX_ALTITUDE) * this.getHeight();
+        return this.getY() + this.getHeight() - (int)offset;
     }
     
     private int getDiameter(Star s)
