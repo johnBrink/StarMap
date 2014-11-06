@@ -9,10 +9,6 @@ import org.jdom2.Element;
  * @author John Brink
  */
 public class Star {
-    // Constants
-    public static final double MAX_ALTITUDE = 90;
-    public static final double MAX_AZIMUTH = 90;
-    
     // Identity
     public int hrNumber;
     public String name;
@@ -28,6 +24,10 @@ public class Star {
     // Computed data
     private double altitude;
     private double azimuth;
+    
+    private double x;
+    private double y;
+    private boolean visible;
 
     public Star(int hrNumber, String name, String constellation, double radians,
             double declination, double magnitude, String starClass, String commonName)
@@ -42,7 +42,7 @@ public class Star {
         this.declination = declination;
         this.magnitude = magnitude;
         
-        computePosition(0, 0);
+        computePosition(0, 0, 0, 0);
     }
     
     /**
@@ -64,6 +64,12 @@ public class Star {
         double diff_days = ( now_msec - then_msec ) / 1000.0 / ( 24.0 * 3600.0 );
         return diff_days;
     }
+    
+    public final void computePosition(double lat, double lon, double alt, double azi)
+    {
+        computeAltAzi(lat, lon);
+        computeXY(alt, azi);
+    }
 
     /**
      * Given observer position (lat,lon), convert star position in (ra,dec) to (azi, alt)
@@ -71,7 +77,7 @@ public class Star {
      * @param lat The current viewing latitude
      * @param lon The current viewing longitude
      */
-    public final void computePosition( double lat, double lon )
+    private void computeAltAzi( double lat, double lon )
     {
         double t = elapsed_days();
         double tG = Math.IEEEremainder( 360.0 * 1.0027379093 * t, 360.0 );
@@ -98,14 +104,34 @@ public class Star {
         if ( X < 0.0 ) azimuth = 2.0 * Math.PI - azimuth;
     }
     
-    public double getAltitude()
+    /**
+     * Computes the X/Y position of a star, given viewer's position
+     * @author John M. Weiss, Ph.D.
+     * @param viewerAlt
+     * @param viewerAzi 
+     */
+    private void computeXY(double viewerAlt, double viewerAzi)
     {
-        return altitude;
+        double R = 1.0;		// distance to star: assume all stars are located on sphere of radius 1
+        x = R * Math.cos( altitude ) * Math.sin( azimuth - viewerAzi );
+        y = R * ( Math.cos( viewerAlt ) * Math.sin( altitude ) - Math.sin( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAlt ) );
+        double clip = Math.sin( viewerAlt ) * Math.sin ( altitude ) + Math.cos( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi );
+        visible = (clip >= 0);
     }
     
-    public double getAzimuth()
+    public double getX()
     {
-        return azimuth;
+        return x;
+    }
+    
+    public double getY()
+    {
+        return y;
+    }
+    
+    public boolean isVisible()
+    {
+        return visible;
     }
     
     public static Star deserialize(Element elem)

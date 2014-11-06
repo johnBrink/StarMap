@@ -20,11 +20,15 @@ public class StarMapPanel extends JPanel
     private ArrayList<Constellation> constellations = new ArrayList<>();
     private double latitude = 0;
     private double longitude = 0;
+    private double altitude = 0;
+    private double azimuth = 0;
 
-    public void setPosition(double lat, double lon)
+    public void setPosition(double lat, double lon, double alt, double az)
     {
         this.latitude = lat;
         this.longitude = lon;
+        this.altitude = alt;
+        this.azimuth = az;
         updatePositions();
     }
     
@@ -40,7 +44,7 @@ public class StarMapPanel extends JPanel
         {
             for(Star s : c.stars)
             {
-                s.computePosition(latitude, longitude);
+                s.computePosition(latitude, longitude, altitude, azimuth);
             }
         }
     }
@@ -57,8 +61,11 @@ public class StarMapPanel extends JPanel
         {
             for(Star s : c.stars)
             {
-                int diameter = getDiameter(s);
-                g.fillOval(getStarX(s), getStarY(s), diameter, diameter);
+                if(s.isVisible())
+                {
+                    int diameter = getDiameter(s);
+                    g.fillOval(getStarX(s), getStarY(s), diameter, diameter);
+                }
             }
             
             for(Line l : c.lines)
@@ -71,14 +78,12 @@ public class StarMapPanel extends JPanel
     
     private int getStarX(Star s)
     {
-        double offset = (s.getAzimuth() / Star.MAX_AZIMUTH) * this.getWidth();
-        return this.getX() + (int)offset;
+        return this.getX() + (int)s.getX();
     }
     
     private int getStarY(Star s)
     {
-        double offset = (s.getAltitude() / Star.MAX_ALTITUDE) * this.getHeight();
-        return this.getY() + this.getHeight() - (int)offset;
+        return this.getY() + (int)s.getY();
     }
     
     private int getDiameter(Star s)
