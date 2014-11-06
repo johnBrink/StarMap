@@ -29,6 +29,12 @@ public class Constellation {
         for(Element node : elem.getChildren("line"))
         {
             Line l = getLine(node.getTextTrim(), allStars);
+            if(l == null)
+            {
+                // If couldn't find both stars, don't add the line
+                continue;
+            }
+            
             if(!c.stars.contains(l.star1))
             {
                 c.stars.add(l.star1);
@@ -63,6 +69,16 @@ public class Constellation {
             {
                 break;
             }
+        }
+        
+        if(l.star1 == null || l.star2 == null)
+        {
+            System.out.printf("Error: could not find stars for line [%s]\n", str);
+            if(l.star1 == null)
+                System.out.printf("    Missing %s\n", words[0]);
+            if(l.star2 == null)
+                System.out.printf("    Missing %s\n", words[2]);
+            return null;
         }
         
         return l;

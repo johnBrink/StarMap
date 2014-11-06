@@ -91,7 +91,6 @@ public class Star {
         double Z =  Math.cos( beta ) * Math.sin( psi ) * Math.cos( delta ) * Math.cos( alpha )
                   - Math.cos( beta ) * Math.cos( psi ) * Math.cos( delta ) * Math.sin( alpha )
                   + Math.sin( beta ) * Math.sin( delta );
-        // System.out.printf( "(X,Y,Z) = (%.3f,%.3f,%3f)\n\n", X, Y, Z );
 
         // finally compute alt/azi values
         altitude = Math.atan( Z / Math.sqrt( X * X + Y * Y ) );

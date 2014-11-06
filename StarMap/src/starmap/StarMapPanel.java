@@ -17,7 +17,7 @@ import starmap.Constellation.Line;
  */
 public class StarMapPanel extends JPanel
 {
-    private ArrayList<Constellation> constellations = new ArrayList<Constellation>();
+    private ArrayList<Constellation> constellations = new ArrayList<>();
     private double latitude = 0;
     private double longitude = 0;
 
