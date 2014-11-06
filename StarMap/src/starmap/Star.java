@@ -114,7 +114,7 @@ public class Star {
         double declination = parseDegrees(elem.getChild("dec").getTextTrim());
         double magnitude = Double.parseDouble(elem.getChild("vmag").getTextTrim());
         String className = elem.getChild("class").getTextTrim();
-        String commonName = elem.getChild("common_name").getTextTrim();
+        String commonName = FileLoader.getAttribute(elem, "common_name", null);
         
         return new Star(hrNumber, name, constellation, radians, declination, magnitude, className, commonName);
     }
@@ -127,5 +127,18 @@ public class Star {
         return Double.parseDouble(parts[0])         // Degrees
             + (Double.parseDouble(parts[1]) / 60)   // Minutes
             + (Double.parseDouble(parts[2]) / 360); // Seconds
+    }
+    
+    @Override
+    public String toString()
+    {
+        if(commonName == null)
+        {
+            return name;
+        }
+        else
+        {
+            return String.format("%s (%s)", name, commonName);
+        }
     }
 }

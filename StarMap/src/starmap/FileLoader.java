@@ -24,14 +24,18 @@ public class FileLoader {
         // Find all the stars
         try
         {
-            InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/stars_mag4.xml");
+            InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/stars.xml");
             SAXBuilder builder = new SAXBuilder();
             Document doc = (Document)builder.build(istream);
             Element root = doc.getRootElement();
             
+            System.out.printf("Parsing in %d stars\n", root.getChildren().size());
+            
             for(Element node : root.getChildren())
             {
-                stars.add(Star.deserialize(node));
+                Star newStar = Star.deserialize(node);
+                stars.add(newStar);
+                System.out.printf("Parsed a star called %s\n", newStar.toString());
             }
             
             // Root element is "xml"
@@ -53,7 +57,9 @@ public class FileLoader {
             
             for(Element node : root.getChildren())
             {
-                constellations.add(Constellation.deserialize(node, stars));
+                Constellation newConst = Constellation.deserialize(node, stars);
+                constellations.add(newConst);
+                System.out.printf("Parsed a constellation called %s\n", newConst.toString());
             }    
         }
         catch(Exception e)
@@ -63,4 +69,16 @@ public class FileLoader {
         
         return constellations;
     }
+    
+    public static String getAttribute(Element elem, String name, String defaultValue)
+    {
+        try
+        {
+            return elem.getChildTextTrim(name);
+        }
+        catch(Exception e)
+        {
+            return defaultValue;
+        }
+    }       
 }

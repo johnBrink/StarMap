@@ -10,8 +10,8 @@ import org.jdom2.Element;
 public class Constellation {
     public String name;
     public String abbreviation;
-    public ArrayList<Star> stars;
-    public ArrayList<Line> lines;
+    public ArrayList<Star> stars = new ArrayList<>();
+    public ArrayList<Line> lines = new ArrayList<>();
     
     public static class Line
     {
@@ -50,16 +50,27 @@ public class Constellation {
         
         for(Star s : allStars)
         {
-            if(s.name.equals(words[0]))
+            if(words[0].equals(s.name) || words[0].equals(s.commonName))
             {
                 l.star1 = s;
             }
-            else if(s.name.equals(words[2]))
+            else if(words[2].equals(s.name) || words[2].equals(s.commonName))
             {
                 l.star2 = s;
+            }
+            
+            if(l.star1 != null && l.star2 != null)
+            {
+                break;
             }
         }
         
         return l;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return String.format("%s (%s)", name, abbreviation);
     }
 }
