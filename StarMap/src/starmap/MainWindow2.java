@@ -4,8 +4,7 @@
  * and open the template in the editor.
  */
 package starmap;
-import java.awt.Color;
-import java.awt.Graphics;
+import java.util.ArrayList;
 import javax.swing.JOptionPane;
 /**
  *
@@ -150,9 +149,12 @@ public class MainWindow2 extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainWindow2().setVisible(true);
+                ArrayList<Constellation> Clist = FileLoader.getConstellations();
+                StarMapPanel CMP = new StarMapPanel();
+                CMP.loadConstellations(Clist);
                 
-                FileLoader.getConstellations();
-            }
+                
+            }      
         });
     }
 

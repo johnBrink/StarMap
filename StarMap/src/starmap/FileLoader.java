@@ -35,7 +35,7 @@ public class FileLoader {
             {
                 Star newStar = Star.deserialize(node);
                 stars.add(newStar);
-                System.out.printf("Parsed a star called %s\n", newStar.toString());
+                //System.out.printf("Parsed a star called %s\n", newStar.toString());
             }
             
             // Root element is "xml"
@@ -59,7 +59,7 @@ public class FileLoader {
             {
                 Constellation newConst = Constellation.deserialize(node, stars);
                 constellations.add(newConst);
-                System.out.printf("Parsed a constellation called %s\n", newConst.toString());
+                //System.out.printf("Parsed a constellation called %s\n", newConst.toString());
             }    
         }
         catch(Exception e)
