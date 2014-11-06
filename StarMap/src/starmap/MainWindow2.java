@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package starmap;
+import java.awt.Graphics;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 /**
@@ -19,6 +20,8 @@ public class MainWindow2 extends javax.swing.JFrame {
     public MainWindow2() {
         initComponents();
         this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
+        ArrayList<Constellation> Clist = FileLoader.getConstellations();
+        map.loadConstellations(Clist);
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -29,7 +32,7 @@ public class MainWindow2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Display = new javax.swing.JPanel();
+        map = new starmap.StarMapPanel();
         jMenuBar1 = new javax.swing.JMenuBar();
         QuitButton = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -40,17 +43,14 @@ public class MainWindow2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Display.setBackground(new java.awt.Color(0, 0, 0));
-        Display.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-
-        javax.swing.GroupLayout DisplayLayout = new javax.swing.GroupLayout(Display);
-        Display.setLayout(DisplayLayout);
-        DisplayLayout.setHorizontalGroup(
-            DisplayLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout mapLayout = new javax.swing.GroupLayout(map);
+        map.setLayout(mapLayout);
+        mapLayout.setHorizontalGroup(
+            mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 600, Short.MAX_VALUE)
         );
-        DisplayLayout.setVerticalGroup(
-            DisplayLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        mapLayout.setVerticalGroup(
+            mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 379, Short.MAX_VALUE)
         );
 
@@ -95,11 +95,11 @@ public class MainWindow2 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Display, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(map, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Display, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(map, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -148,24 +148,19 @@ public class MainWindow2 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWindow2().setVisible(true);
-                ArrayList<Constellation> Clist = FileLoader.getConstellations();
-                StarMapPanel CMP = new StarMapPanel();
-                CMP.loadConstellations(Clist);
-                
-                
+                new MainWindow2().setVisible(true);             
             }      
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem About;
-    private javax.swing.JPanel Display;
     private javax.swing.JMenu HelpMenu;
     private javax.swing.JMenu QuitButton;
     private javax.swing.JMenuItem Usage;
     private javax.swing.JMenu ViewMenu;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private starmap.StarMapPanel map;
     // End of variables declaration//GEN-END:variables
 }
