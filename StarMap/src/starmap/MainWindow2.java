@@ -4,9 +4,14 @@
  * and open the template in the editor.
  */
 package starmap;
-import java.awt.Graphics;
+import java.awt.GridLayout;
+import java.awt.Label;
 import java.util.ArrayList;
+import javax.swing.JDialog;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JSlider;
+import javax.swing.JSpinner;
 /**
  *
  * @author 7101020
@@ -37,6 +42,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         QuitButton = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         ViewMenu = new javax.swing.JMenu();
+        PositionButton = new javax.swing.JMenuItem();
         HelpMenu = new javax.swing.JMenu();
         Usage = new javax.swing.JMenuItem();
         About = new javax.swing.JMenuItem();
@@ -67,6 +73,15 @@ public class MainWindow2 extends javax.swing.JFrame {
         jMenuBar1.add(QuitButton);
 
         ViewMenu.setText("View");
+
+        PositionButton.setText("Set Position");
+        PositionButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PositionButtonActionPerformed(evt);
+            }
+        });
+        ViewMenu.add(PositionButton);
+
         jMenuBar1.add(ViewMenu);
 
         HelpMenu.setText("Help");
@@ -118,6 +133,39 @@ public class MainWindow2 extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, message, "About", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_AboutActionPerformed
 
+    private void PositionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PositionButtonActionPerformed
+        JDialog dialog = null;
+        JOptionPane optionPane = new JOptionPane();
+        optionPane.setMessage("Please set longitude and latitude");
+
+        JPanel panel = new JPanel();
+        panel.setLayout(new GridLayout(2,1));
+        String tags[] = {"Longitude: ", "Latitude: "};
+        Label labels[] = new Label[2];
+        JSlider slider[]= new JSlider[2];
+        JSpinner box[] = new JSpinner[2];
+        for (int i = 0; i < slider.length; i++)
+        {
+            labels[i] = new Label(tags[i]);
+
+            panel.add(labels[i]);
+            slider[i] = new JSlider(-180, 180, 0);
+            slider[i].setMinorTickSpacing(10);
+            slider[i].setMajorTickSpacing(60);
+            slider[i].setPaintTicks(true);
+            slider[i].setPaintLabels(true);
+            box[i] = new JSpinner();
+
+            panel.add(slider[i]);
+            panel.add(box[i]);
+        }
+        optionPane.setOptionType(JOptionPane.DEFAULT_OPTION);
+        optionPane.add(panel);
+        dialog = optionPane.createDialog(null, "Set Position");
+        dialog.setVisible(true);
+        
+    }//GEN-LAST:event_PositionButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -148,7 +196,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWindow2().setVisible(true);             
+                new MainWindow2().setVisible(true); 
             }      
         });
     }
@@ -156,6 +204,7 @@ public class MainWindow2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem About;
     private javax.swing.JMenu HelpMenu;
+    private javax.swing.JMenuItem PositionButton;
     private javax.swing.JMenu QuitButton;
     private javax.swing.JMenuItem Usage;
     private javax.swing.JMenu ViewMenu;
