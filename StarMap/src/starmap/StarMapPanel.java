@@ -56,35 +56,61 @@ public class StarMapPanel extends JPanel
         
         g.setColor(Color.black);
         g.fillRect(this.getX(), this.getY(), this.getWidth(), this.getHeight());
-        g.setColor(Color.white);
         for(Constellation c : constellations)
         {
-            for(Star s : c.stars)
-            {
-                if(s.isVisible())
-                {
-                    int diameter = getDiameter(s);
-                    g.fillOval(getStarX(s), getStarY(s), diameter, diameter);
-                }
-            }
-            
+            g.setColor(Color.gray);
             for(Line l : c.lines)
             {
                 g.drawLine(getStarX(l.star1), getStarY(l.star1),
                     getStarX(l.star2), getStarY(l.star2));
             }
+            
+            //g.setColor(Color.white);
+            for(Star s : c.stars)
+            {
+                g.setColor(getColor(s));
+                if(s.isVisible())
+                {
+                    int diameter = getDiameter(s);
+                    int x = getStarX(s);
+                    int y = getStarY(s);
+                    g.fillOval(x, y, diameter, diameter);
+                    if(s.commonName != null)
+                        g.drawString(s.commonName, x + 4, y - 4);
+                }
+            }
         }
+    }
+    
+    private Color getColor(Star s)
+    {
+        if(s.magnitude <= 1)
+            return new Color(0.6f, 0.6f, 1.0f);
+        if(s.magnitude <= 2)
+            return new Color(0.7f, 0.7f, 1.0f);
+        if(s.magnitude <= 3)
+            return new Color(0.8f, 0.8f, 1.0f);
+        if(s.magnitude <= 4)
+            return new Color(0.9f, 0.9f, 1.0f);
+        return Color.white;
+    }
+    
+    private int getScale()
+    {
+        if(this.getHeight() < this.getWidth())
+            return this.getHeight();
+        return this.getWidth();
     }
     
     private int getStarX(Star s)
     {
-        double scaledX = s.getX() * this.getHeight();
+        double scaledX = s.getX() * getScale();
         return (int)scaledX;
     }
     
     private int getStarY(Star s)
     {
-        double scaledY = s.getY() * this.getHeight();
+        double scaledY = s.getY() * getScale();
         return this.getHeight() - (int)scaledY;
     }
     
