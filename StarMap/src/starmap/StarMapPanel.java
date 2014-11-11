@@ -58,6 +58,15 @@ public class StarMapPanel extends JPanel
         g.fillRect(this.getX(), this.getY(), this.getWidth(), this.getHeight());
         for(Constellation c : constellations)
         {
+            if(c.name != null)
+            {
+                g.setColor(Color.red);
+                c.findCenter();
+                g.drawString(c.name,
+                        (int)(c.centerX * getScale()),
+                        this.getHeight() - (int)(c.centerY * getScale()));
+            }
+            
             g.setColor(Color.gray);
             for(Line l : c.lines)
             {

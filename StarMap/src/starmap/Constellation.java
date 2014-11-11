@@ -12,6 +12,8 @@ public class Constellation {
     public String abbreviation;
     public ArrayList<Star> stars = new ArrayList<>();
     public ArrayList<Line> lines = new ArrayList<>();
+    public double centerX;
+    public double centerY;
     
     public static class Line
     {
@@ -23,8 +25,8 @@ public class Constellation {
     {
         Constellation c = new Constellation();
         
-        c.name = elem.getChildTextTrim("name");
-        c.abbreviation = elem.getChildTextTrim("abbr");
+        c.name = FileLoader.getAttribute(elem, "name", null);
+        c.abbreviation = FileLoader.getAttribute(elem, "abbr", null);
         
         for(Element node : elem.getChildren("line"))
         {
@@ -82,6 +84,34 @@ public class Constellation {
         }
         
         return l;
+    }
+    
+    /**
+     * Sets the Constellation's center position to the center of all the star's positions
+     */
+    public void findCenter()
+    {
+        double minX = 999;
+        double maxX = -999;
+        double minY = 999;
+        double maxY = -999;
+        for(Star s : stars)
+        {
+            double x = s.getX();
+            double y = s.getY();
+            
+            if(x < minX)
+                minX = x;
+            if(x > maxX)
+                maxX = x;
+            if(y < minY)
+                minY = y;
+            if(y > maxY)
+                maxY = y;
+        }
+        
+        centerX = (minX + maxX) / 2;
+        centerY = (minY + maxY) / 2;
     }
     
     @Override
