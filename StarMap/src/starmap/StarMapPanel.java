@@ -78,16 +78,18 @@ public class StarMapPanel extends JPanel
     
     private int getStarX(Star s)
     {
-        return this.getX() + (int)s.getX();
+        double scaledX = s.getX() * this.getHeight();
+        return (int)scaledX;
     }
     
     private int getStarY(Star s)
     {
-        return this.getY() + (int)s.getY();
+        double scaledY = s.getY() * this.getHeight();
+        return this.getHeight() - (int)scaledY;
     }
     
     private int getDiameter(Star s)
     {
-        return 6 - (int)s.magnitude;
+        return 9 - (int)s.magnitude;
     }
 }

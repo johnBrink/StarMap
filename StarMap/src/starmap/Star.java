@@ -107,15 +107,17 @@ public class Star {
     /**
      * Computes the X/Y position of a star, given viewer's position
      * @author John M. Weiss, Ph.D.
-     * @param viewerAlt
-     * @param viewerAzi 
+     * @param viewerAlt Altitude of the viewer
+     * @param viewerAzi Azimuth of the viewer
      */
     private void computeXY(double viewerAlt, double viewerAzi)
     {
-        double R = 1.0;		// distance to star: assume all stars are located on sphere of radius 1
+        double R = 1.0;	// distance to star: assume all stars are located on sphere of radius 1
         x = R * Math.cos( altitude ) * Math.sin( azimuth - viewerAzi );
-        y = R * ( Math.cos( viewerAlt ) * Math.sin( altitude ) - Math.sin( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAlt ) );
-        double clip = Math.sin( viewerAlt ) * Math.sin ( altitude ) + Math.cos( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi );
+        y = R * ( Math.cos( viewerAlt ) * Math.sin( altitude )
+                - Math.sin( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi ) );
+        double clip = Math.sin( viewerAlt ) * Math.sin ( altitude )
+                + Math.cos( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi );
         visible = (clip >= 0);
     }
     
@@ -139,23 +141,51 @@ public class Star {
         int hrNumber = Integer.parseInt(elem.getChild("HRnumber").getTextTrim());
         String name = elem.getChild("name").getTextTrim();
         String constellation = elem.getChild("constellation").getTextTrim();
-        double radians = parseDegrees(elem.getChild("ra").getTextTrim());
-        double declination = parseDegrees(elem.getChild("dec").getTextTrim());
+        double radians = parseRad(elem.getChild("ra").getTextTrim());
+        double declination = parseDec(elem.getChild("dec").getTextTrim());
         double magnitude = Double.parseDouble(elem.getChild("vmag").getTextTrim());
         String className = elem.getChild("class").getTextTrim();
         String commonName = FileLoader.getAttribute(elem, "common_name", null);
         
         return new Star(hrNumber, name, constellation, radians, declination, magnitude, className, commonName);
     }
-        
-    private static double parseDegrees(String s)
+    
+    /**
+     * Given a hours-minutes-seconds printout as a string, returns the value
+     * of "ra"
+     * @author John Brink, John M. Weiss, Ph.D.
+     * @param s
+     * @return 
+     */
+    private static double parseRad(String s)
     {
         //Sample: "6 45 8.90"
         String[] parts = s.split(" ");
         
-        return Double.parseDouble(parts[0])         // Degrees
-            + (Double.parseDouble(parts[1]) / 60)   // Minutes
-            + (Double.parseDouble(parts[2]) / 360); // Seconds
+        double hr = Double.parseDouble(parts[0]);
+        double min = Double.parseDouble(parts[1]);
+        double sec = Double.parseDouble(parts[2]);
+        
+        return Math.toRadians( ( hr + min / 60 + sec / 3600 ) * 15 );
+    }
+    
+    /**
+     * Given a degrees-minutes-seconds printout as a string, returns the value
+     * of "dec"
+     * @author John Brink, John M. Weiss, Ph.D.
+     * @param s
+     * @return 
+     */
+    private static double parseDec(String s)
+    {
+        //Sample: "6 45 8.90"
+        String[] parts = s.split(" ");
+        
+        double deg = Double.parseDouble(parts[0]);
+        double min = Double.parseDouble(parts[1]);
+        double sec = Double.parseDouble(parts[2]);
+        
+        return Math.toRadians( Math.abs( deg ) + min / 60 + sec / 3600 );
     }
     
     @Override
