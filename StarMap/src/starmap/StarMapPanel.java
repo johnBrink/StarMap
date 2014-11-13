@@ -19,7 +19,7 @@ import starmap.Constellation.Line;
  */
 public class StarMapPanel extends JPanel implements MouseMotionListener
 {
-    private final double DRAG_SCALE = 0.05;
+    private final double DRAG_SCALE = 0.01;
     
     private ArrayList<Star> stars = new ArrayList<>();
     private ArrayList<Constellation> constellations = new ArrayList<>();
@@ -28,7 +28,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     private double altitude = 0;
     private double azimuth = 0;
     
-    public boolean showConstellations = true;
+    private boolean showConstellations = true;
     
     private int offsetX = 0;
     private int offsetY = 0;
@@ -65,6 +65,12 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         {
             s.computePosition(latitude, longitude, altitude, azimuth);
         }
+    }
+    
+    public void setShowConstellations(boolean show)
+    {
+        showConstellations = show;
+        repaint();
     }
     
     @Override
