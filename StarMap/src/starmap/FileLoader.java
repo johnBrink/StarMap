@@ -23,6 +23,8 @@ public class FileLoader {
     {
         if(stars == null)
         {
+            stars = new ArrayList<>();
+            
             // Find all the stars
             try
             {
@@ -58,6 +60,8 @@ public class FileLoader {
         {
             if(stars == null)
                 getStars();
+            
+            constellations = new ArrayList<>();
             
             // Build the constellations
             try

@@ -28,7 +28,10 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     private double altitude = 0;
     private double azimuth = 0;
     
-    public boolean showConstellations;
+    public boolean showConstellations = true;
+    
+    private int offsetX = 0;
+    private int offsetY = 0;
     
     private int mouseX;
     private int mouseY;
@@ -67,6 +70,27 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     public void paintComponent(Graphics g)
     {
         super.paintComponent(g);
+        
+        // Calculate offset required to center the display
+        if(this.getWidth() > this.getHeight())
+        {
+            // Wider than tall: center horizontally
+            this.offsetY = 0;
+            this.offsetX = (this.getWidth() - this.getHeight()) / 2;
+        }
+        else if(this.getHeight() > this.getWidth())
+        {
+            // Taller than wide: center vertically
+            this.offsetX = 0;
+            this.offsetY = (this.getHeight() - this.getWidth()) / 2;
+        }
+        else
+        {
+            // Perfect square (never gonna happen)
+            this.offsetX = 0;
+            this.offsetY = 0;
+        }
+        
         
         g.setColor(Color.black);
         g.fillRect(this.getX(), this.getY(), this.getWidth(), this.getHeight());
@@ -133,13 +157,13 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     private int getStarX(Star s)
     {
         double scaledX = s.getX() * getScale();
-        return (int)scaledX;
+        return (int)scaledX + offsetX;
     }
     
     private int getStarY(Star s)
     {
         double scaledY = s.getY() * getScale();
-        return this.getHeight() - (int)scaledY;
+        return this.getHeight() - (int)scaledY + offsetY;
     }
     
     private int getDiameter(Star s)

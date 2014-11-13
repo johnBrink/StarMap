@@ -25,8 +25,7 @@ public class MainWindow2 extends javax.swing.JFrame {
     public MainWindow2() {
         initComponents();
         this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
-        ArrayList<Constellation> Clist = FileLoader.getConstellations();
-        map.loadConstellations(Clist);
+        map.loadConstellations(FileLoader.getStars(), FileLoader.getConstellations());
     }
     /**
      * This method is called from within the constructor to initialize the form.
