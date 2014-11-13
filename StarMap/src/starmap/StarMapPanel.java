@@ -7,6 +7,8 @@ package starmap;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
 import java.util.ArrayList;
 import javax.swing.JPanel;
 import starmap.Constellation.Line;
@@ -15,13 +17,27 @@ import starmap.Constellation.Line;
  * A JPanel that displays a set of stars and constellations
  * @author John Brink
  */
-public class StarMapPanel extends JPanel
+public class StarMapPanel extends JPanel implements MouseMotionListener
 {
+    private final double DRAG_SCALE = 0.05;
+    
+    private ArrayList<Star> stars = new ArrayList<>();
     private ArrayList<Constellation> constellations = new ArrayList<>();
     private double latitude = 0;
     private double longitude = 0;
     private double altitude = 0;
     private double azimuth = 0;
+    
+    public boolean showConstellations;
+    
+    private int mouseX;
+    private int mouseY;
+    
+    public StarMapPanel()
+    {
+        super();
+        addMouseMotionListener(this);
+    }
 
     public void setPosition(double lat, double lon, double alt, double az)
     {
@@ -32,20 +48,18 @@ public class StarMapPanel extends JPanel
         updatePositions();
     }
     
-    public void loadConstellations(ArrayList<Constellation> constellations)
+    public void loadConstellations(ArrayList<Star> stars, ArrayList<Constellation> constellations)
     {
+        this.stars = stars;
         this.constellations = constellations;
         updatePositions();
     }
     
     private void updatePositions()
     {
-        for(Constellation c : constellations)
+        for(Star s : stars)
         {
-            for(Star s : c.stars)
-            {
-                s.computePosition(latitude, longitude, altitude, azimuth);
-            }
+            s.computePosition(latitude, longitude, altitude, azimuth);
         }
     }
     
@@ -56,37 +70,42 @@ public class StarMapPanel extends JPanel
         
         g.setColor(Color.black);
         g.fillRect(this.getX(), this.getY(), this.getWidth(), this.getHeight());
-        for(Constellation c : constellations)
+        
+        if(showConstellations)
         {
-            if(c.name != null)
+            for(Constellation c : constellations)
             {
-                g.setColor(Color.red);
-                c.findCenter();
-                g.drawString(c.name,
-                        (int)(c.centerX * getScale()),
-                        this.getHeight() - (int)(c.centerY * getScale()));
-            }
-            
-            g.setColor(Color.gray);
-            for(Line l : c.lines)
-            {
-                g.drawLine(getStarX(l.star1), getStarY(l.star1),
-                    getStarX(l.star2), getStarY(l.star2));
-            }
-            
-            //g.setColor(Color.white);
-            for(Star s : c.stars)
-            {
-                g.setColor(getColor(s));
-                if(s.isVisible())
+                // Draw constellation lines
+                g.setColor(Color.gray);
+                for(Line l : c.lines)
                 {
-                    int diameter = getDiameter(s);
-                    int x = getStarX(s);
-                    int y = getStarY(s);
-                    g.fillOval(x, y, diameter, diameter);
-                    if(s.commonName != null)
-                        g.drawString(s.commonName, x + 4, y - 4);
+                    g.drawLine(getStarX(l.star1), getStarY(l.star1),
+                        getStarX(l.star2), getStarY(l.star2));
                 }
+
+                // Draw constellation name
+                if(c.name != null)
+                {
+                    g.setColor(Color.red);
+                    c.findCenter();
+                    g.drawString(c.name,
+                            (int)(c.centerX * getScale()),
+                            this.getHeight() - (int)(c.centerY * getScale()));
+                }
+            }
+        }
+        
+        for(Star s : stars)
+        {
+            g.setColor(getColor(s));
+            if(s.isVisible())
+            {
+                int diameter = getDiameter(s);
+                int x = getStarX(s);
+                int y = getStarY(s);
+                g.fillOval(x, y, diameter, diameter);
+                if(s.commonName != null)
+                    g.drawString(s.commonName, x + 4, y - 4);
             }
         }
     }
@@ -126,5 +145,34 @@ public class StarMapPanel extends JPanel
     private int getDiameter(Star s)
     {
         return 9 - (int)s.magnitude;
+    }
+
+    @Override
+    public void mouseDragged(MouseEvent me) {
+        double diffX = (me.getX() - mouseX) * DRAG_SCALE;
+        double diffY = (me.getY() - mouseY) * DRAG_SCALE;
+        
+        azimuth -= diffX;
+        azimuth %= 360;
+        while(azimuth < 0)
+            azimuth += 360;
+        
+        altitude += diffY;
+        if(altitude > 90)
+            altitude = 90;
+        if(altitude < 0)
+            altitude = 0;
+        
+        updatePositions();
+        repaint();
+        
+        mouseX = me.getX();
+        mouseY = me.getY();
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent me) {
+        mouseX = me.getX();
+        mouseY = me.getY();
     }
 }

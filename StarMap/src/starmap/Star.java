@@ -17,7 +17,7 @@ public class Star {
     public String starClass;
     
     // Given data
-    public double radians;
+    public double rightAscension;
     public double declination;
     public double magnitude;
     
@@ -38,7 +38,7 @@ public class Star {
         this.constellation = constellation;
         this.starClass = starClass;
         
-        this.radians = radians;
+        this.rightAscension = radians;
         this.declination = declination;
         this.magnitude = magnitude;
         
@@ -84,7 +84,7 @@ public class Star {
         double psi = tG + Math.toDegrees( lon ) + 90;
 
         // rename ala formulas in Don's paper
-        double alpha = radians;
+        double alpha = rightAscension;
         double beta  = lat;
         double delta = declination;
         psi = Math.toRadians( psi );
@@ -141,7 +141,7 @@ public class Star {
         int hrNumber = Integer.parseInt(elem.getChild("HRnumber").getTextTrim());
         String name = elem.getChild("name").getTextTrim();
         String constellation = elem.getChild("constellation").getTextTrim();
-        double radians = parseRad(elem.getChild("ra").getTextTrim());
+        double radians = parseRa(elem.getChild("ra").getTextTrim());
         double declination = parseDec(elem.getChild("dec").getTextTrim());
         double magnitude = Double.parseDouble(elem.getChild("vmag").getTextTrim());
         String className = elem.getChild("class").getTextTrim();
@@ -152,12 +152,12 @@ public class Star {
     
     /**
      * Given a hours-minutes-seconds printout as a string, returns the value
-     * of "ra"
+     * of right ascension
      * @author John Brink, John M. Weiss, Ph.D.
      * @param s
      * @return 
      */
-    private static double parseRad(String s)
+    private static double parseRa(String s)
     {
         //Sample: "6 45 8.90"
         String[] parts = s.split(" ");
@@ -171,7 +171,7 @@ public class Star {
     
     /**
      * Given a degrees-minutes-seconds printout as a string, returns the value
-     * of "dec"
+     * of declination
      * @author John Brink, John M. Weiss, Ph.D.
      * @param s
      * @return 

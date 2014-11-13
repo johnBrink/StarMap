@@ -16,55 +16,68 @@ import org.jdom2.input.SAXBuilder;
  * @author John Brink
  */
 public class FileLoader {
-    public static ArrayList<Constellation> getConstellations()
+    private static ArrayList<Star> stars = null;
+    private static ArrayList<Constellation> constellations = null;
+    
+    public static ArrayList<Star> getStars()
     {
-        ArrayList<Star> stars = new ArrayList<>();
-        ArrayList<Constellation> constellations = new ArrayList<>();
-
-        // Find all the stars
-        try
+        if(stars == null)
         {
-            InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/stars.xml");
-            SAXBuilder builder = new SAXBuilder();
-            Document doc = (Document)builder.build(istream);
-            Element root = doc.getRootElement();
-            
-            System.out.printf("Parsing in %d stars\n", root.getChildren().size());
-            
-            for(Element node : root.getChildren())
+            // Find all the stars
+            try
             {
-                Star newStar = Star.deserialize(node);
-                stars.add(newStar);
-                //System.out.printf("Parsed a star called %s\n", newStar.toString());
+                InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/stars.xml");
+                SAXBuilder builder = new SAXBuilder();
+                Document doc = (Document)builder.build(istream);
+                Element root = doc.getRootElement();
+
+                System.out.printf("Parsing in %d stars\n", root.getChildren().size());
+
+                for(Element node : root.getChildren())
+                {
+                    Star newStar = Star.deserialize(node);
+                    stars.add(newStar);
+                    //System.out.printf("Parsed a star called %s\n", newStar.toString());
+                }
+
+                // Root element is "xml"
+                // Convert each child into Star object
             }
-            
-            // Root element is "xml"
-            // Convert each child into Star object
-        }
-        catch(Exception e)
-        {
-            System.out.printf("%s error reading Stars XML file: %s\n", e.getClass().getName(), e.getMessage());
-            return constellations;
+            catch(Exception e)
+            {
+                System.out.printf("%s error reading Stars XML file: %s\n", e.getClass().getName(), e.getMessage());
+            }
         }
         
-        // Build the constellations
-        try
+        return stars;
+    }
+    
+    public static ArrayList<Constellation> getConstellations()
+    {   
+        if(constellations == null)
         {
-            InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/constellations.xml");
-            SAXBuilder builder = new SAXBuilder();
-            Document doc = (Document)builder.build(istream);
-            Element root = doc.getRootElement();
+            if(stars == null)
+                getStars();
             
-            for(Element node : root.getChildren())
+            // Build the constellations
+            try
             {
-                Constellation newConst = Constellation.deserialize(node, stars);
-                constellations.add(newConst);
-                //System.out.printf("Parsed a constellation called %s\n", newConst.toString());
-            }    
-        }
-        catch(Exception e)
-        {
-            System.out.printf("%s error reading Constellations XML file: %s\n", e.getClass().getName(), e.getMessage());
+                InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/constellations.xml");
+                SAXBuilder builder = new SAXBuilder();
+                Document doc = (Document)builder.build(istream);
+                Element root = doc.getRootElement();
+
+                for(Element node : root.getChildren())
+                {
+                    Constellation newConst = Constellation.deserialize(node, stars);
+                    constellations.add(newConst);
+                    //System.out.printf("Parsed a constellation called %s\n", newConst.toString());
+                }    
+            }
+            catch(Exception e)
+            {
+                System.out.printf("%s error reading Constellations XML file: %s\n", e.getClass().getName(), e.getMessage());
+            }
         }
         
         return constellations;
