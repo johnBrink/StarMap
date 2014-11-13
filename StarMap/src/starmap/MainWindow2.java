@@ -140,36 +140,7 @@ public class MainWindow2 extends javax.swing.JFrame {
                 map.setPosition(latitude, longitude, altitude, azimuth);
             });
         window.setVisible(true);
-        /*JDialog dialog = null;
-        JOptionPane optionPane = new JOptionPane();
-        optionPane.setMessage("Please set longitude and latitude");
-
-        JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(2,1));
-        String tags[] = {"Longitude: ", "Latitude: "};
-        Label labels[] = new Label[2];
-        JSlider slider[]= new JSlider[2];
-        JSpinner box[] = new JSpinner[2];
-        for (int i = 0; i < slider.length; i++)
-        {
-            labels[i] = new Label(tags[i]);
-
-            panel.add(labels[i]);
-            slider[i] = new JSlider(-180, 180, 0);
-            slider[i].setMinorTickSpacing(10);
-            slider[i].setMajorTickSpacing(60);
-            slider[i].setPaintTicks(true);
-            slider[i].setPaintLabels(true);
-            box[i] = new JSpinner();
-
-            panel.add(slider[i]);
-            panel.add(box[i]);
-        }
-        optionPane.setOptionType(JOptionPane.DEFAULT_OPTION);
-        optionPane.add(panel);
-        dialog = optionPane.createDialog(null, "Set Position");
-        dialog.setVisible(true);
-        */
+        
     }//GEN-LAST:event_PositionButtonActionPerformed
 
     /**

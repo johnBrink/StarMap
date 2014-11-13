@@ -74,30 +74,70 @@ public class ObserverDialog extends javax.swing.JDialog {
         LongSlider.setMinimum(-180);
         LongSlider.setMinorTickSpacing(10);
         LongSlider.setValue(0);
+        LongSlider.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                LongSliderStateChanged(evt);
+            }
+        });
 
         LatSlider.setMajorTickSpacing(60);
         LatSlider.setMaximum(180);
         LatSlider.setMinimum(-180);
         LatSlider.setMinorTickSpacing(10);
         LatSlider.setValue(0);
+        LatSlider.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                LatSliderStateChanged(evt);
+            }
+        });
 
         AltSlider.setMajorTickSpacing(10);
         AltSlider.setMaximum(90);
         AltSlider.setMinorTickSpacing(1);
         AltSlider.setValue(0);
+        AltSlider.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                AltSliderStateChanged(evt);
+            }
+        });
 
         AzSlider.setMajorTickSpacing(60);
         AzSlider.setMaximum(360);
         AzSlider.setMinorTickSpacing(10);
         AzSlider.setValue(0);
+        AzSlider.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                AzSliderStateChanged(evt);
+            }
+        });
 
         LongSpinner.setModel(new javax.swing.SpinnerNumberModel(0, -180, 180, 1));
+        LongSpinner.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                LongSpinnerStateChanged(evt);
+            }
+        });
 
         LatSpinner.setModel(new javax.swing.SpinnerNumberModel(0, -180, 180, 1));
+        LatSpinner.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                LatSpinnerStateChanged(evt);
+            }
+        });
 
         AltSpinner.setModel(new javax.swing.SpinnerNumberModel(0, 0, 90, 1));
+        AltSpinner.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                AltSpinnerStateChanged(evt);
+            }
+        });
 
         AzSpinner.setModel(new javax.swing.SpinnerNumberModel(0, 0, 360, 1));
+        AzSpinner.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                AzSpinnerStateChanged(evt);
+            }
+        });
 
         jLabel5.setText("Please select your desired position.");
 
@@ -199,6 +239,38 @@ public class ObserverDialog extends javax.swing.JDialog {
         this.dispose();
         
     }//GEN-LAST:event_CancelButtonActionPerformed
+
+    private void LongSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LongSliderStateChanged
+        LongSpinner.setValue(LongSlider.getValue());
+    }//GEN-LAST:event_LongSliderStateChanged
+
+    private void LongSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LongSpinnerStateChanged
+        LongSlider.setValue((int)LongSpinner.getValue());
+    }//GEN-LAST:event_LongSpinnerStateChanged
+
+    private void LatSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LatSliderStateChanged
+        LatSpinner.setValue(LatSlider.getValue());
+    }//GEN-LAST:event_LatSliderStateChanged
+
+    private void LatSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LatSpinnerStateChanged
+        LatSlider.setValue((int)LatSpinner.getValue());
+    }//GEN-LAST:event_LatSpinnerStateChanged
+
+    private void AltSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AltSliderStateChanged
+        AltSpinner.setValue(AltSlider.getValue());
+    }//GEN-LAST:event_AltSliderStateChanged
+
+    private void AltSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AltSpinnerStateChanged
+        AltSlider.setValue((int)AltSpinner.getValue());
+    }//GEN-LAST:event_AltSpinnerStateChanged
+
+    private void AzSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AzSliderStateChanged
+        AzSpinner.setValue(AzSlider.getValue());
+    }//GEN-LAST:event_AzSliderStateChanged
+
+    private void AzSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AzSpinnerStateChanged
+        AzSlider.setValue((int)AzSpinner.getValue());
+    }//GEN-LAST:event_AzSpinnerStateChanged
 
     /**
      * @param args the command line arguments
