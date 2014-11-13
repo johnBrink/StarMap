@@ -83,7 +83,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         {
             // Wider than tall: center horizontally
             this.offsetY = 0;
-            this.offsetX = (this.getWidth() - this.getHeight()) / 2;
+            this.offsetX = (this.getWidth() - this.getHeight());
         }
         else if(this.getHeight() > this.getWidth())
         {
@@ -110,8 +110,11 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
                 g.setColor(Color.gray);
                 for(Line l : c.lines)
                 {
-                    g.drawLine(getStarX(l.star1), getStarY(l.star1),
-                        getStarX(l.star2), getStarY(l.star2));
+                    if(l.star1.isVisible() && l.star2.isVisible())
+                    {
+                        g.drawLine(getStarX(l.star1), getStarY(l.star1),
+                            getStarX(l.star2), getStarY(l.star2));
+                    }
                 }
 
                 // Draw constellation name
@@ -128,9 +131,9 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         
         for(Star s : stars)
         {
-            g.setColor(getColor(s));
             if(s.isVisible())
             {
+                g.setColor(getColor(s));
                 int diameter = getDiameter(s);
                 int x = getStarX(s);
                 int y = getStarY(s);
@@ -139,6 +142,10 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
                     g.drawString(s.commonName, x + 4, y - 4);
             }
         }
+        
+        //g.setColor(Color.black);
+        //g.fillRect(0, 0, offsetX, getHeight());
+        //g.fillRect(0, 0, getWidth(), offsetY);
     }
     
     private Color getColor(Star s)
@@ -205,5 +212,13 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     public void mouseMoved(MouseEvent me) {
         mouseX = me.getX();
         mouseY = me.getY();
+        
+        for(Star s : stars)
+        {
+            if(Math.sqrt(Math.pow(getStarX(s) - mouseX, 2) + Math.pow(getStarY(s) - mouseY, 2)) < 4)
+            {
+                break;
+            }
+        }
     }
 }

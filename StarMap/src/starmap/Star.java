@@ -118,7 +118,11 @@ public class Star {
                 - Math.sin( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi ) );
         double clip = Math.sin( viewerAlt ) * Math.sin ( altitude )
                 + Math.cos( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi );
-        visible = (clip >= 0);
+        
+        // How to tell if star is visible?!
+        visible = true;
+        //visible = (clip >= 0);
+        //visible = Math.abs(azimuth - viewerAzi) < 90;
     }
     
     public double getX()
