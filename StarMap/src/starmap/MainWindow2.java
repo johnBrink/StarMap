@@ -134,7 +134,13 @@ public class MainWindow2 extends javax.swing.JFrame {
     }//GEN-LAST:event_AboutActionPerformed
 
     private void PositionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PositionButtonActionPerformed
-        JDialog dialog = null;
+
+        ObserverDialog window = new ObserverDialog(this, true,
+            (double latitude, double longitude, double altitude, double azimuth) -> {
+                map.setPosition(latitude, longitude, altitude, azimuth);
+            });
+        window.setVisible(true);
+        /*JDialog dialog = null;
         JOptionPane optionPane = new JOptionPane();
         optionPane.setMessage("Please set longitude and latitude");
 
@@ -163,7 +169,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         optionPane.add(panel);
         dialog = optionPane.createDialog(null, "Set Position");
         dialog.setVisible(true);
-        
+        */
     }//GEN-LAST:event_PositionButtonActionPerformed
 
     /**
