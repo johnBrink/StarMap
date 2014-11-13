@@ -49,6 +49,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         this.altitude = alt;
         this.azimuth = az;
         updatePositions();
+        repaint();
     }
     
     public void loadConstellations(ArrayList<Star> stars, ArrayList<Constellation> constellations)
