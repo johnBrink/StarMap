@@ -4,14 +4,8 @@
  * and open the template in the editor.
  */
 package starmap;
-import java.awt.GridLayout;
-import java.awt.Label;
-import java.util.ArrayList;
-import javax.swing.JDialog;
+import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JSlider;
-import javax.swing.JSpinner;
 /**
  *
  * @author 7101020
@@ -42,6 +36,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         jMenuItem1 = new javax.swing.JMenuItem();
         ViewMenu = new javax.swing.JMenu();
         PositionButton = new javax.swing.JMenuItem();
+        ShowConst = new javax.swing.JCheckBoxMenuItem();
         HelpMenu = new javax.swing.JMenu();
         Usage = new javax.swing.JMenuItem();
         About = new javax.swing.JMenuItem();
@@ -80,6 +75,15 @@ public class MainWindow2 extends javax.swing.JFrame {
             }
         });
         ViewMenu.add(PositionButton);
+
+        ShowConst.setSelected(true);
+        ShowConst.setText("Show Constellations");
+        ShowConst.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ShowConstActionPerformed(evt);
+            }
+        });
+        ViewMenu.add(ShowConst);
 
         jMenuBar1.add(ViewMenu);
 
@@ -142,6 +146,11 @@ public class MainWindow2 extends javax.swing.JFrame {
         
     }//GEN-LAST:event_PositionButtonActionPerformed
 
+    private void ShowConstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ShowConstActionPerformed
+        JCheckBoxMenuItem checkBox = (JCheckBoxMenuItem)evt.getSource();
+        map.setShowConstellations(checkBox.getState());
+    }//GEN-LAST:event_ShowConstActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -182,6 +191,7 @@ public class MainWindow2 extends javax.swing.JFrame {
     private javax.swing.JMenu HelpMenu;
     private javax.swing.JMenuItem PositionButton;
     private javax.swing.JMenu QuitButton;
+    private javax.swing.JCheckBoxMenuItem ShowConst;
     private javax.swing.JMenuItem Usage;
     private javax.swing.JMenu ViewMenu;
     private javax.swing.JMenuBar jMenuBar1;
