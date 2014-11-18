@@ -19,6 +19,7 @@ public class MainWindow2 extends javax.swing.JFrame {
     public MainWindow2() {
         initComponents();
         this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
+        map.infoPanel = starInfo1;
         map.loadConstellations(FileLoader.getStars(), FileLoader.getConstellations());
     }
     /**
@@ -44,15 +45,13 @@ public class MainWindow2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        starInfo1.setBackground(new java.awt.Color(0, 0, 0));
-
         javax.swing.GroupLayout mapLayout = new javax.swing.GroupLayout(map);
         map.setLayout(mapLayout);
         mapLayout.setHorizontalGroup(
             mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mapLayout.createSequentialGroup()
-                .addGap(0, 416, Short.MAX_VALUE)
-                .addComponent(starInfo1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 340, Short.MAX_VALUE)
+                .addComponent(starInfo1, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         mapLayout.setVerticalGroup(
             mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

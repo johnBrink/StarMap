@@ -43,14 +43,13 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
     private int mouseX;
     private int mouseY;
     
-    //private StarInfo infoPanel;
+    public StarInfo infoPanel;
     
     public StarMapPanel()
     {
         super();
         addMouseMotionListener(this);
         addMouseWheelListener(this);
-        //this.infoPanel = infoPanel;
     }
 
     public void setPosition(double lat, double lon, double alt, double az)
@@ -235,21 +234,29 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         mouseY = me.getY();
     }
 
+    /**
+     * When the mouse moves, check if a star is close to the cursor and give it to the StarInfo panel.
+     * If the StarInfo panel is null, do nothing.
+     * @param me 
+     */
     @Override
     public void mouseMoved(MouseEvent me) {
+        if(infoPanel == null)
+            return;
+        
         mouseX = me.getX();
         mouseY = me.getY();
         
         for(Star s : stars)
         {
-            if(Math.sqrt(Math.pow(getStarX(s) - mouseX, 2) + Math.pow(getStarY(s) - mouseY, 2)) < 4)
+            if(Math.sqrt(Math.pow(getStarX(s) - mouseX, 2) + Math.pow(getStarY(s) - mouseY, 2)) < getDiameter(s) + 3)
             {
-                //infoPanel.setStar(s);
+                infoPanel.SetStarLabel(s);
                 return;
             }
         }
         
-        //infoPanel.setStar(null);
+        infoPanel.SetStarLabel(null);
     }
 
     @Override
