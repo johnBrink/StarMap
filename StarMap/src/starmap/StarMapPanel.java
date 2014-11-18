@@ -19,7 +19,7 @@ import starmap.Constellation.Line;
  */
 public class StarMapPanel extends JPanel implements MouseMotionListener
 {
-    private final double DRAG_SCALE = 0.01;
+    private final double DRAG_SCALE = 0.005;
     
     private ArrayList<Star> stars = new ArrayList<>();
     private ArrayList<Constellation> constellations = new ArrayList<>();
@@ -65,6 +65,10 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         {
             s.computePosition(latitude, longitude, altitude, azimuth);
         }
+        for(Constellation c : constellations)
+        {
+            c.findCenter();
+        }
     }
     
     public void setShowConstellations(boolean show)
@@ -106,32 +110,35 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         {
             for(Constellation c : constellations)
             {
+                // Draw constellation name if any of its lines is visible
+                boolean isVisible = false;
+                
                 // Draw constellation lines
                 g.setColor(Color.gray);
                 for(Line l : c.lines)
                 {
-                    if(l.star1.isVisible() && l.star2.isVisible())
+                    if(starIsVisible(l.star1) && starIsVisible(l.star2))
                     {
+                        isVisible = true;
                         g.drawLine(getStarX(l.star1), getStarY(l.star1),
                             getStarX(l.star2), getStarY(l.star2));
                     }
                 }
 
                 // Draw constellation name
-                if(c.name != null)
+                if(isVisible && c.name != null)
                 {
                     g.setColor(Color.red);
-                    c.findCenter();
                     g.drawString(c.name,
-                            (int)(c.centerX * getScale()),
-                            this.getHeight() - (int)(c.centerY * getScale()));
+                            (int)(c.centerX * getScale() + offsetX),
+                            this.getHeight() - (int)(c.centerY * getScale()) + offsetY);
                 }
             }
         }
         
         for(Star s : stars)
         {
-            if(s.isVisible())
+            if(starIsVisible(s))
             {
                 g.setColor(getColor(s));
                 int diameter = getDiameter(s);
@@ -178,6 +185,15 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     {
         double scaledY = s.getY() * getScale();
         return this.getHeight() - (int)scaledY + offsetY;
+    }
+    
+    private boolean starIsVisible(Star s)
+    {
+        int x = getStarX(s);
+        int y = getStarY(s);
+        return s.isVisible()
+                && x >= 0 && x <= getWidth()
+                && y >= 0 && y <= getWidth();
     }
     
     private int getDiameter(Star s)
