@@ -6,4 +6,10 @@
         <line> Schedar to Achernar </line>
         <line> Achernar to Caph </line>
     </constellation>
+    <constellation>
+        <name> My Constellation Too </name> 
+        <abbr> Const2 </abbr> 
+        <line> Peacock to Deneb </line> 
+        <line> Deneb to Al_Na'ir </line>
+    </constellation>
 </xml>

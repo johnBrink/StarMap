@@ -22,8 +22,8 @@ public class Star {
     public double magnitude;
     
     // Computed data
-    private double altitude;
-    private double azimuth;
+    public double altitude;
+    public double azimuth;
     
     private double x;
     private double y;

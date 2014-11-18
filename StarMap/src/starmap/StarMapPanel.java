@@ -69,6 +69,24 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         updatePositions();
     }
     
+    public boolean goTo(String name)
+    {
+        for(Star s : stars)
+        {
+            if(s.commonName.equalsIgnoreCase(name) || s.name.equalsIgnoreCase(name))
+            {
+                if(s.altitude >= 0 && s.altitude <= 90)
+                {
+                    setPosition(latitude, longitude, s.altitude, s.azimuth);
+                    return true;
+                }
+                return false;
+            }
+        }
+        
+        return false;
+    }
+    
     private void updatePositions()
     {
         for(Star s : stars)
