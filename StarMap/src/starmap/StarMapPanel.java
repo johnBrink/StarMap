@@ -9,6 +9,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
+import java.awt.event.MouseWheelEvent;
+import java.awt.event.MouseWheelListener;
 import java.util.ArrayList;
 import javax.swing.JPanel;
 import starmap.Constellation.Line;
@@ -17,9 +19,12 @@ import starmap.Constellation.Line;
  * A JPanel that displays a set of stars and constellations
  * @author John Brink
  */
-public class StarMapPanel extends JPanel implements MouseMotionListener
+public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWheelListener
 {
-    private final double DRAG_SCALE = 0.005;
+    private static final double DRAG_SCALE = 0.0025;
+    private static final double ZOOM_SCALE = 0.01;
+    private static final double ZOOM_MAX = 2.0;
+    private static final double ZOOM_MIN = 0.5;
     
     private ArrayList<Star> stars = new ArrayList<>();
     private ArrayList<Constellation> constellations = new ArrayList<>();
@@ -30,16 +35,22 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
     
     private boolean showConstellations = true;
     
+    private double scale = 1;
+    
     private int offsetX = 0;
     private int offsetY = 0;
     
     private int mouseX;
     private int mouseY;
     
+    //private StarInfo infoPanel;
+    
     public StarMapPanel()
     {
         super();
         addMouseMotionListener(this);
+        addMouseWheelListener(this);
+        //this.infoPanel = infoPanel;
     }
 
     public void setPosition(double lat, double lon, double alt, double az)
@@ -168,11 +179,11 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         return Color.white;
     }
     
-    private int getScale()
+    private double getScale()
     {
         if(this.getHeight() < this.getWidth())
-            return this.getHeight();
-        return this.getWidth();
+            return this.getHeight() * scale;
+        return this.getWidth() * scale;
     }
     
     private int getStarX(Star s)
@@ -203,8 +214,8 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
 
     @Override
     public void mouseDragged(MouseEvent me) {
-        double diffX = (me.getX() - mouseX) * DRAG_SCALE;
-        double diffY = (me.getY() - mouseY) * DRAG_SCALE;
+        double diffX = (me.getX() - mouseX) * DRAG_SCALE / scale;
+        double diffY = (me.getY() - mouseY) * DRAG_SCALE / scale;
         
         azimuth -= diffX;
         azimuth %= 360;
@@ -233,8 +244,23 @@ public class StarMapPanel extends JPanel implements MouseMotionListener
         {
             if(Math.sqrt(Math.pow(getStarX(s) - mouseX, 2) + Math.pow(getStarY(s) - mouseY, 2)) < 4)
             {
-                break;
+                //infoPanel.setStar(s);
+                return;
             }
         }
+        
+        //infoPanel.setStar(null);
+    }
+
+    @Override
+    public void mouseWheelMoved(MouseWheelEvent mwe)
+    {
+        scale -= ZOOM_SCALE * mwe.getWheelRotation();
+        if(scale > ZOOM_MAX)
+            scale = ZOOM_MAX;
+        else if(scale < ZOOM_MIN)
+            scale = ZOOM_MIN;
+        
+        repaint();
     }
 }
