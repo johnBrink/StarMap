@@ -120,8 +120,8 @@ public class Star {
                 + Math.cos( viewerAlt ) * Math.cos( altitude ) * Math.cos( azimuth - viewerAzi );
         
         // How to tell if star is visible?!
-        visible = true;
-        //visible = (clip >= 0);
+        //visible = true;
+        visible = (clip >= 0);
         //visible = Math.abs(azimuth - viewerAzi) < 90;
     }
     

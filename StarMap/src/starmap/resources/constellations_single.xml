@@ -1,0 +1,9 @@
+<xml>
+    <constellation>
+        <name> My Constellation </name> 
+        <abbr> Const </abbr> 
+        <line> Caph to Schedar </line> 
+        <line> Schedar to Achernar </line>
+        <line> Achernar to Caph </line>
+    </constellation>
+</xml>
