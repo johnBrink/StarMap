@@ -31,6 +31,7 @@ public class MainWindow2 extends javax.swing.JFrame {
     private void initComponents() {
 
         map = new starmap.StarMapPanel();
+        starInfo1 = new starmap.StarInfo();
         jMenuBar1 = new javax.swing.JMenuBar();
         QuitButton = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -43,15 +44,21 @@ public class MainWindow2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        starInfo1.setBackground(new java.awt.Color(0, 0, 0));
+
         javax.swing.GroupLayout mapLayout = new javax.swing.GroupLayout(map);
         map.setLayout(mapLayout);
         mapLayout.setHorizontalGroup(
             mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 600, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mapLayout.createSequentialGroup()
+                .addGap(0, 416, Short.MAX_VALUE)
+                .addComponent(starInfo1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         mapLayout.setVerticalGroup(
             mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 379, Short.MAX_VALUE)
+            .addGroup(mapLayout.createSequentialGroup()
+                .addComponent(starInfo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 203, Short.MAX_VALUE))
         );
 
         QuitButton.setText("File");
@@ -197,5 +204,6 @@ public class MainWindow2 extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private starmap.StarMapPanel map;
+    private starmap.StarInfo starInfo1;
     // End of variables declaration//GEN-END:variables
 }
