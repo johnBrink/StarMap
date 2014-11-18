@@ -21,6 +21,13 @@ import starmap.Constellation.Line;
  */
 public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWheelListener
 {
+    public enum SearchResult
+    {
+        OK,
+        NOTVISIBLE,
+        NOTFOUND;
+    }
+    
     private static final double DRAG_SCALE = 0.0025;
     private static final double ZOOM_SCALE = 0.01;
     private static final double ZOOM_MAX = 2.0;
@@ -69,7 +76,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         updatePositions();
     }
     
-    public boolean goTo(String name)
+    public SearchResult goTo(String name)
     {
         for(Star s : stars)
         {
@@ -78,13 +85,13 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
                 if(s.altitude >= 0 && s.altitude <= 90)
                 {
                     setPosition(latitude, longitude, s.altitude, s.azimuth);
-                    return true;
+                    return SearchResult.OK;
                 }
-                return false;
+                return SearchResult.NOTVISIBLE;
             }
         }
         
-        return false;
+        return SearchResult.NOTFOUND;
     }
     
     private void updatePositions()
