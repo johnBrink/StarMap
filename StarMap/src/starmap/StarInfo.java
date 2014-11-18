@@ -15,10 +15,19 @@ public class StarInfo extends javax.swing.JPanel {
      * Creates new form StarInfo
      */
     public StarInfo() {
+        setVisible(false);
         initComponents();
     }
     public void SetStarLabel(Star s)
     {
+        if(s == null)
+        {
+            setVisible(false);
+            return;
+        }
+        
+        setVisible(true);
+        
         jLabel1.setText(Integer.toString(s.hrNumber));
         
         if(s.name != null)
