@@ -91,11 +91,13 @@ public class FindDialog extends javax.swing.JDialog {
         StarMapPanel.SearchResult res = smp.goTo(jTextField1.getText());
         if(res == StarMapPanel.SearchResult.NOTFOUND)
         {
-            JOptionPane.showMessageDialog(null, "Test", "InfoBox: " + "Test2", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "There is no star or constellation by that name.",
+                    "Not found", JOptionPane.ERROR_MESSAGE);
         }
         else if(res == StarMapPanel.SearchResult.NOTVISIBLE)
         {
-            
+            JOptionPane.showMessageDialog(null, "That star or constellation is not visible from here. Try changing your observer position.",
+                    "Not visible", JOptionPane.ERROR_MESSAGE);
         }
         else
         {
