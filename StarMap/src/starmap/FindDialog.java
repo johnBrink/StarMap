@@ -5,18 +5,20 @@
  */
 package starmap;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 7101020
  */
 public class FindDialog extends javax.swing.JDialog {
-
     /**
      * Creates new form FindDialog
      */
-    public FindDialog(java.awt.Frame parent, boolean modal) {
+    public FindDialog(java.awt.Frame parent, boolean modal, StarMapPanel s) {
         super(parent, modal);
         initComponents();
+        smp = s;
     }
 
     /**
@@ -36,8 +38,18 @@ public class FindDialog extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jButton1.setText("Find");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jToggleButton1.setText("Cancel");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Please type in a star.");
 
@@ -75,6 +87,26 @@ public class FindDialog extends javax.swing.JDialog {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        StarMapPanel.SearchResult res = smp.goTo(jTextField1.getText());
+        if(res == StarMapPanel.SearchResult.NOTFOUND)
+        {
+            JOptionPane.showMessageDialog(null, "Test", "InfoBox: " + "Test2", JOptionPane.ERROR_MESSAGE);
+        }
+        else if(res == StarMapPanel.SearchResult.NOTVISIBLE)
+        {
+            
+        }
+        else
+        {
+            this.dispose();
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -105,7 +137,7 @@ public class FindDialog extends javax.swing.JDialog {
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                FindDialog dialog = new FindDialog(new javax.swing.JFrame(), true);
+                FindDialog dialog = new FindDialog(new javax.swing.JFrame(), true, new StarMapPanel() );
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
@@ -117,6 +149,7 @@ public class FindDialog extends javax.swing.JDialog {
         });
     }
 
+    private StarMapPanel smp;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;

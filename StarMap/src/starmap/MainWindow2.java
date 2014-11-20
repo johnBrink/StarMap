@@ -38,6 +38,7 @@ public class MainWindow2 extends javax.swing.JFrame {
         jMenuItem1 = new javax.swing.JMenuItem();
         ViewMenu = new javax.swing.JMenu();
         PositionButton = new javax.swing.JMenuItem();
+        FindSC = new javax.swing.JMenuItem();
         ShowConst = new javax.swing.JCheckBoxMenuItem();
         HelpMenu = new javax.swing.JMenu();
         Usage = new javax.swing.JMenuItem();
@@ -50,14 +51,14 @@ public class MainWindow2 extends javax.swing.JFrame {
         mapLayout.setHorizontalGroup(
             mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mapLayout.createSequentialGroup()
-                .addGap(0, 340, Short.MAX_VALUE)
+                .addGap(0, 565, Short.MAX_VALUE)
                 .addComponent(starInfo1, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         mapLayout.setVerticalGroup(
             mapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mapLayout.createSequentialGroup()
                 .addComponent(starInfo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 203, Short.MAX_VALUE))
+                .addGap(0, 338, Short.MAX_VALUE))
         );
 
         QuitButton.setText("File");
@@ -81,6 +82,14 @@ public class MainWindow2 extends javax.swing.JFrame {
             }
         });
         ViewMenu.add(PositionButton);
+
+        FindSC.setText("Find Star/Constellation");
+        FindSC.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                FindSCActionPerformed(evt);
+            }
+        });
+        ViewMenu.add(FindSC);
 
         ShowConst.setSelected(true);
         ShowConst.setText("Show Constellations");
@@ -157,6 +166,11 @@ public class MainWindow2 extends javax.swing.JFrame {
         map.setShowConstellations(checkBox.getState());
     }//GEN-LAST:event_ShowConstActionPerformed
 
+    private void FindSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FindSCActionPerformed
+        FindDialog fd = new FindDialog(this, true, map);
+        fd.setVisible(true);
+    }//GEN-LAST:event_FindSCActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -194,6 +208,7 @@ public class MainWindow2 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem About;
+    private javax.swing.JMenuItem FindSC;
     private javax.swing.JMenu HelpMenu;
     private javax.swing.JMenuItem PositionButton;
     private javax.swing.JMenu QuitButton;
