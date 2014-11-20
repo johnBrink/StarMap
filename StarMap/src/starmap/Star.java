@@ -143,13 +143,13 @@ public class Star {
     public static Star deserialize(Element elem)
     {
         int hrNumber = Integer.parseInt(elem.getChild("HRnumber").getTextTrim());
-        String name = elem.getChild("name").getTextTrim();
-        String constellation = elem.getChild("constellation").getTextTrim();
+        String name = FileLoader.getAttribute(elem, "name", "");
+        String constellation = FileLoader.getAttribute(elem, "constellation", "");
         double radians = parseRa(elem.getChild("ra").getTextTrim());
         double declination = parseDec(elem.getChild("dec").getTextTrim());
         double magnitude = Double.parseDouble(elem.getChild("vmag").getTextTrim());
-        String className = elem.getChild("class").getTextTrim();
-        String commonName = FileLoader.getAttribute(elem, "common_name", null);
+        String className = FileLoader.getAttribute(elem, "class", "");
+        String commonName = FileLoader.getAttribute(elem, "common_name", "");
         
         return new Star(hrNumber, name, constellation, radians, declination, magnitude, className, commonName);
     }

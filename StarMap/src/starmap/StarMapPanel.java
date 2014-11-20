@@ -78,14 +78,35 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
     
     public SearchResult goTo(String name)
     {
+        // Check if name matches a star.
         for(Star s : stars)
         {
             if(s.commonName.equalsIgnoreCase(name) || s.name.equalsIgnoreCase(name))
             {
                 if(s.altitude >= 0 && s.altitude <= 90)
                 {
-                    setPosition(latitude, longitude, s.altitude, s.azimuth);
+                    //setPosition(latitude, longitude, s.altitude, s.azimuth);
+                    setPosition(latitude, longitude, 0, s.azimuth);
                     return SearchResult.OK;
+                }
+                return SearchResult.NOTVISIBLE;
+            }
+        }
+        
+        // Check if name matches a constellation
+        for(Constellation c : constellations)
+        {
+            if(c.name.equalsIgnoreCase(name))
+            {
+                // Try to zoom in on one of its stars
+                for(Star s : c.stars)
+                {
+                    if(s.altitude >= 0 && s.altitude <= 90)
+                    {
+                        //setPosition(latitude, longitude, s.altitude, s.azimuth);
+                        setPosition(latitude, longitude, 0, s.azimuth);
+                        return SearchResult.OK;
+                    }
                 }
                 return SearchResult.NOTVISIBLE;
             }
@@ -177,8 +198,8 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
             {
                 g.setColor(getColor(s));
                 int diameter = getDiameter(s);
-                int x = getStarX(s);
-                int y = getStarY(s);
+                int x = getStarX(s) - diameter/2;
+                int y = getStarY(s) - diameter/2;
                 g.fillOval(x, y, diameter, diameter);
                 if(s.commonName != null)
                     g.drawString(s.commonName, x + 4, y - 4);
@@ -237,7 +258,8 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
     }
 
     @Override
-    public void mouseDragged(MouseEvent me) {
+    public void mouseDragged(MouseEvent me)
+    {
         double diffX = (me.getX() - mouseX) * DRAG_SCALE / scale;
         double diffY = (me.getY() - mouseY) * DRAG_SCALE / scale;
         
@@ -265,7 +287,8 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
      * @param me 
      */
     @Override
-    public void mouseMoved(MouseEvent me) {
+    public void mouseMoved(MouseEvent me)
+    {
         if(infoPanel == null)
             return;
         
