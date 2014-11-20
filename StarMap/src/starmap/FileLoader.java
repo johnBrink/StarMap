@@ -66,7 +66,7 @@ public class FileLoader {
             // Build the constellations
             try
             {
-                InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/constellations_single.xml");
+                InputStream istream = FileLoader.class.getResourceAsStream("/starmap/resources/constellations.xml");
                 SAXBuilder builder = new SAXBuilder();
                 Document doc = (Document)builder.build(istream);
                 Element root = doc.getRootElement();
