@@ -89,13 +89,9 @@ public class FileLoader {
     
     public static String getAttribute(Element elem, String name, String defaultValue)
     {
-        try
-        {
-            return elem.getChildTextTrim(name);
-        }
-        catch(Exception e)
-        {
+        String str = elem.getChildTextTrim(name);
+        if(str == null)
             return defaultValue;
-        }
+        return str;
     }       
 }

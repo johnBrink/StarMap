@@ -157,7 +157,7 @@ public class Star {
     /**
      * Given a hours-minutes-seconds printout as a string, returns the value
      * of right ascension
-     * @author John Brink, John M. Weiss, Ph.D.
+     * @author John Brink and John M. Weiss, Ph.D.
      * @param s
      * @return 
      */
@@ -176,7 +176,7 @@ public class Star {
     /**
      * Given a degrees-minutes-seconds printout as a string, returns the value
      * of declination
-     * @author John Brink, John M. Weiss, Ph.D.
+     * @author John Brink and John M. Weiss, Ph.D.
      * @param s
      * @return 
      */

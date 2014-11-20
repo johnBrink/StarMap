@@ -29,7 +29,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
     }
     
     private static final double DRAG_SCALE = 0.0025;
-    private static final double ZOOM_SCALE = 0.01;
+    private static final double ZOOM_SCALE = 0.02;
     private static final double ZOOM_MAX = 2.0;
     private static final double ZOOM_MIN = 0.5;
     
@@ -87,26 +87,25 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
                 {
                     //setPosition(latitude, longitude, s.altitude, s.azimuth);
                     setPosition(latitude, longitude, 0, s.azimuth);
+                    scale = ZOOM_MAX;
                     return SearchResult.OK;
                 }
                 return SearchResult.NOTVISIBLE;
             }
         }
         
-        // Check if name matches a constellation
+        // Check if name matches a constellation 
         for(Constellation c : constellations)
         {
             if(c.name.equalsIgnoreCase(name))
             {
-                // Try to zoom in on one of its stars
-                for(Star s : c.stars)
+                // Try to zoom in on its first star
+                if(c.stars.get(0).altitude >= 0 && c.stars.get(0).altitude <= 90)
                 {
-                    if(s.altitude >= 0 && s.altitude <= 90)
-                    {
-                        //setPosition(latitude, longitude, s.altitude, s.azimuth);
-                        setPosition(latitude, longitude, 0, s.azimuth);
-                        return SearchResult.OK;
-                    }
+                    setPosition(latitude, longitude, c.stars.get(0).altitude - .25, c.stars.get(0).azimuth);
+                    //setPosition(latitude, longitude, 0, c.stars.get(0).azimuth);
+                    scale = ZOOM_MAX;
+                    return SearchResult.OK;
                 }
                 return SearchResult.NOTVISIBLE;
             }
@@ -182,12 +181,13 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
                 }
 
                 // Draw constellation name
-                if(isVisible && c.name != null)
+                if(starIsVisible(c.stars.get(0)) && c.name != null)
                 {
                     g.setColor(Color.red);
-                    g.drawString(c.name,
-                            (int)(c.centerX * getScale() + offsetX),
-                            this.getHeight() - (int)(c.centerY * getScale()) + offsetY);
+                    //g.drawString(c.name,
+                    //        (int)(c.centerX * getScale() + offsetX),
+                    //        this.getHeight() - (int)(c.centerY * getScale()) + offsetY);
+                    g.drawString(c.name, getStarX(c.stars.get(0)) - 16, getStarY(c.stars.get(0)) + 16);
                 }
             }
         }
@@ -273,6 +273,8 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
             altitude = 90;
         if(altitude < 0)
             altitude = 0;
+        
+        //System.out.printf("New altitude = %f\n", altitude);
         
         updatePositions();
         repaint();
