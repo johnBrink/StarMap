@@ -30,7 +30,7 @@ public class Constellation {
         
         for(Element node : elem.getChildren("line"))
         {
-            Line l = getLine(node.getTextTrim(), allStars);
+            Line l = getLine(c, node.getTextTrim(), allStars);
             if(l == null)
             {
                 // If couldn't find both stars, don't add the line
@@ -51,13 +51,18 @@ public class Constellation {
         return c;
     }
     
-    private static Line getLine(String str, ArrayList<Star> allStars)
+    private static Line getLine(Constellation c, String str, ArrayList<Star> allStars)
     {
         Line l = new Line();
         String[] words = str.split(" ");
         
         for(Star s : allStars)
         {
+            if(!s.constellation.equals(c.abbreviation))
+            {
+                continue;
+            }
+            
             if(words[0].equals(s.name) || words[0].equals(s.commonName))
             {
                 l.star1 = s;
