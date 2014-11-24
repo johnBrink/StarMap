@@ -1,5 +1,6 @@
 package starmap;
 
+import java.util.Date;
 import java.util.GregorianCalendar;
 import org.jdom2.Element;
 
@@ -42,7 +43,7 @@ public class Star {
         this.declination = declination;
         this.magnitude = magnitude;
         
-        computePosition(0, 0, 0, 0);
+        computePosition(new Date(), 0, 0, 0, 0);
     }
     
     /**
@@ -50,9 +51,9 @@ public class Star {
      * @author John M. Weiss, Ph.D.
      * @return 
      */
-    private static double elapsed_days( )
+    private static double elapsed_days(Date date)
     {
-        // e.g., suppose current time is Oct 29, 2012 11:00:00 MST
+        // TODO get actual now date
         GregorianCalendar now_cal = new GregorianCalendar();
         GregorianCalendar then_cal = new GregorianCalendar();
         now_cal.set( 2012, 10, 29, 11, 0, 0 );
@@ -65,9 +66,9 @@ public class Star {
         return diff_days;
     }
     
-    public final void computePosition(double lat, double lon, double alt, double azi)
+    public final void computePosition(Date date, double lat, double lon, double alt, double azi)
     {
-        computeAltAzi(lat, lon);
+        computeAltAzi(date, lat, lon);
         computeXY(alt, azi);
     }
 
@@ -77,9 +78,9 @@ public class Star {
      * @param lat The current viewing latitude
      * @param lon The current viewing longitude
      */
-    private void computeAltAzi( double lat, double lon )
+    private void computeAltAzi(Date date, double lat, double lon )
     {
-        double t = elapsed_days();
+        double t = elapsed_days(date);
         double tG = Math.IEEEremainder( 360.0 * 1.0027379093 * t, 360.0 );
         double psi = tG + Math.toDegrees( lon ) + 90;
 

@@ -12,6 +12,7 @@ import java.awt.event.MouseMotionListener;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 import java.util.ArrayList;
+import java.util.Date;
 import javax.swing.JPanel;
 import starmap.Constellation.Line;
 
@@ -35,10 +36,11 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
     
     private ArrayList<Star> stars = new ArrayList<>();
     private ArrayList<Constellation> constellations = new ArrayList<>();
-    private double latitude = 0;
-    private double longitude = 0;
-    private double altitude = 0;
-    private double azimuth = 0;
+    public Date date = new Date();
+    public double latitude = 0;
+    public double longitude = 0;
+    public double altitude = 0;
+    public double azimuth = 0;
     
     private boolean showConstellations = true;
     
@@ -59,8 +61,9 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         addMouseWheelListener(this);
     }
 
-    public void setPosition(double lat, double lon, double alt, double az)
+    public void setPosition(Date date, double lat, double lon, double alt, double az)
     {
+        this.date = date;
         this.latitude = lat;
         this.longitude = lon;
         this.altitude = alt;
@@ -86,7 +89,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
                 if(s.altitude >= 0 && s.altitude <= 90)
                 {
                     //setPosition(latitude, longitude, s.altitude, s.azimuth);
-                    setPosition(latitude, longitude, 0, s.azimuth);
+                    setPosition(date, latitude, longitude, 0, s.azimuth);
                     scale = ZOOM_MAX;
                     return SearchResult.OK;
                 }
@@ -102,7 +105,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
                 // Try to zoom in on its first star
                 if(c.stars.get(0).altitude >= 0 && c.stars.get(0).altitude <= 90)
                 {
-                    setPosition(latitude, longitude, c.stars.get(0).altitude - .25, c.stars.get(0).azimuth);
+                    setPosition(date, latitude, longitude, c.stars.get(0).altitude - .25, c.stars.get(0).azimuth);
                     //setPosition(latitude, longitude, 0, c.stars.get(0).azimuth);
                     scale = ZOOM_MAX;
                     return SearchResult.OK;
@@ -118,7 +121,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
     {
         for(Star s : stars)
         {
-            s.computePosition(latitude, longitude, altitude, azimuth);
+            s.computePosition(date, latitude, longitude, altitude, azimuth);
         }
         for(Constellation c : constellations)
         {
