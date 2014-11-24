@@ -103,6 +103,11 @@ public class MainWindow2 extends javax.swing.JFrame {
         jMenuBar1.add(ViewMenu);
 
         HelpMenu.setText("Help");
+        HelpMenu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                HelpMenuActionPerformed(evt);
+            }
+        });
 
         Usage.setText("Usage");
         Usage.addActionListener(new java.awt.event.ActionListener() {
@@ -143,7 +148,18 @@ public class MainWindow2 extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void UsageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsageActionPerformed
-        
+        String message = "StarMap v1.0.0\nTo pan around the scene you can click\n"
+        + "and hold the left mouse or right mouse button and drag.\n"
+        + "If you want to zoom in you can use the mouse wheel\n"
+        + "to zoom in and out. To set your position you can click set\n"
+        + "position under the view menu; this allows you to set: latitude,\n"
+        + "longitude, azmiuth, and altitude. From the view menu you can\n"
+        + "also search for a star or constellation you just have to type in\n"
+        + "the name of the star or constellation, click find and it will zoom in and\n"
+        + "focus on the star or constellation if it is visable from your\n"
+        + "current position. Also from the view menu you can toggle wether or not\n"
+        + "the constellations are visable.";
+        JOptionPane.showMessageDialog(null, message, "Usage", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_UsageActionPerformed
 
     private void AboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AboutActionPerformed
@@ -170,6 +186,10 @@ public class MainWindow2 extends javax.swing.JFrame {
         FindDialog fd = new FindDialog(this, true, map);
         fd.setVisible(true);
     }//GEN-LAST:event_FindSCActionPerformed
+
+    private void HelpMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HelpMenuActionPerformed
+
+    }//GEN-LAST:event_HelpMenuActionPerformed
 
     /**
      * @param args the command line arguments
