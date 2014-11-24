@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package starmap;
+import java.util.Date;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JOptionPane;
 /**
@@ -171,7 +172,7 @@ public class MainWindow2 extends javax.swing.JFrame {
 
         ObserverDialog window = new ObserverDialog(this, true,
             (double latitude, double longitude, double altitude, double azimuth) -> {
-                map.setPosition(latitude, longitude, altitude, azimuth);
+                map.setPosition(new Date(), latitude, longitude, altitude, azimuth);
             });
         window.setVisible(true);
         
