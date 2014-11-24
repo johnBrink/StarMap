@@ -5,6 +5,13 @@
  */
 package starmap;
 
+import java.awt.BorderLayout;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JSpinner;
+import javax.swing.SpinnerDateModel;
+import javax.swing.SpinnerModel;
+
 /**
  *
  * @author 7101020
