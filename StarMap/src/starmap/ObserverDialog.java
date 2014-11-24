@@ -6,6 +6,7 @@
 package starmap;
 
 import java.awt.BorderLayout;
+import java.util.Date;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
@@ -17,21 +18,19 @@ import javax.swing.SpinnerModel;
  * @author 7101020
  */
 public class ObserverDialog extends javax.swing.JDialog {
-
-    ObserverDialogListener listener;
     
+    StarMapPanel SMP;
     /**
      * Creates new form ObserverDialog
      */
-    public ObserverDialog(java.awt.Frame parent, boolean modal, ObserverDialogListener listener) {
+    public ObserverDialog(java.awt.Frame parent, boolean modal, StarMapPanel star) {
         super(parent, modal);
-        this.listener = listener;
+        SMP = star;
         initComponents();
-    }
-    
-    public interface ObserverDialogListener
-    {
-        public void observerUpdated(double latitude, double longitude, double altitude, double azimuth);
+        LongSpinner.setValue((int)SMP.longitude);
+        LatSpinner.setValue((int)SMP.latitude);
+        AltSpinner.setValue((int)SMP.altitude);
+        AzSpinner.setValue((int)SMP.azimuth);
     }
 
     /**
@@ -236,9 +235,10 @@ public class ObserverDialog extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void OkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OkButtonActionPerformed
-        if(listener != null)
-            listener.observerUpdated(LongSlider.getValue(), LatSlider.getValue(),
-                                    AltSlider.getValue(), AzSlider.getValue());
+        SMP.setPosition(new Date(), LatSlider.getValue(), 
+                LongSlider.getValue(), AltSlider.getValue(), AzSlider.getValue());
+        //listener.observerUpdated(LongSlider.getValue(), LatSlider.getValue(),
+        //                           AltSlider.getValue(), AzSlider.getValue());
         this.dispose();
     }//GEN-LAST:event_OkButtonActionPerformed
 

@@ -170,10 +170,7 @@ public class MainWindow2 extends javax.swing.JFrame {
 
     private void PositionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PositionButtonActionPerformed
 
-        ObserverDialog window = new ObserverDialog(this, true,
-            (double latitude, double longitude, double altitude, double azimuth) -> {
-                map.setPosition(new Date(), latitude, longitude, altitude, azimuth);
-            });
+        ObserverDialog window = new ObserverDialog(this, true, map);
         window.setVisible(true);
         
     }//GEN-LAST:event_PositionButtonActionPerformed
