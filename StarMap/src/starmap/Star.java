@@ -53,12 +53,9 @@ public class Star {
      */
     private static double elapsed_days(Date date)
     {
-        long millisecondsPerday = 1000 * 60 * 60 * 24;
-        
-        // TODO get actual now date
         GregorianCalendar now_cal = new GregorianCalendar();
         GregorianCalendar then_cal = new GregorianCalendar();
-        now_cal.set( 2012, 10, 29, 11, 0, 0 );
+        now_cal.set( date.getYear(), date.getMonth(), date.getDay(), 0, 0, 0 );
         then_cal.set( 2005, 5, 10, 6, 45, 14 );
 
         // need current time in GMT (MST + 6 hours, or MST 7 hours if not daylight savings time)
