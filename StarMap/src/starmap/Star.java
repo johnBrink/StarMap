@@ -53,6 +53,8 @@ public class Star {
      */
     private static double elapsed_days(Date date)
     {
+        long millisecondsPerday = 1000 * 60 * 60 * 24;
+        
         // TODO get actual now date
         GregorianCalendar now_cal = new GregorianCalendar();
         GregorianCalendar then_cal = new GregorianCalendar();

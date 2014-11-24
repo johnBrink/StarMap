@@ -4,9 +4,10 @@
  * and open the template in the editor.
  */
 package starmap;
-import java.util.Date;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JOptionPane;
+import javax.swing.JWindow;
+import org.jdatepicker.JDatePicker;
 /**
  *
  * @author 7101020
@@ -22,6 +23,9 @@ public class MainWindow2 extends javax.swing.JFrame {
         this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
         map.infoPanel = starInfo1;
         map.loadConstellations(FileLoader.getStars(), FileLoader.getConstellations());
+        
+        new JWindow(new JDatePicker()).setVisible(true);
+        JDatePicker datePicker = new JDatePicker();
     }
     /**
      * This method is called from within the constructor to initialize the form.
