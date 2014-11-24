@@ -31,6 +31,7 @@ public class ObserverDialog extends javax.swing.JDialog {
         LatSpinner.setValue((int)SMP.latitude);
         AltSpinner.setValue((int)SMP.altitude);
         AzSpinner.setValue((int)SMP.azimuth);
+        
     }
 
     /**
