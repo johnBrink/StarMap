@@ -7,7 +7,6 @@ package starmap;
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JWindow;
-import org.jdatepicker.JDatePicker;
 /**
  *
  * @author 7101020
@@ -23,9 +22,6 @@ public class MainWindow2 extends javax.swing.JFrame {
         this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
         map.infoPanel = starInfo1;
         map.loadConstellations(FileLoader.getStars(), FileLoader.getConstellations());
-        
-        new JWindow(new JDatePicker()).setVisible(true);
-        JDatePicker datePicker = new JDatePicker();
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -80,7 +76,7 @@ public class MainWindow2 extends javax.swing.JFrame {
 
         ViewMenu.setText("View");
 
-        PositionButton.setText("Set Position");
+        PositionButton.setText("Set Position/Date");
         PositionButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PositionButtonActionPerformed(evt);
