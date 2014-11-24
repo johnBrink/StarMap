@@ -26,7 +26,7 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="PositionButton">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Set Position"/>
+                <Property name="text" type="java.lang.String" value="Set Position/Date"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PositionButtonActionPerformed"/>
