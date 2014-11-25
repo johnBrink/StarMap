@@ -208,7 +208,7 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
                 g.setColor(Color.gray);
                 for(Line l : c.lines)
                 {
-                    if(starIsVisible(l.star1) && starIsVisible(l.star2))
+                    if(starIsVisible(l.star1) || starIsVisible(l.star2))
                     {
                         isVisible = true;
                         g.drawLine(getStarX(l.star1), getStarY(l.star1),
