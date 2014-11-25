@@ -29,29 +29,36 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         NOTFOUND;
     }
     
+    // Pan/zoom constants
     private static final double DRAG_SCALE = 0.0025;
     private static final double ZOOM_SCALE = 0.02;
     private static final double ZOOM_MAX = 2.0;
     private static final double ZOOM_MIN = 0.5;
     
+    // Data to draw
     private ArrayList<Star> stars = new ArrayList<>();
     private ArrayList<Constellation> constellations = new ArrayList<>();
+    
+    // Observer data
     public Date date = new Date();
     public double latitude = 0;
     public double longitude = 0;
     public double altitude = 0;
     public double azimuth = 0;
     
+    // Settings
     private boolean showConstellations = true;
-    
     private double scale = 1;
     
+    // Window data
     private int offsetX = 0;
     private int offsetY = 0;
     
+    // Last mouse position
     private int mouseX;
     private int mouseY;
     
+    // Star info panel
     public StarInfo infoPanel;
     
     public StarMapPanel()
@@ -61,6 +68,14 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         addMouseWheelListener(this);
     }
 
+    /**
+     * Sets a new observer position and updates the display accordingly.
+     * @param date
+     * @param lat
+     * @param lon
+     * @param alt
+     * @param az 
+     */
     public void setPosition(Date date, double lat, double lon, double alt, double az)
     {
         this.date = date;
@@ -72,6 +87,11 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         repaint();
     }
     
+    /**
+     * Loads the stars and constellations to display
+     * @param stars
+     * @param constellations 
+     */
     public void loadConstellations(ArrayList<Star> stars, ArrayList<Constellation> constellations)
     {
         this.stars = stars;
@@ -79,6 +99,11 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         updatePositions();
     }
     
+    /**
+     * Attempts to zoom in on a star or constellation given its name or common name.
+     * @param name
+     * @return Found, Not Found, or Not Visible
+     */
     public SearchResult goTo(String name)
     {
         // Check if name matches a star.
@@ -128,13 +153,21 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
             c.findCenter();
         }
     }
-    
+
+    /**
+     * Sets the visibility of constellation lines and names
+     * @param show 
+     */
     public void setShowConstellations(boolean show)
     {
         showConstellations = show;
         repaint();
     }
-    
+
+    /**
+     * Paints the stars and constellations on the panel
+     * @param g 
+     */
     @Override
     public void paintComponent(Graphics g)
     {
@@ -260,6 +293,10 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         return 9 - (int)s.magnitude;
     }
 
+    /**
+     * When the mouse is dragged, pan the display by adjusting azimuth and altitude.
+     * @param me 
+     */
     @Override
     public void mouseDragged(MouseEvent me)
     {
@@ -312,6 +349,10 @@ public class StarMapPanel extends JPanel implements MouseMotionListener, MouseWh
         infoPanel.SetStarLabel(null);
     }
 
+    /**
+     * When the mouse wheel is scrolled over the panel, adjust the zoom level.
+     * @param mwe 
+     */
     @Override
     public void mouseWheelMoved(MouseWheelEvent mwe)
     {

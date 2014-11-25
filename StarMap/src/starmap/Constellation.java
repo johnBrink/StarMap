@@ -21,6 +21,12 @@ public class Constellation {
         public Star star2;
     }
     
+    /**
+     * Deserializes a Constellation from XML.
+     * @param elem
+     * @param allStars The list of all stars in the database
+     * @return 
+     */
     public static Constellation deserialize(Element elem, ArrayList<Star> allStars)
     {
         Constellation c = new Constellation();

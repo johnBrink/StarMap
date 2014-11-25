@@ -65,6 +65,15 @@ public class Star {
         return diff_days;
     }
     
+    /**
+     * Given observer date, position, and viewing angles, computes the position of
+     * this star in the sky.
+     * @param date
+     * @param lat
+     * @param lon
+     * @param alt
+     * @param azi 
+     */
     public final void computePosition(Date date, double lat, double lon, double alt, double azi)
     {
         computeAltAzi(date, lat, lon);
@@ -140,6 +149,12 @@ public class Star {
         return visible;
     }
     
+    /**
+     * Deserializes a Star from XML.
+     * Missing optional fields will be stored as empty strings.
+     * @param elem
+     * @return 
+     */
     public static Star deserialize(Element elem)
     {
         int hrNumber = Integer.parseInt(elem.getChild("HRnumber").getTextTrim());
