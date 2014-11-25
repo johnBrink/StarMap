@@ -14,8 +14,10 @@ import javax.swing.SpinnerDateModel;
 import javax.swing.SpinnerModel;
 
 /**
- *
- * @author 7101020
+ * This class creates a dialog that allows the user to select a longitude,
+ * latitude, azimuth, altitude, as well as a date. These dates are then passed 
+ * into starmappanel to redraw the jpanel.
+ * @author Matthew Rames
  */
 public class ObserverDialog extends javax.swing.JDialog {
     
@@ -25,8 +27,11 @@ public class ObserverDialog extends javax.swing.JDialog {
      */
     public ObserverDialog(java.awt.Frame parent, boolean modal, StarMapPanel star) {
         super(parent, modal);
+        //SMP contains current information about position or date. 
         SMP = star;
         initComponents();
+        //Set the sliders, spinners, and date to the current selected position
+        //and date.
         LongSpinner.setValue((int)SMP.longitude);
         LatSpinner.setValue((int)SMP.latitude);
         AltSpinner.setValue((int)SMP.altitude);
@@ -249,45 +254,56 @@ public class ObserverDialog extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void OkButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OkButtonActionPerformed
+        //Get the selected values and pass them into starmappanel for the window
+        //to be redrawn
         SMP.setPosition(date.getDate(), LatSlider.getValue(), 
                 LongSlider.getValue(), AltSlider.getValue(), AzSlider.getValue());
         this.dispose();
     }//GEN-LAST:event_OkButtonActionPerformed
 
     private void CancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelButtonActionPerformed
+        //Close window with no action
         this.dispose();
         
     }//GEN-LAST:event_CancelButtonActionPerformed
 
     private void LongSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LongSliderStateChanged
+        //If the longitude slider is changed, change the spinner value aswell.
         LongSpinner.setValue(LongSlider.getValue());
     }//GEN-LAST:event_LongSliderStateChanged
 
     private void LongSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LongSpinnerStateChanged
+        //If the longitude spinner is changed, change the slider value aswell.
         LongSlider.setValue((int)LongSpinner.getValue());
     }//GEN-LAST:event_LongSpinnerStateChanged
 
     private void LatSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LatSliderStateChanged
+        //If the latitude slider is changed, change the spinner value aswell.
         LatSpinner.setValue(LatSlider.getValue());
     }//GEN-LAST:event_LatSliderStateChanged
 
     private void LatSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_LatSpinnerStateChanged
+        //If the latitude spinner is changed, change the slider value aswell.
         LatSlider.setValue((int)LatSpinner.getValue());
     }//GEN-LAST:event_LatSpinnerStateChanged
 
     private void AltSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AltSliderStateChanged
+        //If the Altitude slider is changed, change the spinner value aswell.
         AltSpinner.setValue(AltSlider.getValue());
     }//GEN-LAST:event_AltSliderStateChanged
 
     private void AltSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AltSpinnerStateChanged
+        //If the Altitude spinner is changed, change the slider value aswell.
         AltSlider.setValue((int)AltSpinner.getValue());
     }//GEN-LAST:event_AltSpinnerStateChanged
 
     private void AzSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AzSliderStateChanged
+        //If the Azimuth slider is changed, change the spinner value aswell.
         AzSpinner.setValue(AzSlider.getValue());
     }//GEN-LAST:event_AzSliderStateChanged
 
     private void AzSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_AzSpinnerStateChanged
+        //If the Azimuth spinner is changed, change the slider value aswell.
         AzSlider.setValue((int)AzSpinner.getValue());
     }//GEN-LAST:event_AzSpinnerStateChanged
 

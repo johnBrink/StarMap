@@ -8,8 +8,10 @@ package starmap;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author 7101020
+ * This class will create dialog window that allows the user to enter in 
+ * a star name or constellation name and will pass the string to focus on the
+ * desired star or constellation.
+ * @author Matthew Rames
  */
 public class FindDialog extends javax.swing.JDialog {
     /**
@@ -18,6 +20,8 @@ public class FindDialog extends javax.swing.JDialog {
     public FindDialog(java.awt.Frame parent, boolean modal, StarMapPanel s) {
         super(parent, modal);
         initComponents();
+        //smp is a private StarMapPanel object that holds information about
+        //
         smp = s;
     }
 
@@ -88,6 +92,11 @@ public class FindDialog extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        //Pass in the name given and check to see if it is visable from current
+        //position. If star/constillation doesn't exist display error, or if the
+        //star/constellation is not visible from current position display error.
+        //If the star/constellation is visible close the find dialog and focus on
+        //selected star/constellation.
         StarMapPanel.SearchResult res = smp.goTo(jTextField1.getText());
         if(res == StarMapPanel.SearchResult.NOTFOUND)
         {
@@ -106,7 +115,7 @@ public class FindDialog extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
-        this.dispose();
+        this.dispose(); //Exit find dialog
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     /**

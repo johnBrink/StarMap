@@ -8,8 +8,15 @@ import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JWindow;
 /**
- *
- * @author 7101020
+ * This is the Mainwindow class that display the main GUI. This class conains a
+ * jpanels that display the stars/constellations, as well as a jpanel that shows
+ * a stars information if the user is hovering over the star. This Jframe also
+ * contains some menus: file, view, and help. Under file there is an exit option
+ * that closes the application. Under the view menu there is a find
+ * stars/constellation menu item, a set position/time menu item, and a toggle
+ * constellation menu item. The help menu contains a usage and help section for 
+ * the application.
+ * @author Matthew Rames
  */
 public class MainWindow extends javax.swing.JFrame {
 
@@ -19,8 +26,12 @@ public class MainWindow extends javax.swing.JFrame {
      */
     public MainWindow() {
         initComponents();
+        //Set title of application to StarMap
         setTitle("StarMap");
+        //If the red X is pressed close the application
         this.setDefaultCloseOperation(MainWindow.EXIT_ON_CLOSE);
+        //Get all of the star infromation from xml files and the constellation
+        //information.
         map.infoPanel = starInfo1;
         map.loadConstellations(FileLoader.getStars(), FileLoader.getConstellations());
     }
@@ -150,6 +161,7 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void UsageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsageActionPerformed
+        //Display a static information text box on the usage of the application.
         String message = "StarMap v1.0.0\nTo pan around the scene you can click\n"
         + "and hold the left mouse or right mouse button and drag.\n"
         + "If you want to zoom in you can use the mouse wheel\n"
@@ -165,23 +177,31 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_UsageActionPerformed
 
     private void AboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AboutActionPerformed
+        //Display a static dialog box about the application.
         String message = "StarMap v1.0.0\n   Matthew Rames\n   John Brink";
         JOptionPane.showMessageDialog(null, message, "About", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_AboutActionPerformed
 
     private void PositionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PositionButtonActionPerformed
 
+        //If the position button is pressed create a new dialog that allows
+        //the user to select a postion and date.
         ObserverDialog window = new ObserverDialog(this, true, map);
         window.setVisible(true);
         
     }//GEN-LAST:event_PositionButtonActionPerformed
 
     private void ShowConstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ShowConstActionPerformed
+        //If the show constellations is toggled change the state of show
+        //constellations.
         JCheckBoxMenuItem checkBox = (JCheckBoxMenuItem)evt.getSource();
         map.setShowConstellations(checkBox.getState());
     }//GEN-LAST:event_ShowConstActionPerformed
 
     private void FindSCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FindSCActionPerformed
+        //If the find star/constellation menu item is pushed, create a new dialog
+        //that allows the user to type in a star or constellation and return the 
+        //string.
         FindDialog fd = new FindDialog(this, true, map);
         fd.setVisible(true);
     }//GEN-LAST:event_FindSCActionPerformed

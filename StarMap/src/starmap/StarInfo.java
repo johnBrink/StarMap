@@ -6,8 +6,9 @@
 package starmap;
 
 /**
- *
- * @author 7101020
+ *  This class is a jpanel that will display a current stars information that is
+ * stored. 
+ * @author Matthew Rames
  */
 public class StarInfo extends javax.swing.JPanel {
 
@@ -15,41 +16,49 @@ public class StarInfo extends javax.swing.JPanel {
      * Creates new form StarInfo
      */
     public StarInfo() {
+        //The Jpanel will be not visible when first initilized.
         setVisible(false);
         initComponents();
     }
     public void SetStarLabel(Star s)
     {
+        //If no star is being hovered over set the jpanel to not visible
         if(s == null)
         {
             setVisible(false);
             return;
         }
-        
+        //If a star is being hovered over set the jpanel to show
         setVisible(true);
         
+        //Set the text for the stars HR number
         jLabel1.setText(Integer.toString(s.hrNumber));
         
+        //Check to see if star has a name if it does display it in the jpanel
         if(s.name != null)
             jLabel2.setText(s.name);
         else
             jLabel2.setText("");
         
+        //If the star has a common name set the label and display it on the jpanel
         if(s.commonName != null)
             jLabel3.setText(s.commonName);
         else
             jLabel3.setText("");
         
+        //If the star is apart of a constellation display it
         if(s.constellation != null)
             jLabel4.setText(s.constellation);
         else
             jLabel4.setText("");
         
+        //Set the label to the star class if it exists
         if(s.starClass != null)
             jLabel5.setText(s.starClass);
         else
             jLabel5.setText("");
         
+        //Set the jlabels to display right ascension, declination, and magnitude
         jLabel6.setText(Double.toString(s.rightAscension));
         jLabel7.setText(Double.toString(s.declination));
         jLabel8.setText(Double.toString(s.magnitude));     
