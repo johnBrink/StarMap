@@ -11,15 +11,16 @@ import javax.swing.JWindow;
  *
  * @author 7101020
  */
-public class MainWindow2 extends javax.swing.JFrame {
+public class MainWindow extends javax.swing.JFrame {
 
     
     /**
      * Creates new form MainWindow2
      */
-    public MainWindow2() {
+    public MainWindow() {
         initComponents();
-        this.setDefaultCloseOperation(MainWindow2.EXIT_ON_CLOSE);
+        setTitle("StarMap");
+        this.setDefaultCloseOperation(MainWindow.EXIT_ON_CLOSE);
         map.infoPanel = starInfo1;
         map.loadConstellations(FileLoader.getStars(), FileLoader.getConstellations());
     }
@@ -206,20 +207,21 @@ public class MainWindow2 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainWindow2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainWindow2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainWindow2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainWindow2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWindow2().setVisible(true); 
+                new MainWindow().setVisible(true); 
             }      
         });
     }
